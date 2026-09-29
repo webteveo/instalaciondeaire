@@ -44,7 +44,7 @@ return [
             'faq' => [
                 ['q' => '¿Cada cuánto conviene el service con tantos árboles alrededor?', 'a' => 'Una vez al año antes del verano como mínimo, y una limpieza liviana de las condensadoras en otoño, cuando caen las hojas.'],
                 ['q' => '¿Hacen contratos de mantenimiento para instituciones?', 'a' => 'Podemos coordinar visitas periódicas para colegios, residenciales y oficinas. Contanos la cantidad de equipos.'],
-                ['q' => '¿Trabajan en Atahualpa y Capurro?', 'a' => 'Sí, y también en Reducto, Belvedere y Paso de las Duranas.'],
+                ['q' => '¿Trabajan en Atahualpa y Capurro?', 'a' => 'Sí, y también en el Reducto, Belvedere y Paso de las Duranas.'],
             ],
         ],
         'reparacion' => [
@@ -107,7 +107,7 @@ return [
             'faq' => [
                 ['q' => '¿Retiran canaletas y soportes viejos de la fachada?', 'a' => 'Sí, junto con el equipo, dejando los agujeros listos para que la restauración los tape.'],
                 ['q' => '¿Guardan los equipos durante la obra?', 'a' => 'Te los dejamos desmontados, con las conexiones tapadas y etiquetados por ambiente.'],
-                ['q' => '¿Trabajan en Reducto?', 'a' => 'Sí, y en Capurro, Atahualpa y Belvedere.'],
+                ['q' => '¿Trabajan en el Reducto?', 'a' => 'Sí, y en Capurro, Atahualpa y Belvedere.'],
             ],
         ],
     ],

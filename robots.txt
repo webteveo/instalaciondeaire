@@ -1,6 +1,5 @@
 User-agent: *
 Allow: /
-
 Disallow: /config/
 Disallow: /data/
 Disallow: /vendor/
@@ -8,5 +7,47 @@ Disallow: /src/
 Disallow: /resena/gracias
 Disallow: /metricas/
 Disallow: /proyectos
+Disallow: /*?utm_
+Disallow: /*?origen=
+
+# Buscadores
+User-agent: Googlebot
+Allow: /
+User-agent: Bingbot
+Allow: /
+
+# Búsqueda y consultas de asistentes de IA (ChatGPT, Claude, Perplexity, Apple, Meta): pueden entrar
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: Amazonbot
+Allow: /
+User-agent: Meta-ExternalAgent
+Allow: /
+
+# Entrenamiento de modelos: permitido (no afecta la visibilidad en buscadores)
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+# Scrapers sin beneficio para el sitio
+User-agent: CCBot
+Disallow: /
+User-agent: Bytespider
+Disallow: /
 
 Sitemap: https://instalaciondeaire.uy/sitemap.xml

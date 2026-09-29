@@ -14,6 +14,7 @@ $page_cta_message   = $landing['cta_message'];
 $page_cta_label     = $landing['cta_label'];
 
 $Z   = $landing['zona_nombre'];
+$ZE  = $landing['zona_en'];
 $S   = $landing['servicio_nombre'];
 $srv = $landing['servicio'];
 
@@ -32,8 +33,8 @@ $secciones       = $landing['bloques'];
 $secciones_intro = $landing['intro'];
 $secciones_fecha = $landing['actualizado'];
 $faq_items = $landing['faq'];
-$faq_lead  = 'Preguntas sobre ' . mb_strtolower($S) . ' en ' . $Z . '.';
-$chTitulo  = $S . ' en ' . $Z . ': pedí presupuesto';
+$faq_lead  = 'Preguntas sobre ' . mb_strtolower($S) . ' en ' . $ZE . '.';
+$chTitulo  = $S . ' en ' . $ZE . ': pedí presupuesto';
 $chMicro   = '';
 $chLead    = '';
 
@@ -58,18 +59,18 @@ require 'src/vista/partials/head.php';
     <section class="zona-linderas" aria-label="Más servicios y zonas">
       <div class="container zona-servicios-links__grid">
         <div>
-          <h2 class="zona-linderas__title">En <?= htmlspecialchars($Z) ?> también</h2>
+          <h2 class="zona-linderas__title">En <?= htmlspecialchars($ZE) ?> también</h2>
           <ul class="zonas-home__chips" role="list">
             <li><a href="<?= $url . $srv ?>" class="zonas-home__chip"><i class="ri-list-check-2" aria-hidden="true"></i>Qué incluye y qué se cobra aparte</a></li>
-            <li><a href="<?= $url ?>zonas/<?= $landing['zona'] ?>" class="zonas-home__chip"><i class="ri-windy-line" aria-hidden="true"></i>Instalación de aire acondicionado en <?= htmlspecialchars($Z) ?></a></li>
+            <li><a href="<?= $url ?>zonas/<?= $landing['zona'] ?>" class="zonas-home__chip"><i class="ri-windy-line" aria-hidden="true"></i>Instalación de aire acondicionado en <?= htmlspecialchars($ZE) ?></a></li>
             <?php foreach ($landing['otros'] as $oK => $oN): ?>
-            <li><a href="<?= $url . $oK ?>/<?= $landing['zona'] ?>" class="zonas-home__chip"><i class="<?= Local_Datos::SERVICIOS[$oK]['icono'] ?? 'ri-tools-line' ?>" aria-hidden="true"></i><?= htmlspecialchars($oN) ?> en <?= htmlspecialchars($Z) ?></a></li>
+            <li><a href="<?= $url . $oK ?>/<?= $landing['zona'] ?>" class="zonas-home__chip"><i class="<?= Local_Datos::SERVICIOS[$oK]['icono'] ?? 'ri-tools-line' ?>" aria-hidden="true"></i><?= htmlspecialchars($oN) ?> en <?= htmlspecialchars($ZE) ?></a></li>
             <?php endforeach; ?>
           </ul>
         </div>
         <?php if ($landing['vecinos']): ?>
         <div>
-          <h2 class="zona-linderas__title"><?= htmlspecialchars(Local_Datos::SERVICIOS[$srv]['nombre'] ?? $S) ?> cerca de <?= htmlspecialchars($Z) ?></h2>
+          <h2 class="zona-linderas__title"><?= htmlspecialchars(Local_Datos::SERVICIOS[$srv]['nombre'] ?? $S) ?> cerca <?= htmlspecialchars($landing['zona_de']) ?></h2>
           <ul class="zonas-home__chips" role="list">
             <?php foreach ($landing['vecinos'] as $vK => $vN): ?>
             <li><a href="<?= $url . $srv ?>/<?= $vK ?>" class="zonas-home__chip"><i class="ri-map-pin-2-line" aria-hidden="true"></i><?= htmlspecialchars($vN) ?></a></li>

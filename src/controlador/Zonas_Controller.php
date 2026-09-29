@@ -30,6 +30,7 @@ class Zonas_Controller extends Local_Controller
         if (!$z || !Local_Datos::publicada($slug)) \benjamin\plantillaweb\libs\App::error404();
 
         $Z     = $z['nombre'];
+        $ZE    = Local_Datos::conArticulo($slug);
         $cerca = Local_Datos::cercaTexto($slug);
         $c     = Local_Datos::contenido($slug);
 
@@ -39,15 +40,17 @@ class Zonas_Controller extends Local_Controller
             'zona'        => $slug,
             'zona_nombre' => $Z,
             'zona_datos'  => $z,
-            'h1'          => $c['h1'] ?? ('Instalación de aire acondicionado en ' . $Z),
+            'h1'          => $c['h1'] ?? ('Instalación de aire acondicionado en ' . $ZE),
+            'zona_en'     => $ZE,
+            'zona_de'     => Local_Datos::deZona($slug),
             'title'       => $c['title'] ?? self::tituloZona($Z),
             'description' => $c['description'] ?? Zona_Texto::metaDescription($slug),
             'keywords'    => 'instalación aire acondicionado ' . mb_strtolower($Z) . ', técnico aire acondicionado ' . mb_strtolower($Z) . ', service aire acondicionado ' . mb_strtolower($Z) . ', split inverter ' . mb_strtolower($Z),
-            'eyebrow'     => 'Técnicos en ' . $Z . ($cerca ? ', ' . $cerca : ''),
+            'eyebrow'     => 'Técnicos en ' . $ZE . ($cerca ? ', ' . $cerca : ''),
             'subtitle'    => $c['subtitulo'] ?? Zona_Texto::subtitulo($slug),
             'intro'       => $c['intro'] ?? '',
             'cta_label'   => CTA_WHATSAPP_LABEL,
-            'cta_message' => 'Hola! Vengo de la web, quiero instalar un aire acondicionado en ' . $Z . '.',
+            'cta_message' => 'Hola! Vengo de la web, quiero instalar un aire acondicionado en ' . $ZE . '.',
             'track'       => 'zona',
             'track_zona'  => $slug,
             'areas'       => $z['areas'],

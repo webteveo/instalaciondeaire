@@ -73,7 +73,7 @@ return [
             'faq' => [
                 ['q' => '¿Mueven la condensadora a la sombra?', 'a' => 'Sí, con el gas recuperado y la cañería ajustada.'],
                 ['q' => '¿Reparan cualquier marca?', 'a' => 'Sí.'],
-                ['q' => '¿Van a Prado?', 'a' => 'Sí.'],
+                ['q' => '¿Van al Prado?', 'a' => 'Sí.'],
             ],
         ],
         'carga-de-gas' => [

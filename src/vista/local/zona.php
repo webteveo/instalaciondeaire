@@ -14,13 +14,14 @@ $page_cta_message   = $landing['cta_message'];
 $page_cta_label     = $landing['cta_label'];
 
 $Z    = $landing['zona_nombre'];
+$ZE   = $landing['zona_en'];   // con articulo: "el Cerro", "la Aguada"
 $zd   = $landing['zona_datos'];
 $slug = $landing['zona'];
 
 $hero_override = [
     'eyebrow'     => $landing['eyebrow'],
     'title_em'    => 'Instalación de aire acondicionado',
-    'title'       => 'en ' . $Z,
+    'title'       => 'en ' . $ZE,
     'subtitle'    => $landing['subtitle'],
     'cta_label'   => $landing['cta_label'],
     'cta_message' => $landing['cta_message'],
@@ -30,23 +31,23 @@ $hero_override = [
 // Tarjetas: los servicios de esta zona. Si la zona tiene pagina propia del servicio, la tarjeta va ahi.
 $zsHref = fn(string $srv) => Local_Datos::servicioZonaPublicado($srv, $slug) ? $url . $srv . '/' . $slug : $url . $srv;
 $servicios_home = [
-    ['titulo' => 'Service de aire acondicionado en ' . $Z,      'img' => 'mantenimiento.webp', 'alt' => 'Técnico haciendo el service de la unidad exterior de un aire acondicionado', 'srv' => 'mantenimiento',  'href' => $zsHref('mantenimiento'),  'btn' => 'Agendá el service',  'wa_text' => "Hola, quiero agendar un service de aire acondicionado en {$Z}. Cantidad de equipos: ___"],
-    ['titulo' => 'Reparación de aire acondicionado en ' . $Z,   'img' => 'reparacion.webp',    'alt' => 'Técnico reparando un equipo de aire acondicionado con herramientas',        'srv' => 'reparacion',     'href' => $zsHref('reparacion'),     'btn' => 'Contanos la falla',  'wa_text' => "Hola, mi aire acondicionado [no enfría / pierde agua / hace ruido]. Marca: ___ Barrio: {$Z}"],
-    ['titulo' => 'Carga de gas en ' . $Z,                       'img' => 'carga-de-gas.webp',  'alt' => 'Técnico detectando fugas en el serpentín de un aire acondicionado',          'srv' => 'carga-de-gas',   'href' => $zsHref('carga-de-gas'),   'btn' => 'Pedí presupuesto',   'wa_text' => "Hola, necesito carga de gas para mi aire en {$Z}. Marca: ___"],
-    ['titulo' => 'Desinstalación y traslado en ' . $Z,          'img' => 'desinstalacion.webp','alt' => 'Técnico desmontando la unidad exterior de un aire acondicionado',           'srv' => 'desinstalacion', 'href' => $zsHref('desinstalacion'), 'btn' => 'Pedí presupuesto',   'wa_text' => "Hola, necesito desinstalar un aire acondicionado en {$Z}. ¿Lo reinstalan en otro lugar?: ___"],
+    ['titulo' => 'Service de aire acondicionado en ' . $ZE,      'img' => 'mantenimiento.webp', 'alt' => 'Técnico haciendo el service de la unidad exterior de un aire acondicionado', 'srv' => 'mantenimiento',  'href' => $zsHref('mantenimiento'),  'btn' => 'Agendá el service',  'wa_text' => "Hola, quiero agendar un service de aire acondicionado en {$ZE}. Cantidad de equipos: ___"],
+    ['titulo' => 'Reparación de aire acondicionado en ' . $ZE,   'img' => 'reparacion.webp',    'alt' => 'Técnico reparando un equipo de aire acondicionado con herramientas',        'srv' => 'reparacion',     'href' => $zsHref('reparacion'),     'btn' => 'Contanos la falla',  'wa_text' => "Hola, mi aire acondicionado [no enfría / pierde agua / hace ruido]. Marca: ___ Barrio: {$Z}"],
+    ['titulo' => 'Carga de gas en ' . $ZE,                       'img' => 'carga-de-gas.webp',  'alt' => 'Técnico detectando fugas en el serpentín de un aire acondicionado',          'srv' => 'carga-de-gas',   'href' => $zsHref('carga-de-gas'),   'btn' => 'Pedí presupuesto',   'wa_text' => "Hola, necesito carga de gas para mi aire en {$ZE}. Marca: ___"],
+    ['titulo' => 'Desinstalación y traslado en ' . $ZE,          'img' => 'desinstalacion.webp','alt' => 'Técnico desmontando la unidad exterior de un aire acondicionado',           'srv' => 'desinstalacion', 'href' => $zsHref('desinstalacion'), 'btn' => 'Pedí presupuesto',   'wa_text' => "Hola, necesito desinstalar un aire acondicionado en {$ZE}. ¿Lo reinstalan en otro lugar?: ___"],
 ];
-$servicios_titulo = 'Otros servicios <em>en ' . htmlspecialchars($Z) . '</em>';
-$servicios_lead   = 'Además de instalar, hacemos service, reparación, carga de gas y desinstalación en ' . htmlspecialchars($Z) . '. Equipos de todas las marcas.';
+$servicios_titulo = 'Otros servicios <em>en ' . htmlspecialchars($ZE) . '</em>';
+$servicios_lead   = 'Además de instalar, hacemos service, reparación, carga de gas y desinstalación en ' . htmlspecialchars($ZE) . '. Equipos de todas las marcas.';
 
 $secciones       = $landing['bloques'];
 $secciones_intro = $landing['intro'];
 $secciones_fecha = $landing['actualizado'];
 $faq_items = $landing['faq'];
-$faq_lead  = 'Lo que más se consulta sobre aire acondicionado en ' . $Z . '.';
+$faq_lead  = 'Lo que más se consulta sobre aire acondicionado en ' . $ZE . '.';
 $rlLinderas = $landing['linderas'];
 $rlZonaActual = $slug;
-$chTitulo = 'Pedí presupuesto en ' . $Z;
-$chLead   = 'Escribinos por WhatsApp y te responde el técnico que atiende ' . $Z . '. Si preferís, dejá tus datos y te contactamos.';
+$chTitulo = 'Pedí presupuesto en ' . $ZE;
+$chLead   = 'Escribinos por WhatsApp y te responde el técnico que atiende ' . $ZE . '. Si preferís, dejá tus datos y te contactamos.';
 
 $page_preload_images = [['href' => $ruta . '/images/hero/hero-mobile-720.webp', 'media' => '(max-width: 600px)'], ['href' => $ruta . '/images/hero/hero-desktop.webp', 'media' => '(min-width: 601px)']];
 require 'src/vista/partials/head.php';
@@ -69,7 +70,7 @@ require 'src/vista/partials/head.php';
     <?php if ($rlLinderas): ?>
     <section class="zona-linderas" aria-labelledby="linderas-titulo">
       <div class="container">
-        <h2 class="zona-linderas__title" id="linderas-titulo"><?= ($zd['tipo'] ?? 'barrio') === 'barrio' ? 'Barrios vecinos de ' . htmlspecialchars($Z) : 'Localidades cerca de ' . htmlspecialchars($Z) ?></h2>
+        <h2 class="zona-linderas__title" id="linderas-titulo"><?= ($zd['tipo'] ?? 'barrio') === 'barrio' ? 'Barrios vecinos ' . htmlspecialchars($landing['zona_de']) : 'Localidades cerca ' . htmlspecialchars($landing['zona_de']) ?></h2>
         <ul class="zonas-home__chips" role="list">
           <?php foreach ($rlLinderas as $rlK => $rlN): ?>
           <li><a href="<?= $url ?>zonas/<?= $rlK ?>" class="zonas-home__chip"><i class="ri-map-pin-2-line" aria-hidden="true"></i>Aire acondicionado en <?= htmlspecialchars($rlN) ?></a></li>

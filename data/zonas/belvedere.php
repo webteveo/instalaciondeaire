@@ -115,7 +115,7 @@ return [
             'faq' => [
                 ['q' => '¿Avisan a los vecinos del PH?', 'a' => 'Te recomendamos avisarles; el trabajo en el pasillo lleva poco tiempo.'],
                 ['q' => '¿Reinstalan en otro barrio?', 'a' => 'Sí, en todas las zonas que cubrimos.'],
-                ['q' => '¿Trabajan en Prado?', 'a' => 'Sí, y en La Teja y Sayago.'],
+                ['q' => '¿Trabajan en el Prado?', 'a' => 'Sí, y en La Teja y Sayago.'],
             ],
         ],
     ],

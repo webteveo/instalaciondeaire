@@ -69,7 +69,7 @@ return [
             'faq' => [
                 ['q' => '¿Cambian la aislación de la cañería en el entretecho?', 'a' => 'Sí, si hay acceso.'],
                 ['q' => '¿Reparan cielorrasos?', 'a' => 'Resolvemos la causa de la filtración. La reparación del cielorraso es un trabajo aparte.'],
-                ['q' => '¿Van a Cerrito?', 'a' => 'Sí, y a Atahualpa, Jacinto Vera y Aires Puros.'],
+                ['q' => '¿Van al Cerrito?', 'a' => 'Sí, y a Atahualpa, Jacinto Vera y Aires Puros.'],
             ],
         ],
         'carga-de-gas' => [

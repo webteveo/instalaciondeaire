@@ -65,7 +65,7 @@ return [
             'faq' => [
                 ['q' => 'El ventilador de afuera no gira, ¿es grave?', 'a' => 'Apagá el equipo: sin ventilador la condensadora recalienta. Puede ser el motor, el capacitor o que esté trabado por óxido o suciedad.'],
                 ['q' => '¿Cambian solo la condensadora?', 'a' => 'En algunos modelos sí, si se consigue la unidad compatible. Si no, conviene el equipo completo.'],
-                ['q' => '¿Atienden reparaciones en Malvín Norte?', 'a' => 'Sí, y en Buceo y Punta Gorda.'],
+                ['q' => '¿Atienden reparaciones en Malvín Norte?', 'a' => 'Sí, y en el Buceo y Punta Gorda.'],
             ],
         ],
         'carga-de-gas' => [

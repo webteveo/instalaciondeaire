@@ -48,7 +48,7 @@ return [
             'faq' => [
                 ['q' => '¿Hacen service antes del horario comercial?', 'a' => 'Se coordina según disponibilidad.'],
                 ['q' => '¿Limpian equipos piso-techo?', 'a' => 'Sí, turbina, serpentín y bandeja.'],
-                ['q' => '¿Trabajan en Villa Muñoz?', 'a' => 'Sí, y en Cordón, Tres Cruces y La Figurita.'],
+                ['q' => '¿Trabajan en Villa Muñoz?', 'a' => 'Sí, y en el Cordón, Tres Cruces y La Figurita.'],
             ],
         ],
         'reparacion' => [
@@ -73,7 +73,7 @@ return [
             'faq' => [
                 ['q' => '¿Reparan piso-techo de locales?', 'a' => 'Sí.'],
                 ['q' => 'El equipo del taller no enfría, ¿es falta de gas?', 'a' => 'Puede ser, pero primero hay que descartar suciedad. Se confirma midiendo.'],
-                ['q' => '¿Van a Larrañaga?', 'a' => 'Sí, y a Cordón, Tres Cruces y Villa Muñoz.'],
+                ['q' => '¿Van a Larrañaga?', 'a' => 'Sí, y al Cordón, Tres Cruces y Villa Muñoz.'],
             ],
         ],
         'carga-de-gas' => [

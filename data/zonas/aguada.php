@@ -44,7 +44,7 @@ return [
             'faq' => [
                 ['q' => '¿Cuándo hacer el primer service de un equipo nuevo?', 'a' => 'Al año de uso o antes del primer verano intenso.'],
                 ['q' => '¿El service afecta la garantía de fábrica?', 'a' => 'No: al contrario, algunas marcas piden mantenimiento periódico para mantener la garantía. Guardá la factura del service.'],
-                ['q' => '¿Trabajan en Reducto?', 'a' => 'Sí, y en Centro, Cordón, Villa Muñoz y Capurro.'],
+                ['q' => '¿Trabajan en el Reducto?', 'a' => 'Sí, y en el Centro, Cordón, Villa Muñoz y Capurro.'],
             ],
         ],
         'reparacion' => [
@@ -69,7 +69,7 @@ return [
             'faq' => [
                 ['q' => 'El equipo nuevo gotea, ¿es de fábrica?', 'a' => 'Casi siempre es el desagote de la instalación. Se revisa la pendiente y la salida.'],
                 ['q' => '¿Reparan equipos de oficinas públicas?', 'a' => 'Sí, en split, piso-techo y cassette. Consultanos por facturación.'],
-                ['q' => '¿Van a Capurro?', 'a' => 'Sí, y a Centro, Cordón y Reducto.'],
+                ['q' => '¿Van a Capurro?', 'a' => 'Sí, y al Centro, Cordón y Reducto.'],
             ],
         ],
         'carga-de-gas' => [

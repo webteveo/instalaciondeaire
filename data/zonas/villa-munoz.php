@@ -44,7 +44,7 @@ return [
             'faq' => [
                 ['q' => '¿Hacen service en locales gastronómicos?', 'a' => 'Sí, con limpieza de grasa en filtros y serpentín.'],
                 ['q' => '¿Cuánto dura el service?', 'a' => 'Alrededor de una hora por equipo.'],
-                ['q' => '¿Trabajan en Reducto?', 'a' => 'Sí, y en La Comercial, Aguada y La Figurita.'],
+                ['q' => '¿Trabajan en el Reducto?', 'a' => 'Sí, y en La Comercial, Aguada y La Figurita.'],
             ],
         ],
         'reparacion' => [
@@ -65,7 +65,7 @@ return [
             'faq' => [
                 ['q' => '¿Reparan equipos de comercios con urgencia?', 'a' => 'Escribinos con el síntoma y lo priorizamos según disponibilidad.'],
                 ['q' => 'El equipo prende y se apaga solo, ¿qué es?', 'a' => 'Puede ser un sensor, falta de gas, recalentamiento o la placa. Se diagnostica con el equipo andando.'],
-                ['q' => '¿Van a Aguada?', 'a' => 'Sí, y a La Comercial, Reducto y La Figurita.'],
+                ['q' => '¿Van a la Aguada?', 'a' => 'Sí, y a La Comercial, Reducto y La Figurita.'],
             ],
         ],
         'carga-de-gas' => [

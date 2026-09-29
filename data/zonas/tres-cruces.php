@@ -44,7 +44,7 @@ return [
             'faq' => [
                 ['q' => '¿Hacen service en oficinas de la zona de la terminal?', 'a' => 'Sí, coordinando el horario.'],
                 ['q' => '¿Limpian condensadoras en nichos técnicos?', 'a' => 'Sí, incluida la rejilla del nicho.'],
-                ['q' => '¿Trabajan en La Comercial?', 'a' => 'Sí, y en Cordón, Larrañaga y La Blanqueada.'],
+                ['q' => '¿Trabajan en La Comercial?', 'a' => 'Sí, y en el Cordón, Larrañaga y La Blanqueada.'],
             ],
         ],
         'reparacion' => [
@@ -65,7 +65,7 @@ return [
             'faq' => [
                 ['q' => 'El equipo hace un ruido fuerte al arrancar, ¿qué es?', 'a' => 'Puede ser el compresor con arranque difícil o una vibración. Apagalo y escribinos.'],
                 ['q' => '¿Reparan equipos piso-techo?', 'a' => 'Sí, además de split de pared y cassette.'],
-                ['q' => '¿Van a Parque Batlle?', 'a' => 'Sí, y a Cordón, La Comercial y Larrañaga.'],
+                ['q' => '¿Van a Parque Batlle?', 'a' => 'Sí, y al Cordón, La Comercial y Larrañaga.'],
             ],
         ],
         'carga-de-gas' => [

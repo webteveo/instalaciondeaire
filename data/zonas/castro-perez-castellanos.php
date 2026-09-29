@@ -44,7 +44,7 @@ return [
             'faq' => [
                 ['q' => '¿Cada cuánto limpiar filtros con mascotas?', 'a' => 'Cada una o dos semanas en verano.'],
                 ['q' => '¿Cuánto dura el service?', 'a' => 'Alrededor de una hora por equipo.'],
-                ['q' => '¿Trabajan en Ituzaingó?', 'a' => 'Sí, y en Cerrito y Mercado Modelo.'],
+                ['q' => '¿Trabajan en Ituzaingó?', 'a' => 'Sí, y en el Cerrito y Mercado Modelo.'],
             ],
         ],
         'reparacion' => [
@@ -86,7 +86,7 @@ return [
             'faq' => [
                 ['q' => '¿Cuánto gas lleva un split chico?', 'a' => 'Lo indica la etiqueta; se ajusta por los metros de cañería.'],
                 ['q' => '¿Hacen vacío siempre?', 'a' => 'Sí.'],
-                ['q' => '¿Trabajan en Mercado Modelo?', 'a' => 'Sí, y en Cerrito e Ituzaingó.'],
+                ['q' => '¿Trabajan en Mercado Modelo?', 'a' => 'Sí, y en el Cerrito e Ituzaingó.'],
             ],
         ],
         'desinstalacion' => [
@@ -107,7 +107,7 @@ return [
             'faq' => [
                 ['q' => '¿El equipo pierde gas al moverlo?', 'a' => 'No, si se hace el recupero.'],
                 ['q' => '¿Cuánto tiempo lleva mover un equipo?', 'a' => 'En general, medio día entre desinstalación y reinstalación.'],
-                ['q' => '¿Trabajan en Villa Española?', 'a' => 'Sí, y en Cerrito y Mercado Modelo.'],
+                ['q' => '¿Trabajan en Villa Española?', 'a' => 'Sí, y en el Cerrito y Mercado Modelo.'],
             ],
         ],
     ],

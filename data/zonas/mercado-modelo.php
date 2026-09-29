@@ -48,7 +48,7 @@ return [
             'faq' => [
                 ['q' => '¿Cada cuánto con obras cerca?', 'a' => 'Service anual y filtros semanales mientras dure la obra.'],
                 ['q' => '¿Hacen service de oficinas?', 'a' => 'Sí.'],
-                ['q' => '¿Trabajan en Cerrito?', 'a' => 'Sí, y en Larrañaga, Villa Española y La Blanqueada.'],
+                ['q' => '¿Trabajan en el Cerrito?', 'a' => 'Sí, y en Larrañaga, Villa Española y La Blanqueada.'],
             ],
         ],
         'reparacion' => [

@@ -137,6 +137,7 @@ class Local_Controller extends Controlador
         }
         $z    = Local_Datos::ZONAS[$zona];
         $Z    = $z['nombre'];
+        $ZE   = Local_Datos::conArticulo($zona);
         $base = self::servicio($servicio) ?? [];
         $c    = Local_Datos::contenido($zona)['servicios'][$servicio];
         $S    = Local_Datos::FASE2_SERVICIOS[$servicio];
@@ -155,18 +156,20 @@ class Local_Controller extends Controlador
             'path'         => '/' . $servicio . '/' . $zona,
             'servicio'     => $servicio,
             'servicio_nombre' => $S,
-            'h1'           => $c['h1'] ?? ($S . ' en ' . $Z),
+            'h1'           => $c['h1'] ?? ($S . ' en ' . $ZE),
             'title'        => $c['title'],
             'description'  => $c['description'],
             'keywords'     => mb_strtolower($S) . ' ' . mb_strtolower($Z) . ', ' . mb_strtolower($S) . ' montevideo',
             'eyebrow'      => $S . ' · ' . $Z,
+            'zona_en'      => $ZE,
+            'zona_de'      => Local_Datos::deZona($zona),
             'subtitle'     => $c['subtitulo'] ?? '',
             'intro'        => $c['intro'] ?? '',
             'bloques'      => $c['bloques'] ?? [],
             'faq'          => $c['faq'] ?? [],
             'incluye'      => $base['incluye'] ?? null,
             'cta_label'    => $base['cta_label'] ?? CTA_WHATSAPP_LABEL,
-            'cta_message'  => str_replace('[Zona]', $Z, $base['cta_message_zona'] ?? ('Hola! Vengo de la web, necesito ' . mb_strtolower($S) . ' en [Zona].')),
+            'cta_message'  => str_replace('[Zona]', $ZE, $base['cta_message_zona'] ?? ('Hola! Vengo de la web, necesito ' . mb_strtolower($S) . ' en [Zona].')),
             'form_servicio' => $base['form_servicio'] ?? $S,
             'track'        => 'servicio-zona',
             'track_zona'   => $zona,
@@ -182,7 +185,7 @@ class Local_Controller extends Controlador
                 ['href' => $GLOBALS['url'], 'label' => 'Inicio'],
                 ['href' => $GLOBALS['url'] . $servicio, 'label' => $base['nombre_corto'] ?? Local_Datos::SERVICIOS[$servicio]['nombre']],
                 ['href' => $GLOBALS['url'] . 'zonas/' . $zona, 'label' => $Z],
-                ['label' => $S . ' en ' . $Z],
+                ['label' => $S . ' en ' . $ZE],
             ],
             'vista'        => 'local/servicio-zona',
         ];

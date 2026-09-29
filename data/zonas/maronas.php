@@ -98,7 +98,7 @@ return [
             'faq' => [
                 ['q' => '¿Cargan gas en invierno?', 'a' => 'Sí, por peso.'],
                 ['q' => '¿Qué gas llevan los equipos nuevos?', 'a' => 'R32 en su mayoría.'],
-                ['q' => '¿Trabajan en Villa Española?', 'a' => 'Sí, y en Unión y Flor de Maroñas.'],
+                ['q' => '¿Trabajan en Villa Española?', 'a' => 'Sí, y en la Unión y Flor de Maroñas.'],
             ],
         ],
         'desinstalacion' => [

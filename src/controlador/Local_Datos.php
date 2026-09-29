@@ -56,14 +56,14 @@ final class Local_Datos
         // ════ MONTEVIDEO: los 62 barrios oficiales de la Intendencia ════
         // ── Centro y Ciudad Vieja ──
         'ciudad-vieja' => [
-            'nombre' => 'Ciudad Vieja', 'depto' => 'Montevideo', 'region' => 'centro', 'tipo' => 'barrio', 'vivienda' => 'apartamentos',
+            'art' => 'la', 'nombre' => 'Ciudad Vieja', 'depto' => 'Montevideo', 'region' => 'centro', 'tipo' => 'barrio', 'vivienda' => 'apartamentos',
             'costera' => true, 'antiguo' => true, 'temporada' => false,
             'cerca' => ['centro', 'barrio-sur', 'aguada'],
             'refs' => 'la peatonal Sarandí, la plaza Matriz y el puerto',
             'areas' => ['Ciudad Vieja'],
         ],
         'centro' => [
-            'nombre' => 'Centro', 'depto' => 'Montevideo', 'region' => 'centro', 'tipo' => 'barrio', 'vivienda' => 'apartamentos',
+            'art' => 'el', 'nombre' => 'Centro', 'depto' => 'Montevideo', 'region' => 'centro', 'tipo' => 'barrio', 'vivienda' => 'apartamentos',
             'costera' => false, 'antiguo' => true, 'temporada' => false,
             'cerca' => ['ciudad-vieja', 'cordon', 'barrio-sur', 'aguada'],
             'refs' => '18 de Julio, la plaza Independencia y la plaza Cagancha',
@@ -84,7 +84,7 @@ final class Local_Datos
             'areas' => ['Palermo'],
         ],
         'cordon' => [
-            'nombre' => 'Cordón', 'depto' => 'Montevideo', 'region' => 'centro', 'tipo' => 'barrio', 'vivienda' => 'apartamentos',
+            'art' => 'el', 'nombre' => 'Cordón', 'depto' => 'Montevideo', 'region' => 'centro', 'tipo' => 'barrio', 'vivienda' => 'apartamentos',
             'costera' => false, 'antiguo' => true, 'temporada' => false,
             'cerca' => ['centro', 'tres-cruces', 'parque-rodo', 'palermo', 'la-comercial'],
             'refs' => '18 de Julio, la Universidad y Tristán Narvaja',
@@ -98,7 +98,7 @@ final class Local_Datos
             'areas' => ['Parque Rodó'],
         ],
         'aguada' => [
-            'nombre' => 'Aguada', 'depto' => 'Montevideo', 'region' => 'centro', 'tipo' => 'barrio', 'vivienda' => 'mixto',
+            'art' => 'la', 'nombre' => 'Aguada', 'depto' => 'Montevideo', 'region' => 'centro', 'tipo' => 'barrio', 'vivienda' => 'mixto',
             'costera' => false, 'antiguo' => true, 'temporada' => false,
             'cerca' => ['centro', 'cordon', 'villa-munoz', 'reducto', 'capurro'],
             'refs' => 'el Palacio Legislativo, la avenida del Libertador y la Torre de las Telecomunicaciones',
@@ -141,7 +141,7 @@ final class Local_Datos
             'areas' => ['Pocitos', 'Pocitos Nuevo', 'Villa Biarritz'],
         ],
         'buceo' => [
-            'nombre' => 'Buceo', 'depto' => 'Montevideo', 'region' => 'costa', 'tipo' => 'barrio', 'vivienda' => 'apartamentos',
+            'art' => 'el', 'nombre' => 'Buceo', 'depto' => 'Montevideo', 'region' => 'costa', 'tipo' => 'barrio', 'vivienda' => 'apartamentos',
             'costera' => true, 'antiguo' => false, 'temporada' => false,
             'cerca' => ['pocitos', 'malvin', 'parque-batlle', 'union'],
             'refs' => 'el Montevideo Shopping, el puerto del Buceo y la rambla Armenia',
@@ -198,7 +198,7 @@ final class Local_Datos
             'areas' => ['La Blanqueada'],
         ],
         'union' => [
-            'nombre' => 'Unión', 'depto' => 'Montevideo', 'region' => 'este', 'tipo' => 'barrio', 'vivienda' => 'mixto',
+            'art' => 'la', 'nombre' => 'Unión', 'depto' => 'Montevideo', 'region' => 'este', 'tipo' => 'barrio', 'vivienda' => 'mixto',
             'costera' => false, 'antiguo' => true, 'temporada' => false,
             'cerca' => ['la-blanqueada', 'villa-espanola', 'maronas', 'malvin-norte', 'buceo'],
             'refs' => 'la avenida 8 de Octubre, la plaza de la Villa de la Unión y el Hospital Pasteur',
@@ -304,7 +304,7 @@ final class Local_Datos
             'areas' => ['Jacinto Vera'],
         ],
         'reducto' => [
-            'nombre' => 'Reducto', 'depto' => 'Montevideo', 'region' => 'norte', 'tipo' => 'barrio', 'vivienda' => 'mixto',
+            'art' => 'el', 'nombre' => 'Reducto', 'depto' => 'Montevideo', 'region' => 'norte', 'tipo' => 'barrio', 'vivienda' => 'mixto',
             'costera' => false, 'antiguo' => true, 'temporada' => false,
             'cerca' => ['aguada', 'atahualpa', 'prado', 'villa-munoz', 'la-figurita'],
             'refs' => 'la avenida San Martín y la avenida Millán',
@@ -325,7 +325,7 @@ final class Local_Datos
             'areas' => ['Atahualpa'],
         ],
         'cerrito' => [
-            'nombre' => 'Cerrito', 'depto' => 'Montevideo', 'region' => 'norte', 'tipo' => 'barrio', 'vivienda' => 'casas',
+            'art' => 'el', 'nombre' => 'Cerrito', 'depto' => 'Montevideo', 'region' => 'norte', 'tipo' => 'barrio', 'vivienda' => 'casas',
             'costera' => false, 'antiguo' => false, 'temporada' => false,
             'cerca' => ['castro-perez-castellanos', 'las-acacias', 'brazo-oriental', 'jacinto-vera', 'mercado-modelo'],
             'refs' => 'el Cerrito de la Victoria y la avenida General Flores',
@@ -410,7 +410,7 @@ final class Local_Datos
         ],
         // ── Oeste ──
         'prado' => [
-            'nombre' => 'Prado', 'oficial' => 'Prado–Nueva Savona', 'depto' => 'Montevideo', 'region' => 'oeste', 'tipo' => 'barrio', 'vivienda' => 'casas',
+            'art' => 'el', 'nombre' => 'Prado', 'oficial' => 'Prado–Nueva Savona', 'depto' => 'Montevideo', 'region' => 'oeste', 'tipo' => 'barrio', 'vivienda' => 'casas',
             'costera' => false, 'antiguo' => true, 'temporada' => false,
             'cerca' => ['capurro', 'atahualpa', 'reducto', 'belvedere', 'paso-de-las-duranas'],
             'refs' => 'el parque, la avenida Agraciada y el Jardín Botánico',
@@ -466,7 +466,7 @@ final class Local_Datos
             'areas' => ['Tres Ombúes', 'Pueblo Victoria'],
         ],
         'villa-del-cerro' => [
-            'nombre' => 'Cerro', 'oficial' => 'Villa del Cerro', 'depto' => 'Montevideo', 'region' => 'oeste', 'tipo' => 'barrio', 'vivienda' => 'casas',
+            'art' => 'el', 'nombre' => 'Cerro', 'oficial' => 'Villa del Cerro', 'depto' => 'Montevideo', 'region' => 'oeste', 'tipo' => 'barrio', 'vivienda' => 'casas',
             'costera' => true, 'antiguo' => true, 'temporada' => false,
             'cerca' => ['casabo', 'la-teja', 'tres-ombues', 'la-paloma-tomkinson'],
             'refs' => 'la Fortaleza del Cerro, la playa del Cerro y la avenida Carlos María Ramírez',
@@ -681,6 +681,21 @@ final class Local_Datos
             if (self::publicada($c)) $out[$c] = self::ZONAS[$c]['nombre'];
         }
         return $out;
+    }
+
+    /** Nombre con articulo cuando el uso lo pide: "el Cerro", "la Aguada", "Pocitos". Para frases como "en {zona}". */
+    public static function conArticulo(string $slug): string
+    {
+        $z = self::ZONAS[$slug] ?? null;
+        if (!$z) return '';
+        return (!empty($z['art']) ? $z['art'] . ' ' : '') . $z['nombre'];
+    }
+
+    /** "del Cerro", "de la Aguada", "de Pocitos" */
+    public static function deZona(string $slug): string
+    {
+        $a = self::ZONAS[$slug]['art'] ?? '';
+        return ($a === 'el' ? 'del ' : ($a === 'la' ? 'de la ' : 'de ')) . self::ZONAS[$slug]['nombre'];
     }
 
     /** "Punta Carretas, Buceo y Parque Batlle" a partir de las zonas linderas */

@@ -44,7 +44,7 @@ return [
             'faq' => [
                 ['q' => '¿Limpian la condensadora si está en la azotea?', 'a' => 'Sí, con acceso seguro.'],
                 ['q' => '¿Cada cuánto limpiar los filtros?', 'a' => 'Cada dos a cuatro semanas de uso.'],
-                ['q' => '¿Trabajan en Palermo?', 'a' => 'Sí, y en Cordón, Punta Carretas y Pocitos.'],
+                ['q' => '¿Trabajan en Palermo?', 'a' => 'Sí, y en el Cordón, Punta Carretas y Pocitos.'],
             ],
         ],
         'reparacion' => [
@@ -86,7 +86,7 @@ return [
             'faq' => [
                 ['q' => '¿Cargan equipos viejos?', 'a' => 'Sí, según el tipo de gas. Para R22 hay que ver disponibilidad.'],
                 ['q' => '¿La fuga puede estar en la unidad interior?', 'a' => 'Sí, en el evaporador o en sus conexiones. Se revisan las dos unidades.'],
-                ['q' => '¿Trabajan en Cordón?', 'a' => 'Sí, y en Palermo y Punta Carretas.'],
+                ['q' => '¿Trabajan en el Cordón?', 'a' => 'Sí, y en Palermo y Punta Carretas.'],
             ],
         ],
         'desinstalacion' => [

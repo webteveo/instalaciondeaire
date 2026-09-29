@@ -38,10 +38,15 @@ foreach (Local_Controller::servicios() as $k => $n) {
 }
 
 echo "\n## Zonas\n\n";
-foreach (Local_Datos::zonasPorDepto() as $depto => $zonas) {
+echo "Cada zona tiene su página de instalación y, además, páginas propias de service, reparación, carga de gas y desinstalación con la forma {$base}/{servicio}/{zona} (por ejemplo {$base}/mantenimiento/pocitos).\n\n";
+foreach (Local_Datos::zonasPorRegion() as $r => $zonas) {
+    echo "### " . Local_Datos::REGIONES[$r] . "\n\n";
     foreach ($zonas as $k => $z) {
-        echo "- [Instalación de aire acondicionado en {$z['nombre']} ({$depto})]({$base}/zonas/{$k})\n";
+        $extra = [];
+        foreach (Local_Datos::FASE2_SERVICIOS as $s => $sn) if (Local_Datos::servicioZonaPublicado($s, $k)) $extra[] = "[" . $sn . "]({$base}/{$s}/{$k})";
+        echo "- [Instalación de aire acondicionado en {$z['nombre']}]({$base}/zonas/{$k})" . ($extra ? " · " . implode(' · ', $extra) : '') . "\n";
     }
+    echo "\n";
 }
 
 $articulos = Articulos::todos();

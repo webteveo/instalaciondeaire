@@ -44,7 +44,7 @@ return [
             'faq' => [
                 ['q' => '¿Cuándo hacer el service si uso el aire todo el año?', 'a' => 'Dos veces: en primavera y en otoño.'],
                 ['q' => '¿Pueden limpiar una condensadora en un patio de difícil acceso?', 'a' => 'Sí, en general desde el propio patio o una ventana. Si hace falta trabajo en altura, se cotiza aparte.'],
-                ['q' => '¿Trabajan en Barrio Sur?', 'a' => 'Sí, y en Cordón y Parque Rodó.'],
+                ['q' => '¿Trabajan en Barrio Sur?', 'a' => 'Sí, y en el Cordón y Parque Rodó.'],
             ],
         ],
         'reparacion' => [
@@ -65,7 +65,7 @@ return [
             'faq' => [
                 ['q' => 'El vecino se queja del ruido, ¿qué hago?', 'a' => 'Escribinos: muchas veces es una vibración que se corrige sin mover el equipo.'],
                 ['q' => '¿Reparan equipos que no calientan?', 'a' => 'Sí, en invierno y en verano.'],
-                ['q' => '¿Van a Parque Rodó?', 'a' => 'Sí, y a Cordón y Barrio Sur.'],
+                ['q' => '¿Van a Parque Rodó?', 'a' => 'Sí, y al Cordón y Barrio Sur.'],
             ],
         ],
         'carga-de-gas' => [
@@ -107,7 +107,7 @@ return [
             'faq' => [
                 ['q' => '¿Hay que cargar gas al mover la condensadora?', 'a' => 'Solo lo que pidan los metros extra de cañería, si el gas se recuperó bien.'],
                 ['q' => '¿Retiran el equipo si no lo quiero más?', 'a' => 'Sí, con el gas recuperado. El desecho se cotiza aparte.'],
-                ['q' => '¿Trabajan en Cordón?', 'a' => 'Sí, y en Barrio Sur y Parque Rodó.'],
+                ['q' => '¿Trabajan en el Cordón?', 'a' => 'Sí, y en Barrio Sur y Parque Rodó.'],
             ],
         ],
     ],

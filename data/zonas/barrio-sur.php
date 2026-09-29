@@ -44,7 +44,7 @@ return [
             'faq' => [
                 ['q' => '¿Suben a la azotea por escalera marinera?', 'a' => 'Sí, si es segura. Si no hay acceso, se evalúa otra forma.'],
                 ['q' => '¿Cada cuánto el service frente a la rambla?', 'a' => 'Una vez por temporada como mínimo, con lavado de la condensadora.'],
-                ['q' => '¿Atienden en Palermo?', 'a' => 'Sí, y en Centro y Ciudad Vieja.'],
+                ['q' => '¿Atienden en Palermo?', 'a' => 'Sí, y en el Centro y Ciudad Vieja.'],
             ],
         ],
         'reparacion' => [
@@ -65,7 +65,7 @@ return [
             'faq' => [
                 ['q' => '¿Reparan en invierno?', 'a' => 'Sí, todo el año.'],
                 ['q' => 'El control no responde, ¿es la placa?', 'a' => 'Puede ser el control, el receptor o la placa. Probá con pilas nuevas y escribinos.'],
-                ['q' => '¿Van a Ciudad Vieja?', 'a' => 'Sí, y a Centro y Palermo.'],
+                ['q' => '¿Van a la Ciudad Vieja?', 'a' => 'Sí, y al Centro y Palermo.'],
             ],
         ],
         'carga-de-gas' => [

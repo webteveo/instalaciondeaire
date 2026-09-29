@@ -48,7 +48,7 @@ return [
             'faq' => [
                 ['q' => '¿Cubren el piso de madera?', 'a' => 'Sí, siempre.'],
                 ['q' => '¿Cada cuánto el service?', 'a' => 'Una vez al año; dos si el equipo calefacciona en invierno.'],
-                ['q' => '¿Trabajan en Prado?', 'a' => 'Sí, y en Reducto, Brazo Oriental y Paso de las Duranas.'],
+                ['q' => '¿Trabajan en el Prado?', 'a' => 'Sí, y en el Reducto, Brazo Oriental y Paso de las Duranas.'],
             ],
         ],
         'reparacion' => [
@@ -73,7 +73,7 @@ return [
             'faq' => [
                 ['q' => '¿Cambian válvulas inversoras?', 'a' => 'Sí, si hay repuesto.'],
                 ['q' => '¿Reparan en invierno?', 'a' => 'Sí.'],
-                ['q' => '¿Van a Brazo Oriental?', 'a' => 'Sí, y a Prado, Reducto y Aires Puros.'],
+                ['q' => '¿Van a Brazo Oriental?', 'a' => 'Sí, y al Prado, Reducto y Aires Puros.'],
             ],
         ],
         'carga-de-gas' => [
@@ -123,7 +123,7 @@ return [
             'faq' => [
                 ['q' => '¿Retiran canaletas viejas?', 'a' => 'Sí, junto con la desinstalación.'],
                 ['q' => '¿Reinstalan después de la obra?', 'a' => 'Sí.'],
-                ['q' => '¿Trabajan en Reducto?', 'a' => 'Sí, y en Prado y Brazo Oriental.'],
+                ['q' => '¿Trabajan en el Reducto?', 'a' => 'Sí, y en el Prado y Brazo Oriental.'],
             ],
         ],
     ],

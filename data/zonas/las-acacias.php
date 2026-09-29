@@ -123,7 +123,7 @@ return [
             'faq' => [
                 ['q' => '¿Reinstalan cuando termina la obra?', 'a' => 'Sí.'],
                 ['q' => '¿El equipo pierde gas?', 'a' => 'No, con el recupero.'],
-                ['q' => '¿Trabajan en Cerrito?', 'a' => 'Sí.'],
+                ['q' => '¿Trabajan en el Cerrito?', 'a' => 'Sí.'],
             ],
         ],
     ],

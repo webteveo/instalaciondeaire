@@ -44,7 +44,7 @@ return [
             'faq' => [
                 ['q' => '¿Cada cuánto el service?', 'a' => 'Una vez al año antes del verano; dos si el equipo calefacciona en invierno.'],
                 ['q' => '¿Cambian la aislación del caño?', 'a' => 'Sí, si está dañada. Se cotiza por metro.'],
-                ['q' => '¿Trabajan en Unión?', 'a' => 'Sí, y en Parque Batlle, Tres Cruces y Larrañaga.'],
+                ['q' => '¿Trabajan en la Unión?', 'a' => 'Sí, y en Parque Batlle, Tres Cruces y Larrañaga.'],
             ],
         ],
         'reparacion' => [
@@ -65,7 +65,7 @@ return [
             'faq' => [
                 ['q' => 'Hay una mancha de humedad debajo del equipo de la azotea, ¿qué hago?', 'a' => 'Escribinos: puede ser la base perforando la membrana o el desagote. Conviene revisarlo antes de que empeore.'],
                 ['q' => '¿Reparan equipos viejos?', 'a' => 'Sí, evaluando si la reparación vale la pena.'],
-                ['q' => '¿Van a Mercado Modelo?', 'a' => 'Sí, y a Unión, Larrañaga y Parque Batlle.'],
+                ['q' => '¿Van a Mercado Modelo?', 'a' => 'Sí, y a la Unión, Larrañaga y Parque Batlle.'],
             ],
         ],
         'carga-de-gas' => [

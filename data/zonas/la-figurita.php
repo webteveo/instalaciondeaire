@@ -86,7 +86,7 @@ return [
             'faq' => [
                 ['q' => '¿Cada cuánto hay que cargar gas?', 'a' => 'Nunca, si no hay fugas. Si todos los años falta, hay una pérdida sin reparar.'],
                 ['q' => '¿Cargan equipos de 2.250 frigorías?', 'a' => 'Sí, de todos los tamaños.'],
-                ['q' => '¿Trabajan en Reducto?', 'a' => 'Sí, y en Villa Muñoz, Jacinto Vera y La Comercial.'],
+                ['q' => '¿Trabajan en el Reducto?', 'a' => 'Sí, y en Villa Muñoz, Jacinto Vera y La Comercial.'],
             ],
         ],
         'desinstalacion' => [

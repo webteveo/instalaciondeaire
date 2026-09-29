@@ -48,7 +48,7 @@ return [
             'faq' => [
                 ['q' => '¿Cada cuánto conviene?', 'a' => 'Una vez al año, en primavera.'],
                 ['q' => '¿El service incluye limpiar la condensadora?', 'a' => 'Sí, adentro y afuera.'],
-                ['q' => '¿Trabajan en Unión?', 'a' => 'Sí, y en Mercado Modelo y Maroñas.'],
+                ['q' => '¿Trabajan en la Unión?', 'a' => 'Sí, y en Mercado Modelo y Maroñas.'],
             ],
         ],
         'reparacion' => [
@@ -73,7 +73,7 @@ return [
             'faq' => [
                 ['q' => '¿Instalan protectores de tensión?', 'a' => 'Sí, podemos colocarlo junto con la reparación.'],
                 ['q' => '¿Reparan equipos de ventana?', 'a' => 'Consultanos por marca y modelo; trabajamos principalmente split.'],
-                ['q' => '¿Van a Castro y Pérez Castellanos?', 'a' => 'Sí, y a Unión y Mercado Modelo.'],
+                ['q' => '¿Van a Castro y Pérez Castellanos?', 'a' => 'Sí, y a la Unión y Mercado Modelo.'],
             ],
         ],
         'carga-de-gas' => [
@@ -123,7 +123,7 @@ return [
             'faq' => [
                 ['q' => '¿El equipo pierde gas al moverlo?', 'a' => 'No, si se hace el recupero correctamente.'],
                 ['q' => '¿Retiran el equipo viejo?', 'a' => 'Sí, con recupero de gas. El desecho se cotiza aparte.'],
-                ['q' => '¿Trabajan en Maroñas?', 'a' => 'Sí, y en Unión y Mercado Modelo.'],
+                ['q' => '¿Trabajan en Maroñas?', 'a' => 'Sí, y en la Unión y Mercado Modelo.'],
             ],
         ],
     ],

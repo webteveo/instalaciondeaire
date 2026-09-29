@@ -65,7 +65,7 @@ return [
             'faq' => [
                 ['q' => 'El aire del taller tira hielo, ¿qué hago?', 'a' => 'Apagalo, dejalo en ventilación para que se descongele y escribinos. Casi siempre es suciedad.'],
                 ['q' => '¿Cambian turbinas?', 'a' => 'Sí, si se consigue el repuesto para el modelo.'],
-                ['q' => '¿Van a Cerrito?', 'a' => 'Sí, y a La Figurita, Larrañaga y Brazo Oriental.'],
+                ['q' => '¿Van al Cerrito?', 'a' => 'Sí, y a La Figurita, Larrañaga y Brazo Oriental.'],
             ],
         ],
         'carga-de-gas' => [

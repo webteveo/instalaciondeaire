@@ -44,7 +44,7 @@ return [
             'faq' => [
                 ['q' => '¿Hacen el service de toda una oficina en una visita?', 'a' => 'Sí, organizando los equipos para no dejar todos los ambientes sin aire a la vez.'],
                 ['q' => '¿Retiran nidos de palomas de la condensadora?', 'a' => 'Sí, como parte de la limpieza exterior.'],
-                ['q' => '¿Trabajan en Cordón y Ciudad Vieja?', 'a' => 'Sí, y en Barrio Sur y Aguada.'],
+                ['q' => '¿Trabajan en el Cordón y Ciudad Vieja?', 'a' => 'Sí, y en Barrio Sur y Aguada.'],
             ],
         ],
         'reparacion' => [

@@ -44,7 +44,7 @@ return [
             'faq' => [
                 ['q' => '¿Cada cuánto el service cerca de la bahía?', 'a' => 'Una vez al año con lavado de la condensadora. Si el equipo también calefacciona, dos veces.'],
                 ['q' => '¿Pueden proteger el serpentín contra la corrosión?', 'a' => 'Sí, en equipos que todavía están en buen estado. En serpentines ya corroídos no tiene sentido.'],
-                ['q' => '¿Trabajan en La Teja?', 'a' => 'Sí, y en Prado, Aguada y Belvedere.'],
+                ['q' => '¿Trabajan en La Teja?', 'a' => 'Sí, y en el Prado, Aguada y Belvedere.'],
             ],
         ],
         'reparacion' => [
@@ -65,7 +65,7 @@ return [
             'faq' => [
                 ['q' => 'El equipo arranca y se corta, ¿qué puede ser?', 'a' => 'Un falso contacto, un sensor, falta de gas o recalentamiento. Se diagnostica con el equipo andando.'],
                 ['q' => '¿Cambian ménsulas oxidadas?', 'a' => 'Sí, por ménsulas galvanizadas, nivelando la condensadora.'],
-                ['q' => '¿Van a Prado?', 'a' => 'Sí, y a La Teja, Aguada y Belvedere.'],
+                ['q' => '¿Van al Prado?', 'a' => 'Sí, y a La Teja, Aguada y Belvedere.'],
             ],
         ],
         'carga-de-gas' => [
@@ -86,7 +86,7 @@ return [
             'faq' => [
                 ['q' => '¿Cuánto dura una reparación de serpentín?', 'a' => 'Si la corrosión es puntual, años. Si está generalizada, poco: por eso evaluamos antes de reparar.'],
                 ['q' => '¿Qué gas llevan los equipos actuales?', 'a' => 'R32 o R410A. Está en la etiqueta de la unidad exterior.'],
-                ['q' => '¿Trabajan en Aguada?', 'a' => 'Sí, y en Prado y La Teja.'],
+                ['q' => '¿Trabajan en la Aguada?', 'a' => 'Sí, y en el Prado y La Teja.'],
             ],
         ],
         'desinstalacion' => [
@@ -107,7 +107,7 @@ return [
             'faq' => [
                 ['q' => '¿Guardan los equipos durante la obra?', 'a' => 'Te los dejamos desmontados, tapados y etiquetados para guardarlos en la casa.'],
                 ['q' => '¿Reinstalan cuando termina el reciclaje?', 'a' => 'Sí, coordinando la fecha con la obra.'],
-                ['q' => '¿Trabajan en Belvedere?', 'a' => 'Sí, y en Prado y La Teja.'],
+                ['q' => '¿Trabajan en Belvedere?', 'a' => 'Sí, y en el Prado y La Teja.'],
             ],
         ],
     ],

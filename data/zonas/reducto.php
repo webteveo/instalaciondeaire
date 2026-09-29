@@ -48,7 +48,7 @@ return [
             'faq' => [
                 ['q' => '¿Suben a azoteas sin escalera fija?', 'a' => 'Si el acceso es seguro, sí. Si no, se evalúa otra forma en la visita.'],
                 ['q' => '¿Cambian la aislación del caño?', 'a' => 'Sí, se cotiza por metro de cañería.'],
-                ['q' => '¿Trabajan en Atahualpa?', 'a' => 'Sí, y en Aguada, Prado y Villa Muñoz.'],
+                ['q' => '¿Trabajan en Atahualpa?', 'a' => 'Sí, y en la Aguada, Prado y Villa Muñoz.'],
             ],
         ],
         'reparacion' => [
@@ -73,7 +73,7 @@ return [
             'faq' => [
                 ['q' => '¿Reparan equipos de comercios?', 'a' => 'Sí, split y piso-techo de locales.'],
                 ['q' => '¿Reparan si la condensadora está en la azotea?', 'a' => 'Sí, con acceso seguro.'],
-                ['q' => '¿Van a Prado?', 'a' => 'Sí, y a Aguada, Atahualpa y Villa Muñoz.'],
+                ['q' => '¿Van al Prado?', 'a' => 'Sí, y a la Aguada, Atahualpa y Villa Muñoz.'],
             ],
         ],
         'carga-de-gas' => [
@@ -98,7 +98,7 @@ return [
             'faq' => [
                 ['q' => '¿Mi equipo nunca enfrió bien, puede ser el gas?', 'a' => 'Si la cañería es larga y no se agregó gas, sí. Se confirma midiendo.'],
                 ['q' => '¿Cargan por peso?', 'a' => 'Sí, siempre, después del vacío.'],
-                ['q' => '¿Trabajan en Aguada?', 'a' => 'Sí, y en Atahualpa, Prado y La Figurita.'],
+                ['q' => '¿Trabajan en la Aguada?', 'a' => 'Sí, y en Atahualpa, Prado y La Figurita.'],
             ],
         ],
         'desinstalacion' => [
@@ -123,7 +123,7 @@ return [
             'faq' => [
                 ['q' => '¿Sellan las perforaciones de la azotea?', 'a' => 'Se acuerda en el presupuesto. Es importante para evitar filtraciones.'],
                 ['q' => '¿Reinstalan en otro edificio?', 'a' => 'Sí, en las zonas que cubrimos.'],
-                ['q' => '¿Trabajan en Villa Muñoz?', 'a' => 'Sí, y en Aguada, Atahualpa y Prado.'],
+                ['q' => '¿Trabajan en Villa Muñoz?', 'a' => 'Sí, y en la Aguada, Atahualpa y Prado.'],
             ],
         ],
     ],
