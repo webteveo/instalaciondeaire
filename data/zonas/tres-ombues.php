@@ -40,6 +40,10 @@ return [
                     'Entre 24 y 26 grados en verano. Cada grado menos aumenta el consumo. Bajarlo a 18 no enfría más rápido: solo hace que el equipo trabaje más tiempo al máximo.',
                     'En invierno, entre 20 y 22 grados en calor.',
                 ]],
+                ['t' => '¿Qué pasa con la humedad del Pantanoso en el equipo?', 'p' => [
+                    'Las casas más cercanas al arroyo Pantanoso tienen más humedad ambiente, que en el equipo se nota como hongos en la turbina y olor al prender. En invierno, además, las paredes frías condensan agua y el ambiente se siente más frío de lo que marca el termómetro.',
+                    'En el service hacemos limpieza antihongos y te recomendamos usar el modo dry en los días húmedos.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cada cuánto el service?', 'a' => 'Una vez al año, en primavera, y filtros cada dos a cuatro semanas de uso.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Qué fallas son más comunes?', 'p' => [
                     'Capacitores agotados, desagotes tapados, sensores que miden mal y placas dañadas por cortes de luz. En invierno, válvulas inversoras que no cambian a calor.',
                     'Te pasamos el presupuesto antes de reparar.',
+                ]],
+                ['t' => '¿Qué pasa si el equipo corta cuando llueve?', 'p' => [
+                    'Si la condensadora quedó a la intemperie sin protección y la caja eléctrica recibe agua en las lluvias con viento, pueden aparecer cortes intermitentes o disparos del disyuntor justo cuando llueve.',
+                    'Se revisa el sellado de la caja eléctrica, se secan y protegen los bornes y, si hace falta, se agrega un pequeño alero que no tape la ventilación.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Se busca la pérdida en conexiones y soldaduras, se repara, se hace vacío con bomba y se carga el gas de la etiqueta pesado con balanza, ajustando por los metros de cañería.',
                     'Al final se prueba el equipo con las presiones a la vista.',
                 ]],
+                ['t' => '¿Conviene cargar un equipo que ya tiene muchos años?', 'p' => [
+                    'En Tres Ombúes hay muchos equipos instalados hace más de diez años. Si uno de ellos pierde gas y usa R22, la carga es cada vez más cara y la fuga puede repetirse en otro punto del equipo envejecido.',
+                    'Te pasamos el costo de reparar y cargar junto con el de un inverter nuevo, que además consume menos, para que decidas con los números a la vista.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan si no hace falta?', 'a' => 'No; si la medición es normal, buscamos la causa real.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Y en una mudanza?', 'p' => [
                     'Se recupera el gas, se tapan las conexiones y se desmonta. En la nueva casa se instala con cañería a medida del recorrido.',
                     'La unidad exterior viaja parada, sin golpes.',
+                ]],
+                ['t' => '¿Qué conviene hacer al cambiar las aberturas?', 'p' => [
+                    'Si vas a reemplazar una ventana vieja por una con mejor cierre, y el equipo está justo al lado, conviene desinstalarlo antes para que la obra no lo golpee. Al reinstalarlo, con la ventana nueva el ambiente pierde menos frío y el equipo trabaja más relajado.',
+                    'A veces, con la mejora, un equipo que antes no alcanzaba pasa a ser suficiente.',
                 ]],
             ],
             'faq' => [

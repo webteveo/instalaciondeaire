@@ -40,6 +40,10 @@ return [
                     'Sí. Si varios vecinos tienen la condensadora en la misma azotea, hacer todos el mismo día es más práctico y se reparte el traslado.',
                     'Un vecino o la administración puede juntar los pedidos.',
                 ]],
+                ['t' => '¿Qué pasa con las condensadoras amontonadas en la azotea común?', 'p' => [
+                    'En los edificios bajos del Reducto, con los años la azotea común se llena de condensadoras de distintos vecinos, a veces muy pegadas entre sí. Si una larga aire caliente sobre otra, las dos rinden menos.',
+                    'En el service revisamos la separación y, si hace falta, proponemos reordenarlas para que todas ventilen bien.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Suben a azoteas sin escalera fija?', 'a' => 'Si el acceso es seguro, sí. Si no, se evalúa otra forma en la visita.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Por qué el equipo zumba y no arranca?', 'p' => [
                     'El caso típico es un capacitor agotado: el compresor o el ventilador intenta arrancar y no puede. Es una reparación rápida si hay repuesto.',
                     'No lo dejes intentando arrancar: el compresor se recalienta.',
+                ]],
+                ['t' => '¿Qué pasa si el desagote baja por el edificio?', 'p' => [
+                    'Cuando la unidad interior está en un tercer piso y la condensadora arriba, el desagote a veces se llevó por una bajada del edificio o por una manguera larga por el contrafrente. Si se tapa en algún punto, el agua vuelve y gotea adentro.',
+                    'Se revisa todo el recorrido, se destapa y, si la manguera está vencida por el sol, se cambia.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'En las conexiones de las dos unidades, en empalmes del recorrido y en tramos expuestos en la azotea. Se usa detector, espuma y, si no aparece, nitrógeno.',
                     'Una vez reparada, vacío y carga por peso.',
                 ]],
+                ['t' => '¿Por qué los equipos de azotea pierden gas con los años?', 'p' => [
+                    'En la azotea, la condensadora recibe sol todo el día, lluvia y viento. Las tuercas de conexión se dilatan y contraen a diario, y si alguna quedó con poco ajuste, termina perdiendo.',
+                    'Al reparar, se rehace la conexión con torque correcto y se protege del sol la parte expuesta.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Mi equipo nunca enfrió bien, puede ser el gas?', 'a' => 'Si la cañería es larga y no se agregó gas, sí. Se confirma midiendo.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Qué queda en la azotea?', 'p' => [
                     'La base o los soportes de la condensadora. Si estaban fijados a la losa, conviene sellar las perforaciones para que no filtre agua al último piso.',
                     'Lo dejamos acordado en el presupuesto.',
+                ]],
+                ['t' => '¿Qué conviene coordinar con los vecinos del edificio?', 'p' => [
+                    'Bajar una condensadora de la azotea implica pasar por la escalera común y, a veces, por la puerta de otro vecino si el acceso es por su apartamento. Conviene avisar y acordar el horario.',
+                    'Si la cañería baja por una pared común, se acuerda si se retira o se deja tapada.',
                 ]],
             ],
             'faq' => [

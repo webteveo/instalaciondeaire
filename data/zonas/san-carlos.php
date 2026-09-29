@@ -40,6 +40,10 @@ return [
                     'El modo calor, la válvula inversora y el ciclo de descongelamiento. Un serpentín exterior sucio se escarcha más y el equipo pasa más tiempo descongelando que calentando.',
                     'Por eso el service de otoño es tan importante como el de primavera.',
                 ]],
+                ['t' => '¿Qué pasa con el calor del verano en el interior del departamento?', 'p' => [
+                    'San Carlos está tierra adentro, lejos de la brisa del mar, y en verano las temperaturas suelen ser más altas que en Punta del Este. Los equipos trabajan más horas y un serpentín sucio se nota enseguida en el confort y en el consumo.',
+                    'Por eso, aunque no haya salitre, el service anual antes del verano es igual de importante.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cuándo hacer el service?', 'a' => 'En primavera y en otoño si el equipo se usa todo el año.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Qué fallas de verano son comunes?', 'p' => [
                     'Capacitores agotados por el calor, desagotes tapados, sensores y placas dañadas por cortes de luz. Con la marca y una foto del display, llevamos el repuesto probable.',
                     'Te pasamos el presupuesto antes de reparar.',
+                ]],
+                ['t' => '¿Qué pasa con los equipos en casas antiguas del centro?', 'p' => [
+                    'En el centro histórico de San Carlos, muchas instalaciones de aire se agregaron a casas con cableado viejo. Las fallas más comunes vienen de empalmes flojos que calientan o de tensión baja en el arranque.',
+                    'Se mide la instalación y, además de reparar el equipo, se recomienda la línea dedicada si hace falta.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Sí, por peso, después del vacío. Es el método correcto en cualquier estación, y en invierno es la única forma confiable.',
                     'Después se prueba en modo calor.',
                 ]],
+                ['t' => '¿Qué pasa si el equipo se trajo de otra casa?', 'p' => [
+                    'Es común que alguien se mude desde Maldonado o Punta del Este a San Carlos y traiga el equipo. Si al desinstalarlo no se recuperó el gas o se reinstaló sin vacío, va a rendir poco.',
+                    'Se revisan las conexiones, se hace vacío y se carga por peso. Si el equipo vino de la costa, también se revisa el serpentín por corrosión.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan en invierno?', 'a' => 'Sí, por peso.'],
@@ -95,13 +107,17 @@ return [
             'subtitulo'   => 'Restauraciones de casas antiguas y mudanzas, con el gas recuperado.',
             'intro'       => 'Desinstalamos aires acondicionados en San Carlos, en restauraciones de casas del centro histórico, mudanzas y recambios. Recuperamos el gas antes de desconectar y dejamos el equipo listo para volver a instalar. Contanos qué necesitás.',
             'bloques' => [
-                ['t' => '¿Qué hacer con el aire al restaurar una casa antigua?', 'p' => [
-                    'Desinstalarlo antes de la obra, con el gas recuperado, y reinstalarlo al final en un lugar que no afecte la fachada, dejando la cañería embutida si se abren paredes.',
-                    'Es buen momento para hacer la línea eléctrica dedicada.',
+                ['t' => '¿Qué pasa con el aire en las casas del centro que se restauran?', 'p' => [
+                    'Alrededor de la plaza Artigas, varias casas de fachada continua se están recuperando. Si la casa tenía un equipo colgado sobre el frente o una canaleta a la vista, la restauración es el momento de sacarlo de ahí: se desmonta con el gas guardado en la condensadora y se reubica en el patio o el fondo.',
+                    'Si la obra abre paredes o renueva la instalación eléctrica, conviene dejar embutida la cañería del nuevo recorrido y un circuito propio para el aire.',
                 ]],
                 ['t' => '¿Y en una mudanza?', 'p' => [
                     'Se desinstala con las conexiones tapadas y se reinstala en la nueva casa con cañería a medida. Trabajamos en San Carlos, Maldonado, Punta del Este y Piriápolis.',
                     'La unidad exterior viaja parada.',
+                ]],
+                ['t' => '¿Conviene llevar el equipo de San Carlos a la costa?', 'p' => [
+                    'Si te mudás de San Carlos a una casa cerca del mar, tené en cuenta que el equipo va a quedar expuesto al salitre que antes no tenía. Si es un modelo sin protección, conviene tratarlo o ubicarlo en el lado más protegido.',
+                    'Lo desinstalamos con el gas recuperado y te asesoramos sobre la nueva ubicación.',
                 ]],
             ],
             'faq' => [

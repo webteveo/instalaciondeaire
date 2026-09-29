@@ -40,6 +40,10 @@ return [
                     'Unidad interior: filtros, evaporador, turbina, bandeja y desagote. Unidad exterior: serpentín, ventilador y conexiones. Al final, medición de presiones y consumo.',
                     'Si encontramos algo para reparar, te lo decimos antes.',
                 ]],
+                ['t' => '¿Qué conviene hacer con el aire de ventana que todavía funciona?', 'p' => [
+                    'Si todavía tenés un aire de ventana en uso, el mantenimiento es distinto al de un split: el filtro está en el frente y el serpentín exterior, del lado de afuera del hueco. Muchas veces el lado de afuera nunca se limpió porque no se llega fácil.',
+                    'Si el equipo es viejo, en el service te decimos si vale la pena seguir manteniéndolo o si conviene pasar a un split.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cuándo conviene el service?', 'a' => 'En primavera, después de podar y antes del calor.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Conviene reparar un equipo viejo o cambiarlo?', 'p' => [
                     'Si la falla es chica (capacitor, desagote, sensor), reparar vale la pena. Si es el compresor o el equipo usa gas R22, suele convenir un split inverter nuevo.',
                     'Te pasamos los dos números para que decidas.',
+                ]],
+                ['t' => '¿Qué pasa con el hueco del aire de ventana cuando se saca?', 'p' => [
+                    'Si se retira un aire de ventana que ya no funciona, queda un hueco en la pared que deja pasar aire, agua y ruido. Taparlo con una placa provisoria no alcanza para el invierno.',
+                    'Lo recomendable es cerrarlo con mampostería o aprovecharlo para la nueva instalación de un split, cerrando el resto.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'El R22 ya no se fabrica y cuesta conseguirlo. Si un equipo de R22 tiene fuga, casi siempre conviene reemplazarlo por un inverter con R32, que además consume menos.',
                     'Si el equipo está sano y la fuga es mínima, se evalúa según disponibilidad del gas.',
                 ]],
+                ['t' => '¿Se le puede cargar gas a un aire de ventana?', 'p' => [
+                    'Técnicamente sí, pero los aires de ventana suelen ser equipos viejos, con R22, y la reparación de una fuga en un equipo compacto puede costar casi lo mismo que un split nuevo que consume mucho menos.',
+                    'Te pasamos las dos opciones con sus costos para que decidas.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cómo sé si mi equipo es R22?', 'a' => 'Está en la etiqueta de la unidad exterior. Mandanos una foto.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Y un split en una mudanza?', 'p' => [
                     'Se recupera el gas en la condensadora, se desconecta, se tapan las conexiones y se desmonta. En la nueva casa se instala con cañería a medida.',
                     'La unidad exterior viaja parada.',
+                ]],
+                ['t' => '¿Qué pasa con el marco del aire de ventana?', 'p' => [
+                    'Muchos aires de ventana están colocados en un marco metálico o de madera empotrado en la pared. Al retirar el equipo, ese marco queda; se puede sacar si se va a cerrar el hueco o dejar si se va a colocar otro equipo compacto.',
+                    'Lo definimos con vos antes de desinstalar.',
                 ]],
             ],
             'faq' => [

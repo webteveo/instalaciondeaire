@@ -40,6 +40,10 @@ return [
                     'Sí. Se limpian turbina, serpentín y bandeja, se revisa la bomba de desagote si tiene, y se controla el funcionamiento.',
                     'En galpones con varios equipos, se coordinan todos en una visita.',
                 ]],
+                ['t' => '¿Qué pasa con los equipos de oficinas en depósitos reconvertidos?', 'p' => [
+                    'En los depósitos reconvertidos del barrio, muchas oficinas se armaron dentro de galpones con techo alto. El equipo de la oficina trabaja contra el calor que baja del techo del galpón, aunque la oficina tenga su propio cielorraso.',
+                    'Con el service a tiempo y el serpentín limpio, el equipo aguanta; si está sucio, no llega a la temperatura en las tardes de verano.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cada cuánto con obras cerca?', 'a' => 'Service anual y filtros semanales mientras dure la obra.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Y en las casas del barrio?', 'p' => [
                     'Las consultas más comunes son equipos que no enfrían (suciedad o falta de gas), que gotean (desagote tapado) o que tiran código de error (sensor, placa o comunicación).',
                     'Con la marca y una foto del display, el técnico anticipa la falla.',
+                ]],
+                ['t' => '¿Qué pasa con el aire en un galpón con portón abierto?', 'p' => [
+                    'Si el galpón trabaja con el portón abierto buena parte del día, el equipo intenta enfriar un espacio que se renueva con aire caliente de afuera todo el tiempo. Trabaja al máximo sin parar y se desgasta rápido.',
+                    'Antes de reparar o cambiar el equipo, conviene evaluar si se puede cerrar un sector o poner una cortina de tiras para separar la zona climatizada.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'En empalmes intermedios, en conexiones de las unidades y en tramos expuestos a golpes en galpones con movimiento de mercadería.',
                     'Se revisan todos los puntos y se protegen los tramos expuestos.',
                 ]],
+                ['t' => '¿Qué pasa con las cañerías que cruzan un galpón?', 'p' => [
+                    'En galpones, la cañería suele recorrer vigas o paredes largas a la vista, donde el movimiento de mercadería o un autoelevador puede golpearla. Un golpe puede no romperla en el momento pero dejarla debilitada.',
+                    'Al reparar una fuga así, se protege el tramo con canaleta metálica o se lleva por un recorrido más alto.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan piso-techo?', 'a' => 'Sí.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Cómo se desmonta un piso-techo?', 'p' => [
                     'Recupero de gas, desconexión de cañería, desagote y eléctrica, y descenso de la unidad entre dos personas. Se guarda con las conexiones tapadas.',
                     'Las varillas de fijación se retiran o quedan según la obra.',
+                ]],
+                ['t' => '¿Qué conviene si se reconvierte un depósito en vivienda?', 'p' => [
+                    'Los equipos que servían para un depósito o una oficina grande pueden no ser adecuados para dormitorios: suelen ser más grandes y más ruidosos. Se desinstalan con el gas recuperado y se evalúa cuáles sirven para los nuevos ambientes.',
+                    'Para dormitorios conviene equipos inverter de menor capacidad y unidades interiores silenciosas.',
                 ]],
             ],
             'faq' => [

@@ -82,6 +82,10 @@ return [
                     'Con la fuga reparada, se hace vacío con bomba y se carga el gas indicado en la etiqueta, pesado con balanza y ajustado según los metros de cañería.',
                     'Después se prueba el equipo y se miden presiones.',
                 ]],
+                ['t' => '¿Qué pasa con las cañerías que bajan por fachadas antiguas?', 'p' => [
+                    'En las casas antiguas de Goes y Villa Muñoz, muchas cañerías bajan desde la azotea por fachadas o patios, a la vista, sin buena protección. Con los años la aislación se cae y el cobre queda expuesto al sol y a golpes.',
+                    'Al cargar, revisamos ese tramo y cambiamos la aislación o el caño si está dañado.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cambian la aislación de la cañería?', 'a' => 'Sí, se cotiza por metro.'],
@@ -102,6 +106,10 @@ return [
                 ['t' => '¿Qué pasa con las ménsulas y los agujeros?', 'p' => [
                     'Las ménsulas se retiran si molestan a la obra. Los agujeros de paso quedan para que la obra los tape o para reusarlos en la reinstalación.',
                     'Lo acordamos con vos y con quien hace la obra.',
+                ]],
+                ['t' => '¿Qué pasa con el aire del local cuando cambia el inquilino?', 'p' => [
+                    'En los locales de Goes con vivienda arriba, cuando cambia el comerciante, a veces el equipo es del inquilino que se va. Se desinstala con el gas recuperado y se deja el paso sellado, sin afectar la instalación de la vivienda de arriba.',
+                    'Si el nuevo inquilino quiere el equipo, se puede dejar con un service hecho.',
                 ]],
             ],
             'faq' => [

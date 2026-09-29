@@ -61,6 +61,10 @@ return [
                     'Las fallas típicas son capacitores, sensores, placas por cortes de luz y desagotes tapados. Con la marca y una foto del display, el técnico anticipa la falla.',
                     'Te pasamos el presupuesto antes de reparar.',
                 ]],
+                ['t' => '¿Qué hacer si la obra cortó el cable del aire?', 'p' => [
+                    'Si durante una ampliación se cortó o se dañó el cable de interconexión entre las dos unidades, el equipo muestra un error de comunicación o la unidad exterior no arranca. No hay que intentar empalmarlo con cinta.',
+                    'Se reemplaza el tramo completo con cable de la sección adecuada y se protege el recorrido para que la obra no lo vuelva a dañar.',
+                ]],
             ],
             'faq' => [
                 ['q' => 'Movieron la condensadora en la obra y ahora no enfría, ¿qué pasó?', 'a' => 'Si se desconectó sin recuperar el gas, lo perdió. Hay que revisar conexiones, hacer vacío y cargar.'],
@@ -102,6 +106,10 @@ return [
                 ['t' => '¿Dónde se reinstala después?', 'p' => [
                     'En el lugar que quede mejor con la casa ampliada: una pared lateral, el fondo o la nueva azotea. Si durante la obra se dejó la preinstalación, se conecta directo.',
                     'Es un buen momento para sumar equipos en los ambientes nuevos.',
+                ]],
+                ['t' => '¿Se puede aprovechar la obra para ordenar las condensadoras?', 'p' => [
+                    'Si la casa crece y va a tener varios equipos, la ampliación es el momento de decidir dónde irán todas las unidades exteriores, para que no queden repartidas por la fachada.',
+                    'Se desinstala el equipo actual, se deja la preinstalación de los nuevos ambientes y al final se instalan todos en el lugar previsto.',
                 ]],
             ],
             'faq' => [

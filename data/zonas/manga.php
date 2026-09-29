@@ -40,6 +40,10 @@ return [
                     'En primavera, antes del calor, y revisar la condensadora de vez en cuando durante el verano, sobre todo después de cortar el pasto cerca.',
                     'Los filtros, cada dos a cuatro semanas.',
                 ]],
+                ['t' => '¿Qué pasa si hay animales cerca de la condensadora?', 'p' => [
+                    'En las chacras de Manga, gallinas, perros u otros animales andan cerca de la casa. Los pelos, plumas y la tierra que levantan se pegan al serpentín, y algunos animales pueden dañar la aislación de la cañería o el cable.',
+                    'Un cerco bajo de tejido alrededor de la unidad, a medio metro de distancia, la protege sin quitarle aire. En el service revisamos que no haya daños en la cañería.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Sacan nidos de la condensadora?', 'a' => 'Sí, como parte de la limpieza exterior, y te sugerimos cómo evitar que vuelvan.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Y los insectos?', 'p' => [
                     'Hormigas y otros insectos buscan el calor de la caja eléctrica. Pueden provocar cortocircuitos en contactos y bornes.',
                     'Se limpia, se reparan los contactos y se sella la caja.',
+                ]],
+                ['t' => '¿Qué pasa si el aire comparte línea con una bomba de agua?', 'p' => [
+                    'En casas de chacra con pozo, la bomba de agua a veces comparte circuito con el aire. Cuando arrancan los dos a la vez, la tensión cae y el compresor del aire sufre, o salta la térmica.',
+                    'La solución es separar los circuitos. Si el equipo ya tiene daños por esas caídas (capacitor, contactor), se reparan en la misma visita.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Vacío con bomba y carga por peso según la etiqueta y los metros. Al final, prueba con presiones.',
                     'El presupuesto separa cada parte.',
                 ]],
+                ['t' => '¿Cómo se protege la cañería en el campo?', 'p' => [
+                    'En terrenos de chacra, la cañería debería ir siempre por la pared, a una altura donde no la alcancen animales ni herramientas, y con la aislación cubierta con cinta resistente al sol o canaleta.',
+                    'Si una fuga vino de un tramo dañado a baja altura, al repararla lo llevamos más arriba y lo protegemos.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan sin buscar la fuga?', 'a' => 'No: el gas se perdería de nuevo y el equipo seguiría fallando.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Cómo se guarda si no se reinstala enseguida?', 'p' => [
                     'Con las conexiones tapadas, en un lugar seco y fuera del alcance de roedores. Un galpón con piso de tierra no es buena opción.',
                     'Antes de reinstalar, se revisa.',
+                ]],
+                ['t' => '¿Qué hacer con el equipo del galpón cuando deja de usarse?', 'p' => [
+                    'Si un galpón deja de usarse como taller o sala de trabajo, el equipo puede reubicarse en la casa. Se desinstala con el gas recuperado, se limpia a fondo (seguro tiene polvo del galpón) y se instala en el ambiente que lo necesite.',
+                    'Antes se verifica que su capacidad sirva para el nuevo ambiente.',
                 ]],
             ],
             'faq' => [

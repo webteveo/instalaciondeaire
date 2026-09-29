@@ -40,6 +40,10 @@ return [
                     'Sí, y conviene: si varios vecinos se juntan, se hace todo en una jornada y el traslado se reparte.',
                     'Pasanos cuántas viviendas y equipos son.',
                 ]],
+                ['t' => '¿Qué pasa con los equipos en casas cerca de la avenida José Pedro Varela?', 'p' => [
+                    'Sobre la avenida José Pedro Varela y sus alrededores, el tránsito y los días de eventos en el Antel Arena suman polvo y hollín en las condensadoras que dan a la calle. Se pegan al serpentín y bajan el rendimiento.',
+                    'En esas casas conviene ubicar la unidad en el fondo y, si ya está al frente, lavarla con desengrasante en cada service.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cada cuánto conviene?', 'a' => 'Una vez al año, en primavera.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Las tormentas dañan los equipos?', 'p' => [
                     'Los cortes y picos de tensión durante tormentas pueden dañar la placa electrónica. Si el equipo dejó de funcionar después de una tormenta, lo más probable es la placa o un fusible.',
                     'Un protector de tensión ayuda a prevenirlo.',
+                ]],
+                ['t' => '¿Qué pasa si el equipo se instaló en una pared de ampliación liviana?', 'p' => [
+                    'En algunas ampliaciones del barrio, la unidad interior se colgó en una pared liviana (isopanel o placa) sin refuerzo. Con el peso y la vibración, la placa de fijación se afloja y el equipo queda torcido, lo que hace que gotee por un costado.',
+                    'Se refuerza la fijación a la estructura y se nivela la unidad.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Medición de presiones, búsqueda de la fuga, reparación, vacío con bomba, carga del gas pesado con balanza y prueba final.',
                     'El presupuesto separa cada parte.',
                 ]],
+                ['t' => '¿Qué pasa con los equipos en techos de chapa calientes?', 'p' => [
+                    'Si la condensadora quedó apoyada sobre un techo de chapa, trabaja con aire muy caliente en verano y la chapa le transmite vibración. Las conexiones sufren más y aparecen fugas antes.',
+                    'Al reparar, conviene pasar la unidad a una pared o a una base independiente del techo.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Se puede cargar sin buscar la fuga?', 'a' => 'No lo hacemos: el gas se perdería de nuevo.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Se puede reusar el equipo viejo en otro ambiente?', 'p' => [
                     'Sí, si funciona bien. Un equipo que quedó chico para el living puede servir para un dormitorio.',
                     'Se desinstala con recupero de gas y se reinstala en el ambiente nuevo.',
+                ]],
+                ['t' => '¿Qué hacer con el equipo si se aísla el techo de la ampliación?', 'p' => [
+                    'Si vas a mejorar la aislación del techo de chapa de una pieza agregada, el equipo que antes no alcanzaba puede pasar a sobrar. A veces conviene desinstalarlo y llevarlo a otro ambiente más exigente de la casa, poniendo uno más chico en la pieza aislada.',
+                    'Lo evaluamos con vos después de la obra.',
                 ]],
             ],
             'faq' => [

@@ -61,6 +61,10 @@ return [
                     'Si el equipo tira error, apagalo del control y de la llave, esperá unos minutos y volvé a prender. Si el error vuelve, anotalo. Si gotea, poné un recipiente y cortalo.',
                     'No lo fuerces a seguir funcionando si hace ruido metálico o larga olor a quemado.',
                 ]],
+                ['t' => '¿Qué pasa si el equipo del comercio falla un sábado?', 'p' => [
+                    'Sobre 8 de Octubre, el sábado es día de mucho movimiento y un aire que falla se nota en las ventas. Mientras se coordina la reparación, apagalo si hace ruido raro, poné un ventilador y anotá cualquier código que muestre.',
+                    'Con fotos de la etiqueta y del display, el técnico puede ir directamente con el repuesto más probable.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Reparan equipos en casas antiguas?', 'a' => 'Sí, revisando también la instalación eléctrica.'],
@@ -82,6 +86,10 @@ return [
                     'El R22 ya no se fabrica y cuesta conseguirlo. Si el equipo tiene fuga, se evalúa si conviene cargarlo o reemplazarlo por un inverter con R32, que además consume menos.',
                     'Te pasamos las dos opciones con sus costos.',
                 ]],
+                ['t' => '¿Qué pasa con los equipos de casas antiguas de la vieja Villa?', 'p' => [
+                    'En las casas antiguas alrededor de la plaza de la Unión, las cañerías suelen recorrer patios y techos para no tocar la fachada. Esos recorridos largos piden más gas que la carga de fábrica y tienen más puntos de posible fuga.',
+                    'Al cargar, revisamos todo el recorrido y ajustamos la cantidad a los metros reales.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cuánto dura una carga?', 'a' => 'Si se reparó la fuga, no debería hacer falta otra.'],
@@ -102,6 +110,10 @@ return [
                 ['t' => '¿Qué queda en el local después?', 'p' => [
                     'Los pasos de la cañería en la pared, las perforaciones del soporte y, si la condensadora estaba en la azotea, la base. El sellado se acuerda en el presupuesto.',
                     'Revisá el contrato para saber en qué estado tenés que entregar el local.',
+                ]],
+                ['t' => '¿Qué pasa con el aire si el local se subdivide?', 'p' => [
+                    'En la avenida, algunos locales grandes se dividen en dos. El equipo que climatizaba todo el salón puede quedar sobredimensionado para una de las mitades y la otra queda sin aire.',
+                    'Se desinstala con el gas recuperado y se reubica en la parte donde mejor sirve, completando la otra con un equipo del tamaño adecuado.',
                 ]],
             ],
             'faq' => [

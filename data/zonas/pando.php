@@ -40,6 +40,10 @@ return [
                     'Una visita al año, en primavera: limpieza de filtros, serpentines, turbina y desagote, lavado de la condensadora y control del funcionamiento.',
                     'Si el equipo calefacciona, sumá una revisión en otoño.',
                 ]],
+                ['t' => '¿Qué registro conviene llevar en una empresa?', 'p' => [
+                    'En empresas con varios equipos, un registro simple (ambiente, marca, modelo, fecha de instalación, fecha de cada service y reparaciones) ayuda a planificar el mantenimiento y a decidir cuándo conviene reemplazar un equipo en lugar de seguir reparándolo.',
+                    'En cada visita actualizamos ese registro y te lo dejamos.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Hacen mantenimiento fuera del horario de la empresa?', 'a' => 'Se coordina según disponibilidad.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Reparan equipos cassette y piso-techo?', 'p' => [
                     'Sí. En cassette, las fallas más comunes son la bomba de condensado y los sensores; en piso-techo, la turbina y el desagote.',
                     'Si el repuesto no está en plaza, te decimos el plazo en el diagnóstico.',
+                ]],
+                ['t' => '¿Qué pasa con los equipos de salas de servidores o equipos?', 'p' => [
+                    'Algunas empresas de Pando tienen una sala técnica con equipos informáticos que no pueden recalentarse. Un aire que falla ahí es urgente. Conviene tener dos equipos, para que uno cubra si el otro falla, y un mantenimiento más frecuente.',
+                    'Si tu sala técnica depende de un solo equipo, te asesoramos sobre cómo darle respaldo.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Sí: se trabaja equipo por equipo, y cada uno queda fuera de servicio solo el tiempo de la reparación y la carga.',
                     'Se coordina con el horario de la empresa.',
                 ]],
+                ['t' => '¿Cómo se evita que una fuga pase desapercibida en una oficina?', 'p' => [
+                    'En oficinas, es común que nadie note que un equipo enfría menos hasta que el ambiente ya está caluroso. En el mantenimiento periódico medimos presiones de todos los equipos, y así una fuga chica se detecta antes de que falte gas.',
+                    'Repararla en ese momento es más simple y barato que cuando el equipo ya dejó de enfriar.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan equipos cassette?', 'a' => 'Sí, y split y piso-techo.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Y en una reforma?', 'p' => [
                     'Se desinstalan los equipos de los ambientes que se reforman, se guardan y se reinstalan al final, dejando la preinstalación embutida si se abren paredes.',
                     'Coordinamos las fechas con la obra.',
+                ]],
+                ['t' => '¿Qué se hace con los equipos viejos al renovar?', 'p' => [
+                    'Cuando una empresa renueva sus equipos, los viejos se desinstalan con el gas recuperado. Si funcionan, pueden reubicarse en depósitos o ambientes secundarios; si no, se retiran para desecho.',
+                    'Te pasamos un detalle de qué equipos conviene reusar y cuáles no.',
                 ]],
             ],
             'faq' => [

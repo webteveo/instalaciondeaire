@@ -40,6 +40,10 @@ return [
                     'Turbina, serpentín, bandeja y desagote, además de la condensadora. Si el equipo tiene bomba de condensado, se revisa.',
                     'Se mide el funcionamiento al final.',
                 ]],
+                ['t' => '¿Conviene limpiar los filtros del taller más seguido?', 'p' => [
+                    'Sí. En un taller del fondo, los filtros de la unidad interior se tapan en pocos días si se corta madera, se lija o se suelda. Con los filtros tapados, el evaporador se congela y el equipo deja de enfriar.',
+                    'Una limpieza semanal de filtros, que lleva cinco minutos, evita la mayoría de las llamadas de verano.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Hacen el service de la casa y el taller juntos?', 'a' => 'Sí, en la misma visita.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Y si el equipo del taller se congela?', 'p' => [
                     'Casi siempre es polvo en filtros y evaporador. Se descongela, se limpia a fondo y se revisa el gas si vuelve a pasar.',
                     'Filtros limpios cada semana evitan el problema.',
+                ]],
+                ['t' => '¿Qué pasa si el aire del taller comparte línea con las máquinas?', 'p' => [
+                    'Cuando arranca una sierra, un compresor de aire o una soldadora en el mismo circuito, la tensión cae de golpe y el compresor del aire sufre. Con el tiempo se dañan el capacitor, el contactor y la placa.',
+                    'Separar la línea del aire de la de las máquinas es la solución de fondo; si el equipo ya tiene daños, se reparan en la misma visita.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Búsqueda y reparación de la fuga, vacío, carga por peso según la etiqueta y los metros, y prueba final.',
                     'Todo detallado en el presupuesto.',
                 ]],
+                ['t' => '¿Qué pasa si el equipo del taller se congeló muchas veces?', 'p' => [
+                    'Un evaporador que se congela seguido por filtros sucios hace trabajar al compresor en condiciones malas. A veces, después de muchas veces, parece que falta gas cuando en realidad el problema sigue siendo el aire que no pasa.',
+                    'Por eso primero limpiamos y medimos; solo si falta gas se busca la fuga y se carga.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan equipos grandes?', 'a' => 'Sí.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Y al revés?', 'p' => [
                     'Un equipo chico de la casa puede no alcanzar para el taller. Antes de moverlo, calculamos si sirve para ese espacio.',
                     'Si no alcanza, te recomendamos qué equipo conviene.',
+                ]],
+                ['t' => '¿Qué hacer con el equipo si el taller cierra?', 'p' => [
+                    'Si el taller familiar cierra o cambia de uso, el equipo puede servir para la casa o para otro espacio. Se desinstala con el gas recuperado, se limpia a fondo y se evalúa si su capacidad sirve para el nuevo ambiente.',
+                    'Si es muy grande para un dormitorio, puede ir al living.',
                 ]],
             ],
             'faq' => [

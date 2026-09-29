@@ -40,6 +40,10 @@ return [
                     'Se lava el serpentín de cada condensadora con producto no ácido, se revisan tornillos, soportes y bornes, y se protegen los contactos. En equipos sanos se puede aplicar una protección para el serpentín.',
                     'Frente a la rambla, sin este lavado anual las condensadoras duran mucho menos.',
                 ]],
+                ['t' => '¿Qué pasa con los equipos de hoteles que abren solo en temporada?', 'p' => [
+                    'En los hoteles y apartamentos de alquiler de Piriápolis que cierran en invierno, los equipos pasan meses sin uso, expuestos a la humedad salina. Al abrir, la primera vez que se prenden todos juntos es cuando aparecen las fallas.',
+                    'Por eso la puesta a punto conviene hacerla antes de abrir, habitación por habitación, con tiempo para reparar lo que haga falta.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cuándo hacer la puesta a punto?', 'a' => 'Entre octubre y noviembre.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Cómo se prioriza en un hotel?', 'p' => [
                     'Con la lista de habitaciones con problemas, marca y modelo de cada equipo y el síntoma. Así el técnico lleva los repuestos y resuelve varias en una visita.',
                     'Tener equipos de la misma marca simplifica mucho las reparaciones.',
+                ]],
+                ['t' => '¿Qué conviene tener en un hotel para reparar más rápido?', 'p' => [
+                    'Un listado de habitaciones con marca, modelo y fecha de instalación de cada equipo, y algunos repuestos básicos (capacitores, controles remotos) si hay muchos equipos iguales. Con eso, varias fallas se resuelven en una sola visita.',
+                    'Te ayudamos a armar ese listado en la primera puesta a punto.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Vacío con bomba para sacar aire y humedad, carga del gas de la etiqueta pesado con balanza y prueba final con presiones.',
                     'Mejor antes de la temporada.',
                 ]],
+                ['t' => '¿Qué pasa con los equipos de los pisos altos frente al mar?', 'p' => [
+                    'En los pisos altos de los edificios de la rambla, el viento con sal pega más fuerte y constante que en la planta baja. Las condensadoras de esos pisos son las primeras en mostrar corrosión y fugas en el serpentín.',
+                    'Si administrás un edificio, conviene revisar primero esas unidades en cada service.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan equipos de hoteles?', 'a' => 'Sí, de todas las habitaciones.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Y si el edificio hace obras de fachada?', 'p' => [
                     'Se retiran las condensadoras durante la obra y se reinstalan al terminar, en los lugares que defina la administración.',
                     'Es el momento de cambiar las que ya estaban muy corroídas.',
+                ]],
+                ['t' => '¿Cómo se bajan condensadoras de pisos altos?', 'p' => [
+                    'En edificios con condensadoras en fachada de pisos altos, bajarlas requiere trabajo en altura o bajarlas por dentro si se alcanzan desde el balcón. Se recupera el gas antes y se asegura la unidad con cuerda.',
+                    'Se coordina con la administración el horario y el uso del ascensor.',
                 ]],
             ],
             'faq' => [

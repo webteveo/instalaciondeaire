@@ -40,6 +40,10 @@ return [
                     'Que la base siga firme y nivelada, que no haya perforado la impermeabilización, que la aislación de la cañería esté sana y que el serpentín esté limpio.',
                     'Después se mide el funcionamiento.',
                 ]],
+                ['t' => '¿Qué pasa con el polvo de la zona del Hipódromo?', 'p' => [
+                    'En las casas más cercanas al Hipódromo de Maroñas, los días de viento traen tierra y polvo fino que se deposita en todo lo que está afuera. La condensadora lo junta en las aletas y, si además está sobre un techo de bovedilla caliente, trabaja con menos margen.',
+                    'Un lavado del serpentín antes del verano y otro a mitad de temporada, si la unidad está muy expuesta, la mantienen rindiendo.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cuándo hacer el service?', 'a' => 'En primavera, antes de las noches calurosas.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Y si el compresor recalienta?', 'p' => [
                     'Puede ser por suciedad, falta de gas, un ventilador lento o un capacitor débil. Si se deja así, el compresor se daña.',
                     'El técnico mide y corrige la causa.',
+                ]],
+                ['t' => '¿Qué pasa si la condensadora está sobre un techo de bovedilla?', 'p' => [
+                    'Los techos de bovedilla transmiten mucho la vibración: una condensadora apoyada sin amortiguación hace que el ruido del compresor se escuche en el dormitorio de abajo como un zumbido constante.',
+                    'Cuando la queja es el ruido, se coloca la unidad sobre una base con gomas antivibratorias o se pasa a ménsulas en una pared. Casi siempre el ruido baja de forma notable.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Medición, búsqueda y reparación de la fuga, vacío con bomba y carga por peso del gas indicado en la etiqueta. Al final, prueba de funcionamiento.',
                     'El presupuesto detalla cada parte.',
                 ]],
+                ['t' => '¿Cuánto influye la falta de gas en un dormitorio bajo bovedilla?', 'p' => [
+                    'En un dormitorio que ya recibe el calor acumulado del techo toda la noche, un equipo con poco gas no llega nunca a la temperatura y trabaja hasta la madrugada sin cortar. Se nota en el descanso y en la factura.',
+                    'Por eso en esos ambientes conviene medir apenas se nota que el equipo rinde menos, antes de que el compresor sufra.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan gas en invierno?', 'a' => 'Sí, por peso.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Qué pasa con el equipo viejo si pongo uno nuevo?', 'p' => [
                     'Se desinstala con el gas recuperado. Si funciona, te lo dejamos desmontado para que lo uses en otro ambiente o lo vendas; si no, se puede retirar para desecho.',
                     'El nuevo se instala en el mismo lugar o en uno mejor.',
+                ]],
+                ['t' => '¿Qué hacer con las cooperativas de Parque Guaraní?', 'p' => [
+                    'En las cooperativas del barrio, antes de mover o retirar una condensadora de una fachada o espacio común, conviene avisar a la comisión. Algunas tienen un lugar definido para las unidades y prefieren que se mantenga ese orden.',
+                    'Se desinstala con el gas recuperado y, si se reinstala, se ubica donde indique la cooperativa.',
                 ]],
             ],
             'faq' => [

@@ -40,6 +40,10 @@ return [
                     'Filtros, evaporador, turbina y desagote adentro; serpentín y ventilador afuera, retirando polvo, restos vegetales y nidos.',
                     'Al final se mide el funcionamiento.',
                 ]],
+                ['t' => '¿Qué pasa con los equipos cerca de viñedos y huertas?', 'p' => [
+                    'En las chacras de Melilla y Lezica, las tareas del campo levantan polvo en ciertas épocas y los tratamientos de los cultivos dejan residuos en el aire. Todo eso termina pegado a las aletas de la condensadora, junto con restos vegetales y semillas.',
+                    'Conviene hacer el service después de las épocas de más movimiento en el campo y ubicar la unidad exterior del lado de la casa opuesto a los cultivos.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cada cuánto el service en una chacra?', 'a' => 'Una vez al año como mínimo, en primavera.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Qué hacer tras una tormenta?', 'p' => [
                     'Si el equipo no prende, cortá la llave, esperá y probá. Si sigue sin funcionar, puede ser el fusible o la placa.',
                     'Escribinos con la marca y el modelo.',
+                ]],
+                ['t' => '¿Qué conviene tener para no quedarse sin aire en la chacra?', 'p' => [
+                    'En una zona rural alejada, una falla puede tardar más en resolverse. Ayuda tener anotados la marca, el modelo y la fecha de instalación de cada equipo, y un protector de tensión para evitar las fallas más comunes por tormentas.',
+                    'Si el equipo falla, mandanos foto de la etiqueta y del display y un video corto: con eso llevamos el repuesto probable en la primera visita.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Se mide el recorrido y se agregan los gramos por metro que indica el fabricante. Después del vacío, se carga por peso.',
                     'Una carga bien ajustada hace rendir al equipo como corresponde.',
                 ]],
+                ['t' => '¿Qué pasa con las cañerías expuestas en construcciones rurales?', 'p' => [
+                    'En casas de chacra, la cañería a veces recorre galerías, aleros o paredes exteriores largas antes de llegar a la condensadora. Esos tramos reciben sol, lluvia, golpes de herramientas y, en algunos casos, mordidas de roedores en la aislación.',
+                    'Al buscar una fuga, revisamos todo el recorrido. Los tramos dañados se reemplazan y se protegen con canaleta.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan equipos grandes?', 'a' => 'Sí, de todos los tamaños.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Cómo se guarda?', 'p' => [
                     'En un lugar seco, con las conexiones tapadas y lejos de roedores.',
                     'Antes de reinstalar, se revisa.',
+                ]],
+                ['t' => '¿Qué hacer con los equipos si la chacra se alquila o se vende?', 'p' => [
+                    'Si la chacra cambia de manos, conviene definir qué equipos quedan y cuáles se van. Los que se llevan se desinstalan con el gas recuperado; los que quedan se entregan con un service hecho y la térmica identificada en el tablero.',
+                    'En construcciones rurales, al retirar un equipo conviene sellar bien el paso de pared para que no entren insectos.',
                 ]],
             ],
             'faq' => [

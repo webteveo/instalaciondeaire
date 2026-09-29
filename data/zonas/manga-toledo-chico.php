@@ -40,6 +40,10 @@ return [
                     'Se pega al serpentín de la condensadora y reduce el rendimiento. Se lava con agua suave y producto adecuado.',
                     'Ubicar la condensadora del lado opuesto al camino ayuda.',
                 ]],
+                ['t' => '¿Qué conviene hacer al abrir la casa de campo en primavera?', 'p' => [
+                    'Si la casa de Toledo Chico se usa más en verano, antes de prender el aire después del invierno revisá que no haya nidos en la condensadora, que el ventilador gire libre con la mano (con la llave cortada) y que la unidad interior no huela a humedad.',
+                    'Si notás algo raro, mejor el service antes de encenderlo: un nido en la caja eléctrica puede provocar un cortocircuito al primer arranque.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cuándo hacer el service?', 'a' => 'Antes de volver a usar el equipo después de meses parado, o en primavera.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Y después de una tormenta?', 'p' => [
                     'Lo más común es la placa electrónica o su fusible. A veces solo el fusible, que es simple de cambiar.',
                     'Un protector de tensión evita que se repita.',
+                ]],
+                ['t' => '¿Qué pasa con los equipos después de una tormenta eléctrica?', 'p' => [
+                    'En zonas rurales, los rayos cercanos generan picos en la línea que pueden dañar placas aunque el equipo esté apagado, si la llave quedó conectada. Por eso, en las tormentas fuertes, conviene cortar la llave del aire.',
+                    'Si el equipo ya no prende, lo más común es la placa o su fusible; con la marca y el modelo, llevamos el repuesto.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Búsqueda y reparación de la fuga, vacío con bomba, carga del gas de la etiqueta pesado con balanza y prueba final.',
                     'El presupuesto separa cada parte.',
                 ]],
+                ['t' => '¿Qué pasa si el equipo estuvo meses sin uso?', 'p' => [
+                    'Un equipo parado no pierde gas por estar parado, pero si ya tenía una fuga lenta, en meses sin uso puede haber perdido toda la carga sin que nadie lo note. Al prenderlo en primavera, no enfría.',
+                    'Se mide, se busca la fuga, se repara y se carga. Si el compresor se hizo funcionar sin gas, se revisa que no se haya dañado.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cada cuánto hay que cargar gas?', 'a' => 'Nunca, si no hay fugas. Si falta todos los años, hay una pérdida sin reparar.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Se puede llevar el equipo a la ciudad?', 'p' => [
                     'Sí, bien desinstalado. En la nueva casa se instala con cañería a medida.',
                     'Trabajamos en Montevideo y en las zonas de Canelones y Maldonado que cubrimos.',
+                ]],
+                ['t' => '¿Conviene retirar el aire si la casa queda deshabitada?', 'p' => [
+                    'Si la casa de campo va a quedar mucho tiempo sin uso, retirar la unidad exterior evita robos y daños por animales o tormentas. Se desinstala con el gas recuperado y se guarda en un lugar seco y cerrado.',
+                    'Cuando se vuelve a habitar, se reinstala y se hace un service antes de usarlo.',
                 ]],
             ],
             'faq' => [

@@ -82,6 +82,10 @@ return [
                     'Búsqueda de la fuga con detector, espuma o nitrógeno; reparación; vacío con bomba; carga del gas de la etiqueta pesado con balanza; prueba final.',
                     'El presupuesto separa cada parte.',
                 ]],
+                ['t' => '¿Qué pasa con las cañerías largas en terrenos grandes?', 'p' => [
+                    'En Punta de Rieles y Bella Italia, a veces la condensadora se ubicó lejos del ambiente para alejarla del polvo del camino. El recorrido largo pide más gas que la carga de fábrica, y si no se ajustó, el equipo quedó corto desde el primer verano.',
+                    'Al hacer la carga, medimos el recorrido real y agregamos el gas por metro que indica el fabricante.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan gas sin buscar la fuga?', 'a' => 'No.'],

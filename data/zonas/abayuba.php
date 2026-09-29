@@ -10,9 +10,9 @@ return [
             'Se puede, dejando espacio para acceder al tanque para limpiarlo y sobre una base que no perfore la membrana. Hay que evitar que el aire caliente de la condensadora pegue directo sobre el tanque: calienta el agua.',
             'Si hay lugar en el patio o una pared lateral a la sombra, suele ser mejor opción.',
         ]],
-        ['t' => '¿Cómo se instala en una cooperativa?', 'p' => [
-            'Las cooperativas suelen tener reglas sobre fachadas y espacios comunes. Consultá con la comisión antes de instalar si la unidad va a quedar a la vista.',
-            'En viviendas con patio propio, la condensadora va al fondo sin afectar a nadie.',
+        ['t' => '¿Qué conviene en las viviendas de cooperativa de Abayubá?', 'p' => [
+            'En los conjuntos cooperativos del barrio, las viviendas suelen repetirse con la misma fachada, y muchas comisiones prefieren que todas las condensadoras vayan en el mismo lugar (por ejemplo, en la pared del fondo) para mantener el orden del conjunto. Preguntá si ya hay un criterio antes de elegir dónde va la tuya.',
+            'Si sos de los primeros en instalar, podés proponer vos la ubicación a la comisión: una pared a la sombra, con salida fácil para el desagote, sirve para todas las viviendas iguales.',
         ]],
         ['t' => '¿Qué equipo conviene?', 'p' => [
             'Para dormitorios de 9 a 12 m², 2.250 frigorías; para un living de 20 m², 3.000. Bajo losa al sol sin aislación, un escalón más.',

@@ -103,6 +103,10 @@ return [
                     'Muchos edificios de los años 30 no tienen ascensor o es muy chico. La condensadora se baja por la escalera entre dos personas, protegida para no golpear paredes ni barandas.',
                     'Avisanos si no hay ascensor para ir preparados.',
                 ]],
+                ['t' => '¿Qué pasa si el equipo está en un balcón con baranda original?', 'p' => [
+                    'En los edificios de los años 30 del barrio, las barandas de los balcones son parte del valor del edificio. Si la condensadora estaba fijada a la baranda, al retirarla hay que tener cuidado de no dañarla y de tapar bien los agujeros de las fijaciones.',
+                    'Si se reinstala un equipo, conviene apoyarlo en el piso del balcón sobre una base, en lugar de colgarlo de la baranda.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Reinstalan el equipo en el contrafrente?', 'a' => 'Sí, con el tramo de cañería que haga falta.'],

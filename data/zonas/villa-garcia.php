@@ -40,6 +40,10 @@ return [
                     'Los picos de tensión dejan marcas: contactos picados, capacitores debilitados, bornes flojos. Revisándolos en el service se evita una falla en pleno verano.',
                     'Si no tenés protector de tensión, te recomendamos colocarlo.',
                 ]],
+                ['t' => '¿Qué pasa con el polvo de la ruta 8?', 'p' => [
+                    'En las casas y quintas cercanas a la ruta 8, el tránsito pesado levanta polvo y hollín que llegan a las condensadoras, sobre todo si están del lado de la ruta. Se forma una capa grasa difícil de sacar.',
+                    'En el service usamos limpiador desengrasante y, si la unidad está muy expuesta, te sugerimos moverla al otro lado de la casa.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cada cuánto el service en el campo?', 'a' => 'Una vez al año como mínimo.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Y si el compresor no arranca?', 'p' => [
                     'Puede ser el capacitor, el contactor, tensión baja o el propio compresor. Con la tensión baja de líneas largas, el compresor arranca con esfuerzo y termina fallando.',
                     'Se mide todo antes de cambiar piezas.',
+                ]],
+                ['t' => '¿Qué conviene tener si hay cortes de luz frecuentes?', 'p' => [
+                    'En zonas rurales con cortes frecuentes, además del protector de tensión conviene no dejar el aire funcionando en ausencia durante tormentas: si vuelve la luz con un pico, el equipo arranca en malas condiciones.',
+                    'Si el equipo tiene función de reinicio automático, se puede desactivar para que no arranque solo después de un corte.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'En conexiones, empalmes y tramos expuestos. En zonas rurales, también en tramos que pudieron ser mordidos por roedores o golpeados.',
                     'Se usa detector, espuma y nitrógeno.',
                 ]],
+                ['t' => '¿Qué pasa si la cañería pasa por un galpón o una galería?', 'p' => [
+                    'En quintas, a veces la cañería recorre una galería o un galpón donde se guardan herramientas o se mueven vehículos. Un golpe puede aplastar o fisurar el caño y provocar una fuga.',
+                    'Al reparar, protegemos el tramo con canaleta metálica o lo llevamos por un recorrido más alto.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Los roedores pueden dañar la cañería?', 'a' => 'Pueden romper la aislación y, a veces, cables. Conviene proteger los tramos bajos.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Qué queda en la casa?', 'p' => [
                     'El paso de la pared y el soporte. El sellado se acuerda en el presupuesto.',
                     'Si hay protector de tensión, se puede llevar con el equipo.',
+                ]],
+                ['t' => '¿Conviene desinstalar el aire si la quinta queda sola en invierno?', 'p' => [
+                    'Si la casa queda deshabitada varios meses, retirar la condensadora evita daños por tormentas, animales o robos. Se desinstala con el gas recuperado y se guarda en un lugar cerrado.',
+                    'En primavera se reinstala con un service antes de usarlo.',
                 ]],
             ],
             'faq' => [

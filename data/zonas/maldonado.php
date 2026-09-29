@@ -40,6 +40,10 @@ return [
                     'Limpieza completa de filtros, evaporador, turbina y desagote, lavado de la condensadora y control de presiones. Conviene hacerlo en octubre o noviembre, antes de que la temporada llene las agendas.',
                     'Para comercios, antes de diciembre sin falta.',
                 ]],
+                ['t' => '¿Por qué hacer el service antes de que empiece la temporada?', 'p' => [
+                    'En la ciudad de Maldonado, los técnicos de la zona tienen mucha más demanda en diciembre y enero por las casas de temporada de Punta del Este. Si tu equipo es de uso permanente, conviene hacerle el service en octubre o noviembre, cuando hay más disponibilidad.',
+                    'Así, si aparece algo para reparar, se resuelve sin la presión de la temporada.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cuándo hacer el service?', 'a' => 'En otoño y en primavera si el equipo se usa todo el año.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Qué falla en equipos de comercios?', 'p' => [
                     'Capacitores y contactores por los arranques frecuentes, ventiladores y desagotes. Son reparaciones rápidas si hay repuesto.',
                     'Mandanos fotos de la etiqueta para ir con el repuesto probable.',
+                ]],
+                ['t' => '¿Qué pasa con los equipos de los apartamentos nuevos?', 'p' => [
+                    'En los edificios nuevos entre Maldonado y Punta del Este, las fallas del primer año suelen venir de la instalación: conexiones de la preinstalación que pierden, desagotes sin pendiente o equipos más grandes de lo que permite el nicho.',
+                    'Con nuestro diagnóstico por escrito podés reclamar a quien corresponda lo que sea de la obra.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Búsqueda de la fuga con detector, espuma o nitrógeno; reparación; vacío con bomba; carga del gas de la etiqueta pesado con balanza; prueba final.',
                     'Te pasamos el presupuesto antes de empezar.',
                 ]],
+                ['t' => '¿Afecta el salitre a los equipos de la ciudad de Maldonado?', 'p' => [
+                    'Menos que en Punta del Este, pero en los barrios más cercanos a la costa y a la laguna del Diario hay algo de humedad salina. En equipos con varios años, las conexiones y el serpentín pueden mostrar corrosión leve.',
+                    'Si al cargar encontramos corrosión incipiente, te recomendamos protegerla para que no avance.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan gas en invierno?', 'a' => 'Sí, por peso, que es el método correcto en cualquier estación.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Conviene reemplazar un equipo viejo?', 'p' => [
                     'Si es on/off o usa R22, un inverter nuevo consume bastante menos, sobre todo si se usa todo el año. Se desinstala el viejo con el gas recuperado y se instala el nuevo.',
                     'El viejo se puede dejar desmontado o retirar para desecho.',
+                ]],
+                ['t' => '¿Qué pasa si te mudás de Maldonado a Punta del Este o al revés?', 'p' => [
+                    'Es una mudanza corta pero con un cambio importante: un equipo que funcionaba bien en el centro de Maldonado, lejos del mar, puede sufrir el salitre en un apartamento frente a la Brava. Antes de reinstalarlo, conviene evaluar si vale la pena protegerlo o si conviene uno con tratamiento anticorrosivo.',
+                    'Lo desinstalamos con el gas recuperado y te asesoramos sobre la nueva ubicación.',
                 ]],
             ],
             'faq' => [

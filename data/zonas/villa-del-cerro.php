@@ -61,6 +61,10 @@ return [
                     'Se limpia o se cambia el terminal, se ajusta la conexión y se protege la bornera. Si el cable se recalentó, se cambia el tramo.',
                     'Un borne sulfatado provoca cortes intermitentes y puede quemar la placa si no se corrige.',
                 ]],
+                ['t' => '¿Qué pasa con los equipos en las casas más antiguas del Cerro?', 'p' => [
+                    'En las casas de principios del siglo pasado de la Villa del Cerro, los muros son de ladrillo macizo y la instalación eléctrica suele tener partes muy viejas. Muchas fallas de los equipos vienen de ahí: tensión baja, empalmes flojos y térmicas que no corresponden.',
+                    'Se mide la instalación y, además de reparar el equipo, se recomienda la línea dedicada.',
+                ]],
             ],
             'faq' => [
                 ['q' => 'Un temporal movió la condensadora, ¿qué hago?', 'a' => 'Apagá el equipo y escribinos: hay que revisar soporte, conexiones y si perdió gas.'],
@@ -82,6 +86,10 @@ return [
                     'Medición, búsqueda y reparación de la fuga, vacío con bomba para sacar aire y humedad, carga del gas de la etiqueta pesado con balanza y prueba final.',
                     'Te pasamos el presupuesto antes de empezar.',
                 ]],
+                ['t' => '¿Qué pasa con los equipos que miran a la bahía?', 'p' => [
+                    'Las casas del Cerro que miran hacia la bahía reciben un viento cargado de humedad salina que ataca el serpentín por el lado que queda de frente. La corrosión suele empezar en esa cara de la condensadora.',
+                    'Al buscar la fuga revisamos especialmente ese lado, y al reinstalar o reparar conviene girar la unidad para que no quede tan expuesta.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Reparan serpentines corroídos?', 'a' => 'Si la corrosión es puntual, sí. Si está repartida, recomendamos cambiar la unidad.'],
@@ -102,6 +110,10 @@ return [
                 ['t' => '¿Y en una mudanza?', 'p' => [
                     'Se desinstala con el gas recuperado y las conexiones tapadas. Si el equipo tiene corrosión avanzada, conviene evaluar si vale la pena reinstalarlo.',
                     'En la nueva casa se instala con cañería a medida.',
+                ]],
+                ['t' => '¿Qué hacer con el equipo si se reforma la fachada de la casa?', 'p' => [
+                    'Si vas a revocar o pintar la fachada del lado de la bahía, conviene retirar la condensadora antes. Es también el momento de decidir si vuelve al mismo lugar o a uno más protegido del viento y la sal.',
+                    'Se desinstala con el gas recuperado y se reinstala al terminar la obra.',
                 ]],
             ],
             'faq' => [

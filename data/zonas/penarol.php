@@ -40,6 +40,10 @@ return [
                     'En primavera, antes del calor. Si el equipo calefacciona en invierno, también en otoño.',
                     'Entre services, lavá los filtros cada dos a cuatro semanas de uso.',
                 ]],
+                ['t' => '¿Qué pasa con el hollín de las vías y los talleres?', 'p' => [
+                    'En la zona de los viejos talleres del ferrocarril y las calles con más tránsito pesado, el hollín se deposita en las condensadoras y forma una capa grasa que el agua sola no saca.',
+                    'En el service de esas casas usamos limpiador desengrasante apto para serpentines de aluminio y enjuagamos bien.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cuánto dura el service?', 'a' => 'Alrededor de una hora por equipo.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Qué fallas son más comunes?', 'p' => [
                     'Capacitores agotados, desagotes tapados, sensores que miden mal y placas dañadas por cortes de luz.',
                     'Con fotos de la etiqueta y el display, el técnico anticipa la falla.',
+                ]],
+                ['t' => '¿Qué pasa con los equipos en casas de muros muy gruesos?', 'p' => [
+                    'En las casas históricas de Peñarol, los muros de ladrillo macizo son muy gruesos. Si al instalar se hizo una perforación angosta, la cañería puede quedar apretada o con una curva forzada dentro del muro, y eso afecta el paso del gas o del agua de desagote.',
+                    'Si el equipo gotea o rinde menos y el problema está en el paso del muro, se agranda la perforación con herramienta adecuada y se rehace el tramo.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'En conexiones, empalmes del recorrido largo o tramos expuestos. Se busca con detector, espuma y nitrógeno.',
                     'Después, vacío y carga por peso.',
                 ]],
+                ['t' => '¿Por qué los equipos de casas históricas tienen recorridos largos?', 'p' => [
+                    'Para no tocar las fachadas de ladrillo visto, muchas instalaciones del barrio llevan la cañería por el fondo, por patios o por dentro de la casa. Esos recorridos largos piden más gas que la carga de fábrica.',
+                    'Si la carga no se ajustó al instalar, el equipo nunca rindió bien. Se corrige al hacer la carga.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Mi equipo nunca enfrió bien, puede ser el gas?', 'a' => 'Si la cañería es larga y no se agregó gas, puede ser. Se confirma midiendo.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Y en una mudanza?', 'p' => [
                     'Se desinstala con el gas recuperado y las conexiones tapadas, listo para instalar en la nueva casa.',
                     'La cañería se hace nueva a medida.',
+                ]],
+                ['t' => '¿Qué pasa con el equipo en una restauración patrimonial?', 'p' => [
+                    'En restauraciones de casas del barrio histórico, a veces se pide retirar todo elemento agregado de la fachada. Se desinstala el equipo con el gas recuperado, se retiran ménsulas y canaletas, y los agujeros quedan para que la restauración los repare con el material original.',
+                    'El equipo se reinstala en el fondo o un patio, fuera de la vista desde la calle.',
                 ]],
             ],
             'faq' => [

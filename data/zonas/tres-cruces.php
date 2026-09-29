@@ -82,6 +82,10 @@ return [
                     'En instalaciones viejas, las fugas suelen estar en tuercas de conexión reajustadas muchas veces, en tramos de cañería a la vista golpeados o en el serpentín de equipos con años.',
                     'Si el equipo usa R22, se evalúa la conveniencia de cargarlo o reemplazarlo.',
                 ]],
+                ['t' => '¿Qué pasa con los equipos de oficinas cerca de la terminal?', 'p' => [
+                    'En las oficinas de Tres Cruces que funcionan todo el día, un equipo con poco gas no llega a la temperatura y trabaja al máximo sin parar. Muchas veces nadie lo nota hasta que el ambiente ya está caluroso a media tarde.',
+                    'Una medición en el mantenimiento periódico detecta la fuga a tiempo, cuando repararla es más simple.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cuánto tarda una carga de gas?', 'a' => 'La carga con vacío lleva alrededor de una hora; buscar la fuga puede llevar más.'],
@@ -102,6 +106,10 @@ return [
                 ['t' => '¿Cómo queda la pared después?', 'p' => [
                     'Queda el paso de la cañería y las perforaciones de las ménsulas. El sellado del paso se acuerda en el presupuesto.',
                     'En torres con preinstalación, la cañería empotrada queda tapada para el próximo equipo.',
+                ]],
+                ['t' => '¿Qué pasa si el edificio sobre la avenida renueva la fachada?', 'p' => [
+                    'Los edificios sobre Bulevar Artigas y 8 de Octubre renuevan fachadas cada tanto y piden retirar las condensadoras colgadas del frente. Se desinstalan con el gas recuperado y se reinstalan al terminar, a veces en otro lugar que defina la administración.',
+                    'Si varias unidades del edificio lo necesitan, se coordina todo junto.',
                 ]],
             ],
             'faq' => [

@@ -40,6 +40,10 @@ return [
                     'Favorece hongos en el evaporador y la turbina, que se notan como olor a humedad al prender. Se limpian con producto específico.',
                     'Dejar el equipo en ventilación antes de apagarlo ayuda.',
                 ]],
+                ['t' => '¿Cuánto influye la orientación en el consumo?', 'p' => [
+                    'En una casa en esquina de Paso de las Duranas, el ambiente con ventanas al oeste puede consumir bastante más en aire que uno igual al este, porque el equipo pelea contra el sol de la tarde. Si además está sucio, la diferencia crece.',
+                    'Con el equipo limpio y una cortina o toldo en esas ventanas, el consumo baja. En el service medimos el consumo y te decimos si vale la pena alguna de esas mejoras.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cada cuánto el service?', 'a' => 'Una vez al año, en primavera.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Se puede mejorar sin cambiar el equipo?', 'p' => [
                     'Sí: cortinas o toldos en las ventanas al oeste, mover la condensadora a la sombra y mantener el equipo limpio.',
                     'Con eso muchas veces alcanza.',
+                ]],
+                ['t' => '¿Qué pasa si la condensadora gotea a la vereda?', 'p' => [
+                    'En casas en esquina con la condensadora en una de las fachadas, el agua de desagote a veces cae directo a la vereda. Además de molestar a los peatones, con el tiempo mancha la pared y puede generar un reclamo.',
+                    'Se reconduce la manguera a un desagüe o bajada, o se lleva por dentro de la casa hasta el patio.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Reparación de la fuga, vacío con bomba, carga por peso y prueba final midiendo presiones.',
                     'El presupuesto separa cada parte.',
                 ]],
+                ['t' => '¿Qué pasa con las fugas en equipos cerca del arroyo?', 'p' => [
+                    'En las casas más cercanas al Miguelete, la humedad hace que las tuercas de conexión se oxiden con los años. Una conexión oxidada puede empezar a perder gas aunque nadie la haya tocado.',
+                    'Al reparar, se cambian tuercas oxidadas, se rehace el abocardado y se protege la unión.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan R32?', 'a' => 'Sí, y también R410A.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Y en una mudanza?', 'p' => [
                     'Se desinstala con el gas recuperado y las conexiones tapadas, listo para instalar en la nueva casa.',
                     'La cañería nueva se hace a medida del nuevo recorrido.',
+                ]],
+                ['t' => '¿Conviene mover el equipo de la fachada oeste?', 'p' => [
+                    'Si la condensadora quedó en la fachada que recibe el sol de la tarde, pasarla a la fachada este o al fondo mejora el rendimiento en las horas de más uso. Se recupera el gas, se mueve y se ajusta la cañería.',
+                    'Si el recorrido es más largo, se agrega el gas que corresponde.',
                 ]],
             ],
             'faq' => [
