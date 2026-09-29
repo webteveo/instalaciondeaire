@@ -35,7 +35,7 @@ $faq_items = $landing['faq'];
 $faq_lead  = 'Preguntas sobre ' . mb_strtolower($S) . ' en ' . $Z . '.';
 $chTitulo  = $S . ' en ' . $Z . ': pedí presupuesto';
 $chMicro   = '';
-$chLead    = 'Escribinos por WhatsApp con la marca del equipo y qué necesitás. Te responde el técnico que atiende ' . $Z . '.';
+$chLead    = '';
 
 $page_preload_images = [['href' => $ruta . '/images/hero/hero-mobile-720.webp', 'media' => '(max-width: 600px)'], ['href' => $ruta . '/images/hero/hero-desktop.webp', 'media' => '(min-width: 601px)']];
 require 'src/vista/partials/head.php';

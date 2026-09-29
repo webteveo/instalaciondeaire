@@ -26,7 +26,7 @@ $chBarrioPre   = $chBarrioPre   ?? ($landing['zona_nombre'] ?? '');
 
       <div class="contacto-home__main">
         <h2 class="contacto-home__title" id="contacto-home-titulo"><?= htmlspecialchars($chTitulo) ?></h2>
-        <p class="contacto-home__lead"><?= htmlspecialchars($chLead) ?></p>
+        <?php if ($chLead): ?><p class="contacto-home__lead"><?= htmlspecialchars($chLead) ?></p><?php endif; ?>
 
         <a href="<?= htmlspecialchars(wsp_href($chCtaMsg)) ?>" class="contacto-home__wa" target="_blank" rel="noopener"<?= cta_track() ?> data-track="whatsapp_contacto_home">
           <i class="ri-whatsapp-line" aria-hidden="true"></i>
