@@ -2,7 +2,8 @@
 <?php
 require_once 'src/controlador/Local_Controller.php';
 $footerServicios = Local_Controller::servicios();
-$footerZonas     = Local_Datos::ZONAS;
+// Sin mega-footer: las zonas mas buscadas + el indice completo en /zonas
+$footerZonas     = array_intersect_key(Local_Datos::zonasPublicadas(), array_flip(['pocitos', 'punta-carretas', 'cordon', 'centro', 'malvin', 'carrasco', 'prado', 'ciudad-de-la-costa', 'punta-del-este']));
 $footerCta       = $page_cta_message ?? CONTACTO_WHATSAPP_MENSAJE;
 $footerCtaLabel  = $page_cta_label ?? CTA_WHATSAPP_LABEL;
 ?>
@@ -40,7 +41,7 @@ $footerCtaLabel  = $page_cta_label ?? CTA_WHATSAPP_LABEL;
           <?php foreach ($footerZonas as $fz => $fzD): ?>
           <li><a href="<?= $url ?>zonas/<?= $fz ?>">Aire acondicionado en <?= htmlspecialchars($fzD['nombre']) ?></a></li>
           <?php endforeach; ?>
-          <li><a href="<?= $url ?>zonas">Todas las zonas</a></li>
+          <li><a href="<?= $url ?>zonas">Todos los barrios y zonas</a></li>
         </ul>
       </div>
 

@@ -17,7 +17,8 @@ $page_schema_blocks = [[
   ],
 ]];
 
-$zDeptos = Local_Datos::zonasPorDepto();
+$zDeptos = [];
+foreach (Local_Datos::zonasPorRegion() as $zR => $zL) $zDeptos[Local_Datos::REGIONES[$zR]] = $zL;
 $zTipo = ['apartamentos' => 'Edificios: condensadora en balcón o fachada', 'casas' => 'Casas: más libertad para ubicar la condensadora', 'mixto' => 'Casas y apartamentos'];
 
 require 'src/vista/partials/head.php';

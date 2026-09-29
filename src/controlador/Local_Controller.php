@@ -113,53 +113,78 @@ class Local_Controller extends Controlador
         return ['@context' => 'https://schema.org', '@type' => 'FAQPage', 'mainEntity' => $items];
     }
 
-    // ── FASE 2: SERVICIO x ZONA (/{servicio}/{zona}) ─────────────────────────
+    // ── SERVICIO x ZONA (/{servicio}/{zona}) ─────────────────────────────────
 
-    /** URLs de la Fase 2 (para sitemap y links). Vacio si esta apagada. */
+    /** URLs servicio x zona publicadas (para sitemap y links). */
     public static function fase2Urls(): array
     {
         if (!Local_Datos::FASE2_ACTIVA) return [];
         $out = [];
         foreach (array_keys(Local_Datos::FASE2_SERVICIOS) as $s) {
-            foreach (array_keys(Local_Datos::zonasFase2()) as $z) $out[] = '/' . $s . '/' . $z;
+            foreach (array_keys(Local_Datos::zonasDeServicio($s)) as $z) $out[] = '/' . $s . '/' . $z;
         }
         return $out;
     }
 
     /**
-     * Landing servicio x zona. Toma el archivo del servicio (la home usa data/servicios/_instalacion.php),
-     * reemplaza H1, meta, CTA y FAQ por versiones con la zona, y suma los bloques propios del barrio.
+     * Landing servicio x zona (/mantenimiento/pocitos). Todo el texto sale de data/zonas/{zona}.php['servicios'][servicio];
+     * del archivo del servicio pilar se toman solo la lista de lo que incluye, el mensaje de WhatsApp y el nombre para el formulario.
      */
     public function servicioZona(string $servicio, string $zona): void
     {
-        if (!Local_Datos::FASE2_ACTIVA || !isset(Local_Datos::FASE2_SERVICIOS[$servicio]) || !isset(Local_Datos::zonasFase2()[$zona])) {
+        if (!Local_Datos::servicioZonaPublicado($servicio, $zona)) {
             \benjamin\plantillaweb\libs\App::error404();
         }
         $z    = Local_Datos::ZONAS[$zona];
         $Z    = $z['nombre'];
-        $base = $servicio === Local_Datos::SERVICIO_HOME ? self::servicio('_instalacion') : self::servicio($servicio);
-        if (!$base) \benjamin\plantillaweb\libs\App::error404();
+        $base = self::servicio($servicio) ?? [];
+        $c    = Local_Datos::contenido($zona)['servicios'][$servicio];
+        $S    = Local_Datos::FASE2_SERVICIOS[$servicio];
 
-        $S = Local_Datos::FASE2_SERVICIOS[$servicio];
-        $l = $base;
-        $l['slug']        = $servicio . '/' . $zona;
-        $l['path']        = '/' . $servicio . '/' . $zona;
-        $l['h1']          = $S . ' en ' . $Z;
-        $l['title']       = $S . ' en ' . $Z . ' | ' . EMPRESA_NOMBRE;
-        $l['description'] = mb_substr($S . ' en ' . $Z . ', ' . $z['depto'] . '. ' . ($base['description_zona'] ?? $base['description']), 0, 158);
-        $l['eyebrow']     = 'Técnicos en ' . $Z . ', ' . Local_Datos::cercaTexto($zona);
-        $l['cta_message'] = str_replace('[Zona]', $Z, $base['cta_message_zona'] ?? ('Hola! Vengo de la web, quiero ' . mb_strtolower($S) . ' en [Zona].'));
-        $l['track']       = 'servicio-zona';
-        $l['track_zona']  = $zona;
-        $l['areas']       = $z['areas'];
-        $l['zona']        = $zona;
-        $l['zona_nombre'] = $Z;
-        $l['zona_bloques'] = Zona_Texto::bloques($zona, $servicio);
-        $l['faq']         = array_merge(Zona_Texto::faq($zona, $servicio), array_slice($base['faq'] ?? [], 0, 3));
-        $l['migas']       = [
-            ['href' => $GLOBALS['url'], 'label' => 'Inicio'],
-            ['href' => $GLOBALS['url'] . 'zonas/' . $zona, 'label' => $Z],
-            ['label' => $l['h1']],
+        $otros = [];
+        foreach (Local_Datos::FASE2_SERVICIOS as $k => $n) {
+            if ($k !== $servicio && Local_Datos::servicioZonaPublicado($k, $zona)) $otros[$k] = $n;
+        }
+        $vecinos = [];
+        foreach (Local_Datos::linderas($zona) as $k => $n) {
+            if (Local_Datos::servicioZonaPublicado($servicio, $k)) $vecinos[$k] = $n;
+        }
+
+        $l = [
+            'slug'         => $servicio . '/' . $zona,
+            'path'         => '/' . $servicio . '/' . $zona,
+            'servicio'     => $servicio,
+            'servicio_nombre' => $S,
+            'h1'           => $c['h1'] ?? ($S . ' en ' . $Z),
+            'title'        => $c['title'],
+            'description'  => $c['description'],
+            'keywords'     => mb_strtolower($S) . ' ' . mb_strtolower($Z) . ', ' . mb_strtolower($S) . ' montevideo',
+            'eyebrow'      => $S . ' · ' . $Z,
+            'subtitle'     => $c['subtitulo'] ?? '',
+            'intro'        => $c['intro'] ?? '',
+            'bloques'      => $c['bloques'] ?? [],
+            'faq'          => $c['faq'] ?? [],
+            'incluye'      => $base['incluye'] ?? null,
+            'cta_label'    => $base['cta_label'] ?? CTA_WHATSAPP_LABEL,
+            'cta_message'  => str_replace('[Zona]', $Z, $base['cta_message_zona'] ?? ('Hola! Vengo de la web, necesito ' . mb_strtolower($S) . ' en [Zona].')),
+            'form_servicio' => $base['form_servicio'] ?? $S,
+            'track'        => 'servicio-zona',
+            'track_zona'   => $zona,
+            'areas'        => $z['areas'],
+            'service_type' => $S,
+            'zona'         => $zona,
+            'zona_nombre'  => $Z,
+            'zona_datos'   => $z,
+            'otros'        => $otros,
+            'vecinos'      => $vecinos,
+            'actualizado'  => date('Y-m-d', (int)filemtime('data/zonas/' . $zona . '.php')),
+            'migas'        => [
+                ['href' => $GLOBALS['url'], 'label' => 'Inicio'],
+                ['href' => $GLOBALS['url'] . $servicio, 'label' => $base['nombre_corto'] ?? Local_Datos::SERVICIOS[$servicio]['nombre']],
+                ['href' => $GLOBALS['url'] . 'zonas/' . $zona, 'label' => $Z],
+                ['label' => $S . ' en ' . $Z],
+            ],
+            'vista'        => 'local/servicio-zona',
         ];
         $this->renderServicio($l);
     }

@@ -64,7 +64,7 @@ require 'src/vista/partials/head.php';
     <?php $secciones = array_merge($landing['zona_bloques'] ?? [], $landing['secciones'] ?? []); if ($secciones) require 'src/vista/compact/secciones.php'; ?>
     <?php require 'src/vista/compact/pasos.php'; ?>
     <?php if (!empty($landing['testimonios'])) require 'src/vista/compact/testimonios.php'; ?>
-    <?php if (!isset($landing['zonas']) || $landing['zonas']) require 'src/vista/compact/zonas-home.php'; ?>
+    <?php if (isset(Local_Datos::FASE2_SERVICIOS[$landing['slug']]) && Local_Datos::zonasDeServicio($landing['slug'])) { require 'src/vista/compact/servicio-barrios.php'; } elseif (!isset($landing['zonas']) || $landing['zonas']) { require 'src/vista/compact/zonas-home.php'; } ?>
     <?php require 'src/vista/compact/faq.php'; ?>
     <?php require 'src/vista/compact/relacionados.php'; ?>
     <?php

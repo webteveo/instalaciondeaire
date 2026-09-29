@@ -3,7 +3,7 @@
 require_once 'src/controlador/Local_Controller.php';
 $stats_strip = $stats_strip ?? [
     ['n' => count(EMPRESA_ZONAS),                       'sup' => '',  'label' => 'Departamentos con técnicos'],
-    ['n' => count(Local_Datos::ZONAS),                  'sup' => '',  'label' => 'Zonas con página propia'],
+    ['n' => count(Local_Datos::zonasPublicadas()),                  'sup' => '',  'label' => 'Zonas con página propia'],
     ['n' => count(Local_Controller::servicios()) + 1,   'sup' => '',  'label' => 'Servicios de aire acondicionado'],
 ];
 ?>

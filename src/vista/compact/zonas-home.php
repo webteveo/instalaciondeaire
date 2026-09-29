@@ -1,7 +1,8 @@
 <!-- Zonas (bloque compacto): zonas con pagina propia, agrupadas por departamento -->
 <?php
 require_once 'src/controlador/Local_Controller.php';
-$zhDeptos  = Local_Datos::zonasPorDepto();
+$zhDeptos  = [];
+foreach (Local_Datos::zonasPorRegion() as $zhR => $zhL) $zhDeptos[Local_Datos::REGIONES[$zhR]] = $zhL;
 $zhActual  = $zhActual ?? ($landing['zona'] ?? '');
 $zhTitulo  = $zhTitulo ?? 'Zonas donde tenemos técnicos';
 $zhLead    = $zhLead   ?? 'Elegí tu zona y escribile al técnico que la atiende. Si tu barrio no está, escribinos igual: te confirmamos cobertura.';

@@ -9,7 +9,7 @@ $page_robots      = 'noindex, follow';
 
 $e404Servicios = Local_Controller::servicios();
 $e404Zonas     = [];
-foreach (Local_Datos::ZONAS as $e404K => $e404Z) $e404Zonas[$e404K] = $e404Z['nombre'];
+foreach (Local_Datos::zonasPublicadas() as $e404K => $e404Z) $e404Zonas[$e404K] = $e404Z['nombre'];
 asort($e404Zonas);
 
 require 'src/vista/partials/head.php';

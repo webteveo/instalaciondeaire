@@ -3,7 +3,7 @@
 require_once 'src/controlador/Local_Controller.php';
 $chServicios = ['Instalación de aire acondicionado'];
 foreach (Local_Controller::servicios() as $chK => $chN) if ($chK !== 'calculadora-frigorias') $chServicios[] = Local_Datos::SERVICIOS[$chK]['label'];
-$chZonas     = Local_Datos::ZONAS;
+$chZonas     = Local_Datos::zonasPublicadas();
 $chTitulo    = $chTitulo ?? 'Pedí tu presupuesto';
 $chLead      = $chLead   ?? 'Escribinos por WhatsApp y te responde el técnico de tu zona. Si preferís, dejá tus datos y te contactamos.';
 $chCtaMsg    = $page_cta_message ?? CONTACTO_WHATSAPP_MENSAJE;
@@ -32,7 +32,7 @@ $chBarrioPre   = $chBarrioPre   ?? ($landing['zona_nombre'] ?? '');
           <i class="ri-whatsapp-line" aria-hidden="true"></i>
           <?= htmlspecialchars($chCtaLabel) ?>
         </a>
-        <p class="contacto-home__micro"><?= htmlspecialchars(CTA_WHATSAPP_MICROCOPY) ?></p>
+        <?php $chMicro = $chMicro ?? CTA_WHATSAPP_MICROCOPY; if ($chMicro): ?><p class="contacto-home__micro"><?= htmlspecialchars($chMicro) ?></p><?php endif; ?>
 
         <ul class="contacto-home__datos" role="list">
           <?php if (CONTACTO_TELEFONO): ?>

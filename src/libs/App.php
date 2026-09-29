@@ -46,7 +46,7 @@ class App
       [$c, $m] = self::RUTAS_DINAMICAS[$seg0];
       $param = $seg1;
     } elseif ($seg1 !== null && !isset($url[2]) && self::esServicioZona($seg0, $seg1)) {
-      // Fase 2: /{servicio}/{zona} (ej. /apartamentos/pocitos). Solo con Local_Datos::FASE2_ACTIVA en true.
+      // Servicio x zona: /{servicio}/{zona} (ej. /mantenimiento/pocitos). Solo si la zona tiene el texto de ese servicio.
       [$c, $m] = ['Local', 'servicioZona'];
       $param = [$seg0, $seg1];
     } else {
@@ -126,9 +126,7 @@ class App
   {
     if (!preg_match('/^[a-z0-9-]+$/', $seg0) || !preg_match('/^[a-z0-9-]+$/', $seg1)) return false;
     require_once 'src/controlador/Local_Datos.php';
-    return \Local_Datos::FASE2_ACTIVA
-      && isset(\Local_Datos::FASE2_SERVICIOS[$seg0])
-      && isset(\Local_Datos::zonasFase2()[$seg1]);
+    return \Local_Datos::servicioZonaPublicado($seg0, $seg1);
   }
 
   public static function error404(): void

@@ -18,6 +18,7 @@ $base = ['config/variables.php', 'src/vista/partials/head.php', 'src/vista/parti
 $lastmodDe = function (string $path) use ($mod, $base): string {
     $p = trim($path, '/');
     if ($p === '') return $mod(array_merge($base, ['src/vista/index/index.php'], array_map(fn($x) => 'src/vista/compact/' . basename($x), glob(__DIR__ . '/src/vista/compact/*.php') ?: [])));
+    if (preg_match('#^(?:zonas|[a-z-]+)/([a-z0-9-]+)$#', $p, $zm) && is_file(__DIR__ . '/data/zonas/' . $zm[1] . '.php')) return $mod(array_merge($base, ['data/zonas/' . $zm[1] . '.php', 'src/vista/local/' . (str_starts_with($p, 'zonas/') ? 'zona' : 'servicio-zona') . '.php']));
     if (str_starts_with($p, 'zonas/') || $p === 'zonas') return $mod(array_merge($base, ['src/controlador/Local_Datos.php', 'src/controlador/Zona_Texto.php', 'src/vista/local/zona.php', 'src/vista/paginas/zonas.php']));
     if (is_file(__DIR__ . '/data/servicios/' . $p . '.php')) return $mod(array_merge($base, ['data/servicios/' . $p . '.php', 'src/vista/local/servicio.php']));
     $vistas = ['servicios' => 'paginas/servicios', 'como-funciona' => 'paginas/como-funciona', 'preguntas-frecuentes' => 'paginas/preguntas-frecuentes', 'contacto' => 'contacto/index'];
@@ -69,9 +70,9 @@ foreach (App::CONTROLADORES_RAIZ as $c) {
 }
 
 // Zonas
-foreach (array_keys(Local_Datos::ZONAS) as $z) $add('/zonas/' . $z, '0.8');
+foreach (array_keys(Local_Datos::zonasPublicadas()) as $z) $add('/zonas/' . $z, '0.8');
 
-// Fase 2: servicio x zona (vacio mientras Local_Datos::FASE2_ACTIVA sea false)
+// Servicio x zona: solo las que tienen su texto en data/zonas/{zona}.php
 foreach (Local_Controller::fase2Urls() as $p) $add($p, '0.7');
 
 echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";

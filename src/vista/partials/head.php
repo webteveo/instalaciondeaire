@@ -142,7 +142,7 @@ $page_type = $page_type ?? 'website';
     'knowsLanguage' => 'es',
     'areaServed'  => array_merge(
       array_map(fn($z) => ['@type' => 'AdministrativeArea', 'name' => $z, 'containedInPlace' => ['@type' => 'Country', 'name' => 'Uruguay']], EMPRESA_ZONAS),
-      array_map(fn($z) => ['@type' => 'Place', 'name' => $z['nombre'] . ', ' . $z['depto']], array_values(Local_Datos::ZONAS))
+      array_map(fn($z) => ['@type' => 'Place', 'name' => $z['nombre'] . ', ' . $z['depto']], array_values(Local_Datos::zonasPublicadas()))
     ),
     'serviceType' => EMPRESA_SERVICIOS_SCHEMA,
     // Sin direccion fisica: solo localidad y pais (negocio con area de servicio)

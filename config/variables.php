@@ -81,6 +81,14 @@ function cta_track(string $tipo = '', string $zona = ''): string
     return ' data-page-type="' . htmlspecialchars($tipo, ENT_QUOTES) . '"' . ($zona !== '' ? ' data-zona="' . htmlspecialchars($zona, ENT_QUOTES) . '"' : '');
 }
 
+/** "septiembre de 2026" a partir de una fecha Y-m-d (fechas visibles de actualizacion). */
+function mes_anio(string $ymd): string
+{
+    $meses = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+    $t = strtotime($ymd) ?: time();
+    return $meses[(int)date('n', $t) - 1] . ' de ' . date('Y', $t);
+}
+
 /** Cada vista declara su tipo de pagina y zona al inicio: cta_contexto('zona', 'pocitos'). Sin argumentos, devuelve el actual. */
 function cta_contexto(?string $tipo = null, string $zona = ''): array
 {
