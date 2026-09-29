@@ -6,7 +6,7 @@ Regla del proyecto: **no se borra, fusiona ni redirige ninguna página**. Todas 
 
 ## Veredicto
 
-Lo técnico está bien: las 47 URLs dan 200, hay un H1 por página, el canonical es correcto, el schema es válido y no tiene estrellas propias, el sitemap lleva `lastmod` e IndexNow está configurado. **El cuello de botella es el contenido de las 24 zonas.** Cada página de zona coincide entre 55 % y 85 % con otra, porque comparten los mismos bloques (pasos, qué incluye, tabla de frigorías, FAQ por atributo) y lo único propio es un párrafo de perfil. Eso es lo que Google filtra como *contenido escalado / doorway*. Lo segundo es la falta de señales de experiencia: no aparece quién atiende, no hay precios con fecha en las páginas de servicio, no hay trabajos ni reseñas, y los artículos no muestran fecha.
+Lo técnico está bien: las 47 URLs dan 200, hay un H1 por página, el canonical es correcto, el schema es válido y no tiene estrellas propias, el sitemap lleva `lastmod` e IndexNow está configurado. **El cuello de botella es el contenido de las 24 zonas.** Cada página de zona coincide entre 55 % y 85 % con otra, porque comparten los mismos bloques (pasos, qué incluye, tabla de frigorías, FAQ por atributo) y lo único propio es un párrafo de perfil. Eso es lo que Google filtra como *contenido escalado / doorway*. Lo segundo es la falta de señales de experiencia: no aparece quién atiende, no hay precios con fecha en las páginas de servicio, y no hay trabajos ni reseñas. (Corrección: los artículos sí muestran autor y fecha; el hallazgo original estaba mal.)
 
 ## Hallazgos del sitio, ordenados por impacto
 
@@ -16,7 +16,7 @@ Lo técnico está bien: las 47 URLs dan 200, hay un H1 por página, el canonical
 | No se sabe quién atiende: no hay operador, base, matrícula ni fotos propias (las fotos son de stock de Pexels) | RANKING / CONVERSIÓN | Alto | Bajo (depende del operador) | Bloque "Quién te atiende" con datos reales → **faltan datos del operador** (lista al final) |
 | Las páginas de servicio no tienen precio "desde" con fecha. El único precio está en un artículo | CONVERSIÓN / GEO | Alto | Bajo (depende del operador) | Tabla de precios con fecha y aclaración de IVA en home, split-inverter, mantenimiento, carga de gas, desinstalación |
 | Solo 0–2 de 12–15 H2 están en forma de pregunta en home y servicios, y pocas secciones abren con una respuesta directa | GEO | Medio-alto | Medio | Pasar los H2 a preguntas reales y abrir cada sección con 40–60 palabras que respondan solas |
-| Los 7 artículos no muestran fecha de publicación ni de actualización, ni autor | GEO / E-E-A-T | Medio | Bajo | "Última actualización: mes año · Por …" visible, y `dateModified` en el schema |
+| ~~Los 7 artículos no muestran fecha ni autor~~ Corregido: sí la muestran. Solo falta mantener `dateModified` al día cuando se edite | GEO / E-E-A-T | Bajo | Bajo | Actualizar la fecha al editar |
 | 25 de 47 descriptions superan los 150 caracteres. Las de zona son la misma frase con el nombre cambiado. 13 titles pasan de 58 | RANKING (CTR) | Medio | Bajo | Descriptions de 120–150 caracteres y titles de 45–58, con gancho propio por página |
 | Titles de zona con plantilla fija ("… - Presupuesto") y el de Centro dice "en Centro" | RANKING | Medio | Bajo | Gancho propio por zona dentro de 45–58 caracteres; "en el Centro" |
 | Los bloques "Cómo trabajamos" (4 pasos), "Qué incluye" y la tabla de frigorías se repiten en 28–36 páginas | RANKING | Medio | Medio | Dejarlos completos solo en home, `/como-funciona` y `/calculadora-frigorias`; en las demás, versión adaptada a esa página o un enlace |
@@ -37,13 +37,13 @@ Lo técnico está bien: las 47 URLs dan 200, hay un H1 por página, el canonical
 | `/preguntas-frecuentes` | preguntas instalación aire | 1179 | description de 160 car.; title de 60 car.; 2/9 H2 en pregunta | BAJA |
 | `/contacto` | (conversión) | 94 | description de 169 car. | BAJA |
 | `/articulos` | (índice de guías) | 257 | 45 % igual a `/articulos/por-que-el-aire-acondicionado-pierde-agua`; description de 190 car.; title de 60 car. | BAJA |
-| `/articulos/por-que-el-aire-acondicionado-pierde-agua` | por qué el aire acondicionado pierde agua | 1394 | title de 61 car.; sin fecha visible | MEDIA |
-| `/articulos/permisos-para-instalar-aire-acondicionado-montevideo` | permisos para instalar aire acondicionado en montevideo | 1212 | description de 152 car.; sin fecha visible | MEDIA |
-| `/articulos/inverter-vs-on-off-cual-conviene` | inverter vs on/off: cuál conviene | 1236 | title de 60 car.; sin fecha visible | MEDIA |
-| `/articulos/cuanto-cuesta-instalar-aire-acondicionado-uruguay` | cuánto cuesta instalar un aire acondicionado en uruguay (2026) | 1254 | description de 152 car.; title de 62 car.; sin fecha visible | MEDIA |
-| `/articulos/cuantas-frigorias-necesito-segun-los-m2` | cuántas frigorías necesito según los m² | 1300 | sin fecha visible | MEDIA |
-| `/articulos/cada-cuanto-hacer-service-aire-acondicionado` | cada cuánto hacer el service del aire acondicionado | 1181 | title de 59 car.; sin fecha visible | MEDIA |
-| `/articulos/aire-acondicionado-no-enfria` | mi aire acondicionado no enfría: causas y qué revisar | 1318 | sin fecha visible | MEDIA |
+| `/articulos/por-que-el-aire-acondicionado-pierde-agua` | por qué el aire acondicionado pierde agua | 1394 | title de 61 car. | MEDIA |
+| `/articulos/permisos-para-instalar-aire-acondicionado-montevideo` | permisos para instalar aire acondicionado en montevideo | 1212 | description de 152 car. | MEDIA |
+| `/articulos/inverter-vs-on-off-cual-conviene` | inverter vs on/off: cuál conviene | 1236 | title de 60 car. | MEDIA |
+| `/articulos/cuanto-cuesta-instalar-aire-acondicionado-uruguay` | cuánto cuesta instalar un aire acondicionado en uruguay (2026) | 1254 | description de 152 car.; title de 62 car. | MEDIA |
+| `/articulos/cuantas-frigorias-necesito-segun-los-m2` | cuántas frigorías necesito según los m² | 1300 | ok | MEDIA |
+| `/articulos/cada-cuanto-hacer-service-aire-acondicionado` | cada cuánto hacer el service del aire acondicionado | 1181 | title de 59 car. | MEDIA |
+| `/articulos/aire-acondicionado-no-enfria` | mi aire acondicionado no enfría: causas y qué revisar | 1318 | ok | MEDIA |
 | `/split-inverter` | instalación split inverter montevideo | 1264 | description de 164 car.; 1/15 H2 en pregunta | ALTA |
 | `/apartamentos` | instalar aire en apartamento | 1252 | description de 169 car.; 0/15 H2 en pregunta | ALTA |
 | `/mantenimiento` | service aire acondicionado montevideo | 1027 | description de 165 car.; 0/14 H2 en pregunta | ALTA |
@@ -87,6 +87,15 @@ Lo técnico está bien: las 47 URLs dan 200, hay un H1 por página, el canonical
 5. **Resto**: `/desinstalacion`, `/comercial`, `/preinstalacion`, `/calefaccion`, `/calculadora-frigorias`, `/servicios`, `/zonas`, `/articulos`, `/como-funciona`, `/preguntas-frecuentes`, `/contacto`, `robots.txt`.
 
 Control en cada tanda: 47 URLs en 200 sin errores de PHP, un H1, JSON-LD válido, similitud medida con el mismo script, linter en artículos.
+
+## Estado al cierre (29-sep-2026)
+
+- **388 URLs** en el sitemap, todas 200, un H1 por página, 0 titles y 0 descriptions repetidos (`python3 scripts/qa-seo.py`).
+- **72 zonas** (todos los barrios de Montevideo más localidades de Canelones y Maldonado), cada una con texto propio en `data/zonas/{slug}.php`.
+- **288 páginas servicio × barrio** (`/mantenimiento/{zona}`, `/reparacion/{zona}`, `/carga-de-gas/{zona}`, `/desinstalacion/{zona}`), cada una con título, intro, bloques y FAQ propios.
+- **4 servicios nuevos**: multi split, piso techo y cassette, instalación en altura y recambio de equipo.
+- Similitud: ninguna página de zona ni servicio × barrio supera 30 % contra otra (la mayoría queda por debajo de 15 %). Quedan 2 alertas aceptables: `/articulos` (32 %, lista los extractos) y la home (21 % contra `/split-inverter`).
+- Riesgo a vigilar: con 288 páginas por barrio, Search Console → Páginas. Si a 60 días más de 30 % queda en "Rastreada / Descubierta: actualmente sin indexar", frenar y reforzar esas páginas con datos reales (trabajos, fotos, reseñas).
 
 ## Datos que solo puede dar el operador
 

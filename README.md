@@ -42,6 +42,14 @@ Queda en **http://localhost:8000**. `router.php` replica las reglas de `.htacces
 | Artículos / guías | `data/articulos/YYYY-MM-DD-slug.php`. Hay 3 borradores con `'borrador' => true`: completar y quitar la marca para publicar |
 | Mensajes de WhatsApp por página | `cta_message` en cada `data/servicios/*.php`; zonas en `Zonas_Controller::ver()`; calculadora en el JS de su vista; header/footer usan `$page_cta_message` |
 
+## Arquitectura de contenido local
+
+- `src/controlador/Local_Datos.php`: lista de zonas (`ZONAS`), regiones, vecinos y servicios. Una zona se publica solo si existe `data/zonas/{slug}.php`.
+- `data/zonas/{slug}.php`: texto de la página `/zonas/{slug}` y, en `servicios`, el de cada página `/{servicio}/{slug}` (mantenimiento, reparación, carga de gas, desinstalación). Si falta el texto de un servicio, esa URL no existe.
+- `data/servicios/*.php`: páginas pilar de cada servicio, incluidas las nuevas (multi-split, piso-techo-y-cassette, instalacion-en-altura, recambio-de-equipo).
+- `sitemap.php` y `llms.php` se arman solos a partir de esos datos.
+- QA antes de cada push: `python3 scripts/qa-seo.py http://127.0.0.1:8000` (estado, H1, title/description, similitud entre páginas; requiere `pip install beautifulsoup4 lxml`).
+
 ## Sistemas
 
 - **Ruteo MVC** (`src/libs/App.php`): `/controlador/metodo`, páginas de un segmento (`Landings_Controller`: métodos públicos + servicios generados desde `data/servicios`), `/zonas/{slug}`, `/articulos/{slug}`, alias en `App::RUTAS` (`/servicios`) y Fase 2 `/{servicio}/{zona}`.
