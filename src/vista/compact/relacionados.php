@@ -33,6 +33,10 @@ $rlGuiasPorServicio = [
     'comercial'      => ['permisos-para-instalar-aire-acondicionado-montevideo'],
     'calefaccion'    => ['inverter-vs-on-off-cual-conviene'],
     'calculadora-frigorias' => ['cuantas-frigorias-necesito-segun-los-m2'],
+    'multi-split'    => ['cuantas-frigorias-necesito-segun-los-m2', 'inverter-vs-on-off-cual-conviene'],
+    'piso-techo-y-cassette' => ['cuantas-frigorias-necesito-segun-los-m2'],
+    'instalacion-en-altura' => ['permisos-para-instalar-aire-acondicionado-montevideo', 'cuanto-cuesta-instalar-aire-acondicionado-uruguay'],
+    'recambio-de-equipo' => ['inverter-vs-on-off-cual-conviene', 'cuanto-cuesta-instalar-aire-acondicionado-uruguay'],
 ];
 $rlGuias = $rlGuiasPorServicio[explode('/', $rlServicioActual)[0]] ?? ($rlZonaActual !== '' ? ['cuanto-cuesta-instalar-aire-acondicionado-uruguay', 'cada-cuanto-hacer-service-aire-acondicionado'] : []);
 $rlUtiles = [];

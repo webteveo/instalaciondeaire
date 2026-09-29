@@ -30,6 +30,10 @@ $svAlts = array (
   'preinstalacion' => 'Unidad exterior de aire acondicionado con escalera durante una obra',
   'calefaccion' => 'Dormitorio calefaccionado con un aire acondicionado split frío-calor',
   'calculadora-frigorias' => 'Ambiente luminoso con un aire acondicionado split en la pared',
+  'multi-split' => 'Varias unidades interiores de aire acondicionado conectadas a una condensadora',
+  'piso-techo-y-cassette' => 'Equipo de aire acondicionado de gran capacidad en un local',
+  'instalacion-en-altura' => 'Condensadora de aire acondicionado instalada en la fachada de un edificio',
+  'recambio-de-equipo' => 'Técnico retirando un aire acondicionado viejo para instalar uno nuevo',
 );
 $servicios_home = [['titulo' => 'Instalación de aire acondicionado', 'img' => 'instalacion.webp', 'alt' => $svAlts['instalacion'], 'srv' => '', 'href' => $url, 'btn' => 'Obtené tu presupuesto', 'wa_text' => CONTACTO_WHATSAPP_MENSAJE]];
 foreach (Local_Controller::servicios() as $svK => $svN) {

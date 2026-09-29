@@ -29,6 +29,10 @@ final class Local_Datos
         'comercial'            => ['nombre' => 'Oficinas y comercios',        'label' => 'Climatización de oficinas y comercios',      'icono' => 'ri-store-2-line'],
         'preinstalacion'       => ['nombre' => 'Preinstalación en obra',      'label' => 'Preinstalación de aire acondicionado en obra', 'icono' => 'ri-building-4-line'],
         'calefaccion'          => ['nombre' => 'Calefacción',                 'label' => 'Calefacción con aire acondicionado',         'icono' => 'ri-sun-line'],
+        'multi-split'          => ['nombre' => 'Multi split',                 'label' => 'Instalación de multi split',                 'icono' => 'ri-git-branch-line'],
+        'piso-techo-y-cassette'=> ['nombre' => 'Piso techo y cassette',       'label' => 'Equipos piso techo y cassette',              'icono' => 'ri-layout-top-line'],
+        'instalacion-en-altura'=> ['nombre' => 'Instalación en altura',       'label' => 'Instalación en altura y fachada',            'icono' => 'ri-building-line'],
+        'recambio-de-equipo'   => ['nombre' => 'Recambio de equipo',          'label' => 'Recambio de aire acondicionado',             'icono' => 'ri-arrow-left-right-line'],
         'calculadora-frigorias'=> ['nombre' => 'Calculadora de frigorías',    'label' => 'Calculadora de frigorías',                   'icono' => 'ri-calculator-line'],
     ];
 
