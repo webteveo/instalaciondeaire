@@ -16,6 +16,8 @@ Con PHP 8.1+ instalado, desde la carpeta del proyecto:
 
 Queda en **http://localhost:8000**. `router.php` replica las reglas de `.htaccess` (URLs limpias, `sitemap.xml`, `llms.txt`, favicon, carpetas bloqueadas) y **recarga el navegador solo** cada vez que guardás un archivo. Para apagar la recarga: `LIVERELOAD=0`.
 
+**Web de vista previa que se actualiza sola (Render, gratis):** entrar a https://render.com/deploy?repo=https://github.com/webteveo/instalaciondeaire, iniciar sesión con GitHub y tocar *Deploy*. Queda una dirección fija `https://instalaciondeaire-xxxx.onrender.com` y cada cambio que se sube a la rama `claude/zealous-thompson-3ghmjc` se publica solo en 1–3 minutos (la página abierta se recarga sola). Configuración en `render.yaml` y `Dockerfile`. El plan gratis se duerme sin visitas: la primera carga tarda ~30 s.
+
 **En GitHub, sin instalar nada:** botón verde *Code* → *Codespaces* → *Create codespace on …*. Se instala PHP, arranca el servidor y se abre la vista previa del puerto 8000; editás en el navegador y la página se actualiza sola.
 
 ## Dónde se completa cada cosa

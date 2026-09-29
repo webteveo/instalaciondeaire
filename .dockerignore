@@ -1,0 +1,4 @@
+.git
+.devcontainer
+data/metrics/*.ndjson
+data/leads/*.ndjson

@@ -1,0 +1,8 @@
+# Render: cada push a esta rama vuelve a publicar el sitio automáticamente.
+services:
+  - type: web
+    name: instalaciondeaire
+    runtime: docker
+    plan: free
+    branch: claude/zealous-thompson-3ghmjc
+    autoDeploy: true
