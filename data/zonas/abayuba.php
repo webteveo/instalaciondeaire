@@ -40,6 +40,10 @@ return [
                     'En primavera, antes del calor. Y lavá los filtros cada dos a cuatro semanas de uso.',
                     'Si el equipo calefacciona, sumá una revisión en otoño.',
                 ]],
+                ['t' => '¿Qué hacer si la condensadora está al lado del tanque de agua?', 'p' => [
+                    'En muchas casas de Abayubá la única superficie libre en la losa está junto al tanque de agua. Si la condensadora quedó ahí, en el service revisamos hacia dónde sale el aire caliente: si pega de lleno contra el tanque, el agua de la casa se calienta en verano y la unidad, además, toma parte de ese mismo aire caliente rebotado.',
+                    'Muchas veces se corrige girando la unidad o separándola medio metro, sin moverla de la losa. También revisamos que haya espacio para destapar y limpiar el tanque sin tener que pisar ni correr la condensadora.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cuánto dura?', 'a' => 'Alrededor de una hora por equipo.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Qué fallas del equipo son comunes?', 'p' => [
                     'Capacitores, desagotes tapados, sensores y placas. Con fotos de la etiqueta y el display, llevamos el repuesto probable.',
                     'Te pasamos el presupuesto antes de reparar.',
+                ]],
+                ['t' => '¿Qué fallas aparecen en equipos instalados sobre losa?', 'p' => [
+                    'Sobre la losa, la condensadora recibe sol pleno todo el día y la base suele apoyar directo sobre la membrana. Con los años aparecen dos problemas típicos del barrio: el capacitor del compresor que se debilita por el calor acumulado y la unidad que se desnivela porque la base se hundió en la impermeabilización.',
+                    'El primero se nota porque el equipo zumba y tarda en arrancar en las tardes de calor; el segundo, por vibraciones que se escuchan en el techo del dormitorio. Los dos se resuelven en la misma visita: capacitor nuevo, base nivelada sobre tacos que no perforan y gomas antivibratorias.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Reparación de la fuga, vacío con bomba, carga por peso y prueba final.',
                     'El presupuesto separa cada parte.',
                 ]],
+                ['t' => '¿Por qué la vibración sobre la losa termina en una fuga?', 'p' => [
+                    'Una losa transmite la vibración del compresor mucho más que un muro macizo. Si la condensadora quedó apoyada sin amortiguadores, cada arranque sacude las tuercas de conexión, y después de un par de veranos una de ellas empieza a perder gas de a poco.',
+                    'Cuando hacemos la carga en Abayubá, además de rehacer la unión que pierde, ponemos la unidad sobre soportes con gomas y sujetamos el tramo de cañería que queda en el aire. Así la reparación no vuelve a aflojarse con el próximo verano.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan sin buscar la fuga?', 'a' => 'No.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Y en una mudanza?', 'p' => [
                     'Se desinstala con el gas recuperado y las conexiones tapadas, listo para la nueva casa.',
                     'La cañería nueva se hace a medida.',
+                ]],
+                ['t' => '¿Conviene aprovechar la mudanza del equipo para sacarlo de la losa?', 'p' => [
+                    'Si la condensadora estaba sobre la losa junto al tanque, al desinstalarla por una mudanza o una obra es buen momento para pensar dónde va a ir en la próxima casa o en la misma, una vez terminada la impermeabilización. Una pared lateral a la sombra suele ser mejor lugar que la losa al sol.',
+                    'Al desmontarla, sellamos las perforaciones que quedaron en la membrana para que no aparezca una filtración en el dormitorio de abajo con las primeras lluvias. Ese detalle se olvida seguido y termina costando más que la desinstalación.',
                 ]],
             ],
             'faq' => [

@@ -40,6 +40,10 @@ return [
                     'En jardines con árboles grandes, la condensadora junta hojas, semillas y tierra. Se limpia el serpentín, se despeja alrededor y se revisa que las plantas no le tapen la ventilación.',
                     'Si hay enredaderas cerca, conviene podarlas antes del verano.',
                 ]],
+                ['t' => '¿Cómo influye el Miguelete en el mantenimiento?', 'p' => [
+                    'Las casas de Atahualpa más cercanas al arroyo Miguelete tienen más humedad ambiente, sobre todo en otoño y en los días nublados de verano. En los equipos se nota como hongos en la turbina y como agua que tarda en escurrir por el desagote.',
+                    'En el service de estas casas ponemos más atención en la limpieza antihongos y en que el desagote tenga buena caída, y recomendamos usar el modo dry en los días pesados en lugar de bajar mucho la temperatura.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cubren el piso de madera?', 'a' => 'Sí, siempre.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Qué fallas eléctricas aparecen en casas antiguas?', 'p' => [
                     'Caídas de tensión por cables viejos, empalmes flojos y térmicas que saltan. Afectan al compresor y la placa.',
                     'Se mide la instalación y se recomienda lo que haga falta.',
+                ]],
+                ['t' => '¿Qué cuidar al reparar un equipo en una casa con molduras?', 'p' => [
+                    'Muchas reparaciones obligan a descolgar la unidad interior de la pared: para cambiar la turbina, la placa o revisar el desagote por detrás. En las casas señoriales de Atahualpa, la placa de fijación suele estar sobre revoques antiguos que se desgranan si se fuerza.',
+                    'Por eso trabajamos con cuidado al soltar la unidad, protegemos la pared y, si hace falta volver a fijarla, usamos tacos adecuados para el revoque viejo en lugar de agrandar los agujeros.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Se mide el recorrido y se agregan a la carga de fábrica los gramos por metro que indica el fabricante. Después de vacío, se carga por peso.',
                     'Una carga mal calculada deja el equipo rindiendo menos.',
                 ]],
+                ['t' => '¿Qué pasa con los equipos viejos de las casonas?', 'p' => [
+                    'En casas con muchos años de aire acondicionado es frecuente encontrar equipos de R22 instalados hace mucho, a veces en los salones principales. Cuando uno de ellos pierde gas, la pregunta no es solo cuánto cuesta la carga sino si vale la pena, porque el R22 ya no se fabrica.',
+                    'En esos casos te pasamos el costo de reparar y cargar junto con el de un inverter nuevo que use R32, que además consume menos al calefaccionar los ambientes de techo alto.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan R410A y R32?', 'a' => 'Sí.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Qué pasa con las perforaciones anteriores?', 'p' => [
                     'Quedan para que la restauración las tape con el material original. Nosotros las dejamos limpias y sin restos de cañería.',
                     'Lo coordinamos con quien hace la obra.',
+                ]],
+                ['t' => '¿Cómo se desmonta sin dañar un cielorraso antiguo?', 'p' => [
+                    'Si la cañería de un equipo viejo pasa por encima de un cielorraso de yeso o de un entretecho, al desinstalar hay que decidir si se retira o se deja. Sacarla puede obligar a abrir el cielorraso; dejarla tapada y sin gas no tiene riesgo.',
+                    'En las casas de Atahualpa solemos recomendar dejar el tramo oculto, tapado en los extremos, y retirar solo lo que está a la vista. Así se evita reparar terminaciones que son difíciles de reponer.',
                 ]],
             ],
             'faq' => [

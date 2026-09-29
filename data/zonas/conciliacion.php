@@ -82,6 +82,10 @@ return [
                     'Medición de presiones, búsqueda y reparación de la fuga, vacío con bomba, carga pesada con balanza y prueba final comprobando que el equipo baja de velocidad al llegar a la temperatura.',
                     'Te pasamos el presupuesto antes de empezar.',
                 ]],
+                ['t' => '¿Qué señales da un equipo de dormitorio con poco gas?', 'p' => [
+                    'En el dormitorio, la falta de gas se nota de noche: el equipo no llega a la temperatura, trabaja siempre a alta velocidad y hace más ruido del habitual. Para un bebé o una persona mayor, eso es justo lo que se quiere evitar.',
+                    'Si notás que el aire de ese dormitorio ya no baja la temperatura como antes, conviene medir pronto: una fuga chica reparada a tiempo es un trabajo simple.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan equipos inverter?', 'a' => 'Sí, siempre por peso y después del vacío.'],
@@ -102,6 +106,10 @@ return [
                 ['t' => '¿Qué pasa con el agujero anterior?', 'p' => [
                     'Queda el paso de la cañería, que se sella para que no entre agua ni frío. La terminación con revoque y pintura es aparte.',
                     'Si más adelante se vuelve a instalar un equipo ahí, se reusa.',
+                ]],
+                ['t' => '¿Qué conviene revisar al instalar el equipo en su nuevo dormitorio?', 'p' => [
+                    'Al mover el equipo al dormitorio de un bebé o de una persona mayor, además de la ubicación de la unidad interior conviene revisar que la condensadora no quede frente a la ventana de ese dormitorio: su ruido y su aire caliente llegarían adentro.',
+                    'También es buen momento para configurar el temporizador y el modo sueño.',
                 ]],
             ],
             'faq' => [

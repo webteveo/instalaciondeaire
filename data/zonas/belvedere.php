@@ -61,6 +61,10 @@ return [
                     'Muchas veces es vibración: gomas antivibratorias gastadas, un tornillo flojo o el ventilador desbalanceado. Se corrige sin mover el equipo. Si el problema es la ubicación, se evalúa reubicarlo.',
                     'Un inverter bien instalado es silencioso.',
                 ]],
+                ['t' => '¿Qué pasa si varias condensadoras del PH están juntas?', 'p' => [
+                    'En los PH en pasillo de Belvedere es común que tres o cuatro condensadoras queden colgadas una al lado de la otra sobre la misma pared. Si están muy pegadas, se tiran aire caliente entre sí y la que queda en el medio trabaja recalentada.',
+                    'Cuando reparamos una de esas unidades por cortes o bajo rendimiento, revisamos también la separación con las vecinas. A veces alcanza con correrla unos centímetros o cambiar la orientación para que deje de fallar.',
+                ]],
             ],
             'faq' => [
                 ['q' => 'El vecino se queja del agua del aire, ¿qué hago?', 'a' => 'Escribinos: llevamos el desagote a un lugar donde no moleste.'],
@@ -102,6 +106,10 @@ return [
                 ['t' => '¿Y en un local que se muda?', 'p' => [
                     'Se desinstalan los equipos con el gas recuperado, se sellan los pasos de pared y se deja el local como pide el contrato. En el nuevo local se reinstalan con cañería a medida.',
                     'Se coordina fuera del horario comercial si hace falta.',
+                ]],
+                ['t' => '¿Qué se acuerda con los vecinos del PH antes de desinstalar?', 'p' => [
+                    'Además de avisar para que nadie pase durante el trabajo, conviene acordar qué se hace con las ménsulas y el paso de la cañería en la pared común. Si las ménsulas quedan, pueden servir para el próximo equipo; si se sacan, hay que tapar los agujeros.',
+                    'Dejarlo claro con los vecinos evita discusiones cuando el pasillo queda con marcas o perforaciones.',
                 ]],
             ],
             'faq' => [

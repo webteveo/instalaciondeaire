@@ -82,6 +82,10 @@ return [
                     'Según dónde esté: rehaciendo un abocardado, soldando una unión, cambiando un tramo de cañería golpeado o, si el serpentín está perforado, evaluando el cambio de la unidad.',
                     'Después, vacío y carga pesada.',
                 ]],
+                ['t' => '¿Qué pasa con el equipo del altillo si falta gas?', 'p' => [
+                    'Un altillo bajo techo ya es el ambiente más exigente de la casa; con poco gas, el equipo no llega nunca a la temperatura y trabaja todo el día al máximo. Además del calor, se nota en la factura.',
+                    'Al cargar un equipo de altillo revisamos también la aislación de la cañería que sube, que suele pasar por lugares calurosos y pierde frío.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿La carga tiene garantía?', 'a' => 'La mano de obra tiene garantía escrita. Si la fuga reaparece en la misma unión, se revisa.'],
@@ -102,6 +106,10 @@ return [
                 ['t' => '¿Se puede pasar el equipo del taller a la casa?', 'p' => [
                     'Sí. Si el equipo del taller está en buen estado, se desinstala, se limpia a fondo (seguro tiene polvo acumulado) y se instala en la casa.',
                     'Conviene hacerle un service completo antes de reinstalarlo.',
+                ]],
+                ['t' => '¿Se puede llevar el equipo del taller a otra casa?', 'p' => [
+                    'Sí, si está sano. Antes conviene una limpieza profunda: después de años en un taller, el serpentín y la turbina suelen tener polvo de viruta o metal que, en una casa, se va a notar en el aire que larga el equipo.',
+                    'Se desinstala con el gas recuperado, se limpia y se instala en el nuevo lugar.',
                 ]],
             ],
             'faq' => [

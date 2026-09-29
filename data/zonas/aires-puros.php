@@ -40,6 +40,10 @@ return [
                     'Lavar los filtros cada dos a cuatro semanas. En equipos de dormitorio que andan toda la noche, cada dos semanas en pleno verano.',
                     'Mantener despejado el espacio alrededor de las condensadoras.',
                 ]],
+                ['t' => '¿Cómo se ahorra tiempo en el service de cuatro equipos de dormitorio?', 'p' => [
+                    'En las casas de Aires Puros con un equipo por dormitorio, lo que más tiempo lleva no es limpiar sino mover muebles y acceder a cada unidad. Ayuda mucho dejar despejado el espacio debajo de cada equipo y el camino hasta las condensadoras del fondo antes de que llegue el técnico.',
+                    'Con eso, el service de cuatro equipos se hace en una mañana, dormitorio por dormitorio, y ninguno queda fuera de servicio más de una hora.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cuánto tarda el service de cuatro equipos?', 'a' => 'Alrededor de cuatro horas.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Qué hacer si deja de enfriar?', 'p' => [
                     'Primero limpiá los filtros. Si sigue igual, puede ser suciedad en el serpentín, falta de gas, el ventilador exterior o el capacitor.',
                     'El técnico mide para encontrar la causa.',
+                ]],
+                ['t' => '¿Qué pasa si falla uno de los equipos de dormitorio?', 'p' => [
+                    'Cuando en una casa hay varios splits iguales, a veces se puede comparar el que falla con los que funcionan: si todos se compraron juntos y son del mismo modelo, el técnico mide el sano como referencia y encuentra más rápido qué está fuera de lo normal en el otro.',
+                    'Si la reparación es cara y el equipo tiene muchos años, también ayuda saber si los demás están en la misma situación, para planificar un recambio escalonado.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'En las conexiones abocardadas de las dos unidades, sobre todo si el equipo se instaló o se movió sin herramientas adecuadas.',
                     'Se rehacen las uniones que pierden.',
                 ]],
+                ['t' => '¿Por qué los equipos chicos se quedan sin gas tan rápido?', 'p' => [
+                    'Un split de 2.250 frigorías lleva una carga pequeña, así que una fuga lenta que en un equipo grande tardaría años en notarse, en uno chico se nota en un par de meses. En los dormitorios de Aires Puros, el síntoma típico es que el equipo deja de enfriar bien a la madrugada, cuando más se lo necesita.',
+                    'Por eso en equipos chicos conviene no esperar: apenas notás que rinde menos, se mide y se busca la pérdida antes de que el compresor trabaje mucho tiempo con poco gas.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan equipos chicos?', 'a' => 'Sí, de todos los tamaños.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Se puede reusar la cañería?', 'p' => [
                     'Si el nuevo recorrido es parecido y la cañería está sana, a veces sí. En general, se hace nueva a medida.',
                     'El técnico lo evalúa en el momento.',
+                ]],
+                ['t' => '¿Conviene reusar la perforación cuando se cambia el equipo de dormitorio?', 'p' => [
+                    'Si el equipo pasa de un dormitorio a otro que está pegado, a veces se puede aprovechar la misma salida al exterior y solo agregar un tramo de cañería por dentro. En otros casos es más prolijo hacer una perforación nueva en la pared del dormitorio de destino.',
+                    'El técnico lo decide mirando por dónde queda menos cañería a la vista y dónde conviene la condensadora. La perforación que no se usa se sella para que no entre agua ni aire frío.',
                 ]],
             ],
             'faq' => [

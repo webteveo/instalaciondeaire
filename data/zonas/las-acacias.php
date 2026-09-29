@@ -40,6 +40,10 @@ return [
                     'Limpieza del serpentín, estado de la base, aislación del caño y conexiones. Al sol todo el día, la aislación se reseca y hay que cambiarla cada algunos años.',
                     'Se mide el funcionamiento al final.',
                 ]],
+                ['t' => '¿Qué pasa con el equipo de la vivienda de abajo?', 'p' => [
+                    'En las viviendas superpuestas de Las Acacias, el equipo de la planta baja trabaja menos exigido porque tiene la vivienda de arriba como techo. Aun así necesita service, sobre todo el desagote: si el de arriba desagota hacia el patio de abajo, puede haber barro y hojas que tapan la salida del de abajo.',
+                    'Revisamos los dos recorridos para que no se interfieran.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cuándo hacer el service?', 'a' => 'En primavera.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Qué se cambia más seguido?', 'p' => [
                     'Capacitores, motores de ventilador y sensores. Son reparaciones que se resuelven en el día si hay repuesto.',
                     'Pasanos una foto de la etiqueta para ir con el repuesto probable.',
+                ]],
+                ['t' => '¿Qué pasa si el equipo de arriba gotea en el patio de abajo?', 'p' => [
+                    'Es una queja común entre vecinos de viviendas superpuestas. Si el desagote de la unidad de arriba termina sobre el patio de abajo, el agua cae todo el verano. La solución es llevar la manguera a una bajada o a un desagüe.',
+                    'Resolverlo evita problemas entre vecinos y manchas en la pared.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Vacío con bomba y carga por peso del gas de la etiqueta, ajustando por los metros de cañería. Después, prueba con presiones.',
                     'El presupuesto separa búsqueda, reparación y carga.',
                 ]],
+                ['t' => '¿Por qué el equipo de planta alta pierde más gas?', 'p' => [
+                    'La condensadora de la vivienda de arriba suele estar en la azotea, al sol todo el día. La dilatación diaria del cobre y la vibración sobre la losa aflojan las conexiones con los años, más que en una unidad a la sombra en planta baja.',
+                    'Al cargar, se rehacen las conexiones que pierden y se fija la unidad sobre amortiguadores.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan en planta alta?', 'a' => 'Sí.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Y en una mudanza?', 'p' => [
                     'Se desinstala con el gas recuperado y las conexiones tapadas, listo para instalar en la nueva casa con cañería a medida.',
                     'La unidad exterior viaja parada.',
+                ]],
+                ['t' => '¿Conviene mover la condensadora de arriba a una pared?', 'p' => [
+                    'Si la condensadora de la vivienda de arriba está sobre la azotea al sol, pasarla a una pared a la sombra con ménsulas mejora el rendimiento y alarga la vida del equipo. Se recupera el gas, se reubica y se ajusta la cañería.',
+                    'También libera la azotea para impermeabilizarla o pintarla con pintura reflectiva.',
                 ]],
             ],
             'faq' => [

@@ -61,6 +61,10 @@ return [
                     'Los tornillos, la carcasa y los bornes se oxidan. Un borne oxidado calienta y puede quemar un cable. En la reparación se cambian los terminales y se protege la caja eléctrica.',
                     'Si la carcasa está muy corroída, se evalúa cambiarla.',
                 ]],
+                ['t' => '¿Qué pasa si la condensadora se inundó?', 'p' => [
+                    'En las casas más bajas cerca del arroyo Carrasco, una lluvia fuerte puede dejar la unidad exterior con agua hasta el motor del ventilador o la caja eléctrica. Prenderla así puede provocar un cortocircuito y dañar la placa.',
+                    'Lo correcto es cortar la llave del aire, esperar a que baje el agua y a que la unidad se seque, y que un técnico revise motor, conexiones y placa antes de volver a encenderla. Después conviene elevarla sobre una base o ménsulas para que no vuelva a pasar.',
+                ]],
             ],
             'faq' => [
                 ['q' => 'El equipo se apaga solo a veces, ¿qué es?', 'a' => 'Puede ser la placa afectada por humedad o un sensor. Se diagnostica.'],

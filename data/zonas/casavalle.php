@@ -40,6 +40,10 @@ return [
                     'Filtros, evaporador, turbina, bandeja y desagote de la unidad interior; serpentín y ventilador de la exterior. Al final se mide el funcionamiento.',
                     'Si algo necesita reparación, te lo decimos antes.',
                 ]],
+                ['t' => '¿Qué se puede hacer para que el equipo dure más?', 'p' => [
+                    'En las viviendas de Casavalle y el Borro, muchas veces el aire es una inversión grande para la familia, y cuidarlo sale mucho más barato que repararlo. Tres hábitos simples alargan su vida: lavar los filtros cada dos o tres semanas en verano, no dejar ropa ni objetos arriba de la condensadora y apagar el equipo con el control antes de cortar la llave.',
+                    'Con eso y un service al año, un split inverter puede funcionar bien muchos años sin reparaciones importantes.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cada cuánto el service?', 'a' => 'Una vez al año, en primavera.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Qué hacer si el equipo no prende?', 'p' => [
                     'Revisá la llave y las pilas del control. Si sigue sin prender, puede ser un fusible, la placa o un problema de alimentación.',
                     'Con la marca y el modelo, el técnico anticipa la falla.',
+                ]],
+                ['t' => '¿Qué pasa si se usó un taco común en pared de bloque?', 'p' => [
+                    'En paredes de bloque hueco, un taco común no agarra bien: al principio la condensadora parece firme, pero con la vibración del compresor el taco se va aflojando dentro del hueco. El primer síntoma es un ruido nuevo, un golpeteo contra la pared cuando arranca el equipo.',
+                    'La reparación es sacar las fijaciones flojas, rellenar y volver a fijar con taco químico o taco para hueco, y agregar gomas antivibratorias. Si se deja, la vibración termina fisurando la cañería.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Medición, búsqueda y reparación de la fuga, vacío con bomba, carga por peso y prueba final.',
                     'Cada parte se detalla en el presupuesto.',
                 ]],
+                ['t' => '¿Cómo saber si el problema es gas o la instalación eléctrica?', 'p' => [
+                    'Un equipo que arranca con dificultad o se corta puede parecer corto de gas, pero muchas veces el problema es la tensión: si el aire comparte circuito con otros aparatos, el compresor no llega a arrancar bien. En ese caso cargar gas no resuelve nada.',
+                    'Por eso medimos presiones y también tensión antes de decidir. Si falta gas, se repara la fuga y se carga; si el problema es eléctrico, te decimos qué conviene corregir.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan sin reparar?', 'a' => 'No.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Qué queda en la pared?', 'p' => [
                     'El paso de la cañería y los agujeros de los tacos. El sellado se acuerda en el presupuesto.',
                     'Si la pared es de bloque, conviene sellar bien para que no entre agua al hueco.',
+                ]],
+                ['t' => '¿Qué hacer con el equipo si la vivienda se entrega?', 'p' => [
+                    'En complejos y viviendas del barrio que se entregan o se traspasan, conviene aclarar si el aire es parte de la vivienda o es tuyo. Si es tuyo, se desinstala con el gas recuperado antes de la entrega y se sella el paso de la pared de bloque para que no entre agua al hueco.',
+                    'Si queda, conviene dejar anotada la marca, el modelo y la fecha del último service para quien la recibe.',
                 ]],
             ],
             'faq' => [

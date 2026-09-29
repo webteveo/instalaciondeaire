@@ -40,6 +40,10 @@ return [
                     'A fines de la primavera, cuando ya pasó la floración de los árboles, y antes del calor fuerte.',
                     'Revisá la condensadora en otoño, cuando caen las hojas.',
                 ]],
+                ['t' => '¿Qué pasa con el polen de los árboles en primavera?', 'p' => [
+                    'Colón tiene muchos árboles grandes en sus quintas y calles, y en primavera el polen y las flores forman una capa amarilla sobre todo lo que está afuera, incluida la condensadora. Mezclado con la humedad del rocío, se pega a las aletas.',
+                    'Conviene hacer el service después de la floración, cuando el serpentín ya juntó ese polen, y antes de los días de calor fuerte.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cada cuánto el service con árboles cerca?', 'a' => 'Una vez al año como mínimo, y una limpieza liviana en otoño.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Reparan equipos grandes?', 'p' => [
                     'Sí: split de alta capacidad, piso-techo y multi-split. Las fallas más comunes son capacitores, bombas de desagote y sensores.',
                     'Con la marca y el modelo, llevamos el repuesto probable.',
+                ]],
+                ['t' => '¿Qué pasa con los equipos de casas quinta que se usan poco?', 'p' => [
+                    'En algunas quintas de Colón hay equipos en ambientes que se abren pocas veces al año: un salón para reuniones, un cuarto de huéspedes. Tanto tiempo sin uso hace que los contactos se sulfaten y los capacitores pierdan capacidad.',
+                    'Si un equipo así no arranca o arranca y se corta, lo más probable es eso. Prenderlo unos minutos cada mes, aunque no haga falta, ayuda a mantenerlo en funcionamiento.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'El que indica el fabricante por cada metro por encima del tramo cargado de fábrica.',
                     'Se carga por peso después del vacío.',
                 ]],
+                ['t' => '¿Qué pasa si la cañería pasa cerca de raíces?', 'p' => [
+                    'En jardines con árboles grandes, una cañería que se llevó por el suelo o enterrada sin protección puede terminar apretada por raíces que crecen. El cobre se deforma, restringe el paso del gas y, si se fisura, pierde.',
+                    'Si la prueba con nitrógeno indica pérdida en un tramo enterrado cerca de un árbol, conviene reemplazar el tramo por uno nuevo, protegido y alejado de las raíces.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Reemplazan cañerías enterradas?', 'a' => 'Sí, con caño protector.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Y en una reforma?', 'p' => [
                     'Se desinstala antes de la obra y se reinstala al final. Es el momento de dejar la cañería embutida.',
                     'El equipo se guarda con las conexiones tapadas.',
+                ]],
+                ['t' => '¿Qué hacer con los equipos si se divide la quinta?', 'p' => [
+                    'Cuando una quinta de Colón se divide o se vende una parte, puede pasar que una condensadora quede en el terreno del otro dueño o que la cañería lo atraviese. Conviene resolverlo antes de la división.',
+                    'Se desinstala con el gas recuperado y se reinstala dentro del terreno que corresponde, con el recorrido nuevo.',
                 ]],
             ],
             'faq' => [

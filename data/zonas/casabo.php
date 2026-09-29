@@ -61,6 +61,10 @@ return [
                     'Sí, si sulfata los bornes de la caja eléctrica o la placa exterior. El equipo deja de responder o corta de forma intermitente.',
                     'Se limpian o cambian los terminales y se protege la caja.',
                 ]],
+                ['t' => '¿Por qué el equipo pierde potencia con el viento del oeste?', 'p' => [
+                    'En Casabó y Pajas Blancas, el viento que viene del Río de la Plata puede soplar de frente contra el ventilador de la condensadora. Cuando es fuerte, frena la salida de aire y el equipo trabaja con menos intercambio de calor, sobre todo en modo calefacción.',
+                    'Si notás que el equipo rinde bien los días calmos y mal los ventosos, conviene revisar la orientación de la unidad. Un reparo a cierta distancia o un giro de la condensadora suele corregirlo.',
+                ]],
             ],
             'faq' => [
                 ['q' => 'La condensadora chirría, ¿qué hago?', 'a' => 'Escribinos pronto: suele ser el motor del ventilador, y si se frena puede dañar el compresor.'],
@@ -102,6 +106,10 @@ return [
                 ['t' => '¿Y si me mudo?', 'p' => [
                     'Se desinstala con el gas recuperado y las conexiones tapadas. Si el equipo tiene mucha corrosión, conviene evaluar si vale la pena llevarlo.',
                     'En la nueva casa se instala con cañería a medida.',
+                ]],
+                ['t' => '¿Qué revisar en un equipo usado de la costa antes de reinstalarlo?', 'p' => [
+                    'Un equipo que pasó años cerca de la playa puede verse bien por fuera y tener el serpentín o los bornes muy corroídos. Antes de llevarlo a otra casa, conviene revisarlo: si tiene corrosión avanzada, reinstalarlo es pagar mano de obra por un equipo que va a fallar pronto.',
+                    'Si está sano, se limpia de arena y sal antes de reinstalar.',
                 ]],
             ],
             'faq' => [

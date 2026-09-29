@@ -40,6 +40,10 @@ return [
                     'Lavar los filtros cada dos a cuatro semanas de uso, mantener despejado el espacio alrededor de la condensadora y no taparla con lonas ni objetos.',
                     'Si el equipo gotea o hace un ruido nuevo, apagalo y avisanos.',
                 ]],
+                ['t' => '¿Qué pasa si los equipos del terreno se usan todos a la vez?', 'p' => [
+                    'En los terrenos de Flor de Maroñas con varias viviendas, las tardes de calor todos los aires funcionan al mismo tiempo. Si alguno está sucio, consume más de lo normal y suma a la carga del medidor compartido, que es justo lo que hace saltar el limitador.',
+                    'Un service de todos los equipos antes del verano baja el consumo de cada uno y reduce la chance de cortes cuando todos están prendidos.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cuánto tarda el service de tres equipos?', 'a' => 'Alrededor de tres horas.'],
@@ -81,6 +85,10 @@ return [
                 ['t' => '¿Y después?', 'p' => [
                     'Vacío con bomba para sacar aire y humedad, carga del gas indicado en la etiqueta pesado con balanza, y prueba midiendo presiones y temperatura de salida.',
                     'La mano de obra queda con garantía.',
+                ]],
+                ['t' => '¿Qué pasa si un vecino del terreno movió un equipo sin técnico?', 'p' => [
+                    'En terrenos compartidos pasa que alguien de la familia desconecta un aire para pasarlo de una casa a otra sin recuperar el gas. El equipo pierde toda la carga y le entra aire y humedad.',
+                    'Para ponerlo en marcha de nuevo hay que rehacer las conexiones con herramienta adecuada, hacer un vacío largo y cargar gas nuevo por peso. Si el compresor se hizo funcionar sin gas, se revisa que no se haya dañado.',
                 ]],
             ],
             'faq' => [

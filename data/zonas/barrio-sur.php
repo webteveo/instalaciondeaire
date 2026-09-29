@@ -82,6 +82,10 @@ return [
                     'Se mide el recorrido total y se suma a la carga de fábrica el gas por metro que indica el fabricante. Después se hace vacío y se carga pesado con balanza.',
                     'Una carga mal calculada deja el equipo rindiendo menos aunque no tenga fugas.',
                 ]],
+                ['t' => '¿Por qué las cañerías que bajan de la azotea pierden rendimiento?', 'p' => [
+                    'En las casas de Barrio Sur la cañería suele bajar varios metros desde la azotea hasta el ambiente, parte por la fachada interior o el patio. Si al instalarla no se agregó el gas que piden esos metros extra, el equipo quedó corto desde el primer día y nunca rindió como debía.',
+                    'Al hacer una carga, medimos el recorrido real y ajustamos la cantidad según la tabla del fabricante. Muchos vecinos notan que el equipo enfría mejor que nunca después de la corrección.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cómo sé si le falta gas?', 'a' => 'Enfría o calienta poco y la unidad exterior hace ciclos raros. Lo confirma la medición de presiones.'],

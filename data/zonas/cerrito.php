@@ -40,6 +40,10 @@ return [
                     'El sol directo todo el día reseca la aislación de la cañería y las partes plásticas. Sin aislación, el caño pierde frío y el equipo rinde menos.',
                     'Se cambia la aislación dañada y se protege con cinta UV.',
                 ]],
+                ['t' => '¿Qué pasa con las condensadoras en terrazas escalonadas?', 'p' => [
+                    'En las casas en pendiente del Cerrito, a veces la condensadora de un nivel queda justo debajo de la terraza del nivel de arriba. Ahí caen hojas, agua de lluvia que escurre de la terraza superior y a veces tierra de macetas.',
+                    'En el service revisamos que no haya agua cayendo directo sobre la caja eléctrica y, si pasa, proponemos un pequeño alero o mover la unidad unos centímetros.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cada cuánto el service?', 'a' => 'Una vez al año, en primavera.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Qué hacer con el ruido de la condensadora?', 'p' => [
                     'Si el ruido es un golpeteo o una vibración, suele ser un anclaje flojo o el ventilador desbalanceado. Si es un zumbido del compresor, puede ser otra cosa.',
                     'Apagalo si el ruido es fuerte y escribinos.',
+                ]],
+                ['t' => '¿Qué pasa si el desagote va cuesta arriba?', 'p' => [
+                    'En casas en desnivel, a veces el desagote de la unidad interior se llevó hacia un punto más alto porque era el camino más corto. El agua no puede subir sola: se estanca en la bandeja y termina goteando dentro del ambiente.',
+                    'La solución es rehacer el recorrido con caída continua hacia un punto más bajo o, si no existe, instalar una bomba de condensado pequeña que empuja el agua.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Medición, búsqueda y reparación de la fuga, vacío con bomba, carga del gas de la etiqueta pesado con balanza y prueba final.',
                     'Todo se detalla en el presupuesto.',
                 ]],
+                ['t' => '¿Afecta el desnivel entre unidades a la carga de gas?', 'p' => [
+                    'Cuando la unidad exterior queda varios metros más arriba o más abajo que la interior, el fabricante indica límites de desnivel y, a veces, cómo formar la cañería para que el aceite vuelva al compresor. Si eso no se respetó, el equipo puede rendir menos aunque tenga la carga correcta.',
+                    'Al hacer una carga en casas en pendiente, revisamos también el desnivel y la forma de la cañería.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan equipos de terrazas?', 'a' => 'Sí.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Y si reformo la terraza?', 'p' => [
                     'Se desinstala antes de la obra con el gas recuperado y se reinstala cuando la terraza está terminada, sobre una base que no perfore la impermeabilización.',
                     'Es buen momento para dejar la cañería embutida.',
+                ]],
+                ['t' => '¿Cómo se baja una condensadora de una terraza alta?', 'p' => [
+                    'En las casas del Cerrito, bajar una unidad desde una terraza alta por escaleras exteriores angostas requiere hacerlo entre dos personas y con la unidad asegurada. Si no hay escalera, se baja con cuerda desde la baranda.',
+                    'Siempre después del recupero de gas y con las conexiones tapadas para que no entre suciedad.',
                 ]],
             ],
             'faq' => [

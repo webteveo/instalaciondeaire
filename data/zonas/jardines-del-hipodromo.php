@@ -40,6 +40,10 @@ return [
                     'Sí, y es muy práctico en los complejos: si varios vecinos del bloque se suman, se hace todo el mismo día.',
                     'Pasanos cuántas viviendas y equipos son.',
                 ]],
+                ['t' => '¿Qué pasa si la condensadora de arriba gotea sobre la de abajo?', 'p' => [
+                    'En los complejos de Jardines del Hipódromo, a veces la condensadora del primer piso quedó justo arriba de la de planta baja. El agua de desagote y de lluvia cae sobre la unidad de abajo, ensucia el serpentín y puede mojar su caja eléctrica.',
+                    'En el service revisamos esa situación y, si pasa, se desvía el desagote o se agrega un pequeño alero.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Limpian la condensadora aunque esté en altura?', 'a' => 'Sí.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Por qué gotea la fachada?', 'p' => [
                     'Si la manguera de desagote se soltó o se rompió, el agua corre por la pared y la mancha. Si el desagote interior está tapado, el agua sale por la unidad interior.',
                     'Se destapa y se rehace el recorrido.',
+                ]],
+                ['t' => '¿Qué pasa si el cable del equipo pasa por la fachada del complejo?', 'p' => [
+                    'En los complejos, el cable de interconexión y la cañería suelen ir a la vista por la fachada. Con los años el sol reseca la cubierta del cable y aparecen fallas de comunicación entre unidades: el equipo muestra un código y no arranca.',
+                    'Se reemplaza el tramo dañado y se protege con canaleta resistente al sol.',
                 ]],
             ],
             'faq' => [
@@ -102,6 +110,10 @@ return [
                 ['t' => '¿Qué pasa con el agujero en la fachada?', 'p' => [
                     'Queda el paso de la cañería. Se sella para que no entre agua, según lo acordado en el presupuesto.',
                     'Si el próximo equipo va en el mismo lugar, se puede reusar.',
+                ]],
+                ['t' => '¿Qué pasa si la comisión pinta la fachada del complejo?', 'p' => [
+                    'Cuando un complejo pinta o repara fachadas, a veces pide retirar las condensadoras colgadas mientras dure la obra. Se desinstalan con el gas recuperado y se reinstalan al terminar, en el mismo lugar o donde defina la comisión.',
+                    'Si varios vecinos del bloque tienen que hacerlo, conviene coordinarlo el mismo día.',
                 ]],
             ],
             'faq' => [

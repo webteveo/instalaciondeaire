@@ -61,6 +61,10 @@ return [
                     'Si la falla es del equipo y está dentro del plazo de garantía de fábrica, conviene gestionarla con la marca. Si la falla es de la instalación, la responsabilidad es de quien instaló.',
                     'Te ayudamos a distinguir una cosa de la otra con el diagnóstico.',
                 ]],
+                ['t' => '¿Qué hacer si el equipo nuevo del edificio falla en el primer verano?', 'p' => [
+                    'En los edificios nuevos de la Aguada es común que el primer verano de uso intenso muestre problemas de la instalación que no se vieron al entregar la unidad: un desagote empotrado sin pendiente, una conexión de la preinstalación que pierde o un disyuntor que salta porque el circuito quedó compartido.',
+                    'Antes de tocar nada, sacale fotos al problema y averiguá si el edificio todavía está en garantía de la constructora. Con nuestro diagnóstico por escrito podés reclamar lo que corresponda a la obra y reparar lo que sea del equipo.',
+                ]],
             ],
             'faq' => [
                 ['q' => 'El equipo nuevo gotea, ¿es de fábrica?', 'a' => 'Casi siempre es el desagote de la instalación. Se revisa la pendiente y la salida.'],
@@ -82,6 +86,10 @@ return [
                     'Si el edificio es nuevo, puede estar dentro de la garantía de la constructora. Consultá con la administración antes de pagar la reparación.',
                     'Te dejamos un informe del diagnóstico para que puedas hacer el reclamo.',
                 ]],
+                ['t' => '¿Cómo se prueba una preinstalación antes de conectar un equipo nuevo?', 'p' => [
+                    'Si recién te mudaste a un apartamento nuevo de la Aguada y vas a estrenar la preinstalación, conviene probarla antes de conectar el equipo. Se tapa un extremo, se presuriza la cañería empotrada con nitrógeno y se deja un rato con el manómetro a la vista: si la presión no baja, está sana.',
+                    'Es un paso de unos minutos que evita perder toda la carga de fábrica del equipo nuevo por una soldadura mal hecha en la obra, algo que después obliga a buscar la fuga dentro de la pared.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Hacen informe técnico de la falla?', 'a' => 'Sí, te dejamos por escrito lo que encontramos.'],
@@ -102,6 +110,10 @@ return [
                 ['t' => '¿Cómo se trasladan los equipos de una oficina?', 'p' => [
                     'Se desinstalan uno por uno con el gas recuperado, se etiquetan y se guardan con las conexiones tapadas. En el nuevo local se planifica la instalación según los ambientes y los recorridos.',
                     'Coordinamos con la administración de los dos edificios los horarios y el uso de ascensores.',
+                ]],
+                ['t' => '¿Qué pasa con el aire cuando se vende un apartamento de la Aguada?', 'p' => [
+                    'En los edificios nuevos del barrio muchas unidades se compran para alquilar y se venden a los pocos años. Si el equipo es del vendedor y se lo lleva, se desinstala con el gas recuperado y la cañería empotrada queda tapada en los dos extremos para el comprador.',
+                    'Si el equipo queda como parte de la venta, conviene dejarle hecho un service: el comprador recibe un aire limpio y probado, y se evita un reclamo en el primer verano.',
                 ]],
             ],
             'faq' => [

@@ -61,6 +61,10 @@ return [
                     'Placas afectadas por la humedad, sensores que miden mal, capacitores agotados y evaporadores sucios. Se diagnostican con el equipo andando.',
                     'Con la marca y una foto del display, el técnico anticipa la falla.',
                 ]],
+                ['t' => '¿Cómo se ubica una falla eléctrica en una casa con cableado por el entretecho?', 'p' => [
+                    'En las casas de techo a dos aguas de Brazo Oriental, el cable del aire suele recorrer el entretecho desde el tablero. Con los años, el calor de ese espacio reseca la aislación de los cables y aparecen empalmes que calientan.',
+                    'Si el equipo corta o no arranca y la falla no está en el equipo, se revisa la tensión en el tablero y en el aire. Si hay mucha diferencia, el problema está en el recorrido, y conviene reemplazar el cable por uno nuevo.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cambian la aislación de la cañería en el entretecho?', 'a' => 'Sí, si hay acceso.'],
@@ -82,6 +86,10 @@ return [
                     'Vacío con bomba para sacar aire y humedad, carga del gas de la etiqueta pesado con balanza y ajuste por los metros de cañería.',
                     'Al final se prueba el equipo midiendo presiones.',
                 ]],
+                ['t' => '¿Qué pasa con la aislación del caño en el entretecho?', 'p' => [
+                    'Si la cañería de cobre pasa por un entretecho caluroso sin buena aislación, pierde frío antes de llegar a la unidad interior y el equipo rinde menos, con síntomas parecidos a la falta de gas.',
+                    'Antes de cargar, revisamos que la aislación esté completa en todo el tramo accesible. Muchas veces el problema se corrige cambiando la aislación y la carga no hace falta.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Hace falta romper el cielorraso?', 'a' => 'En general no, si hay acceso al entretecho.'],
@@ -102,6 +110,10 @@ return [
                 ['t' => '¿Cuánto tiempo puede estar guardado el equipo?', 'p' => [
                     'Meses, si se desinstaló con el gas recuperado y las conexiones tapadas, en un lugar seco.',
                     'Antes de reinstalarlo se revisa.',
+                ]],
+                ['t' => '¿Qué se hace con el cable y la cañería del entretecho al desinstalar?', 'p' => [
+                    'Si el equipo se va y no vuelve al mismo lugar, el tramo que pasa por el entretecho se puede retirar si hay buen acceso o dejar tapado sin gas si sacarlo implica romper el cielorraso.',
+                    'El cable del aire queda desconectado en el tablero y con la térmica identificada, para que no quede un circuito vivo sin uso.',
                 ]],
             ],
             'faq' => [

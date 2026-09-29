@@ -40,6 +40,10 @@ return [
                     'Además de la limpieza, se revisa que el equipo mantenga la temperatura con la puerta abriéndose seguido, que el desagote no gotee sobre la mercadería y que las conexiones eléctricas estén firmes.',
                     'Se puede coordinar antes de abrir o al cierre para no molestar a los clientes.',
                 ]],
+                ['t' => '¿Qué pasa con los depósitos que casi no se abren?', 'p' => [
+                    'En La Comercial hay depósitos y locales con equipos que se usan solo cuando hay movimiento. Pasan semanas sin funcionar, juntando polvo y humedad, y cuando se prenden en un día de calor fallan.',
+                    'Para esos casos conviene prender el equipo unos minutos cada tanto y hacerle el service antes de la temporada de más uso.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Hacen service antes del horario comercial?', 'a' => 'Se coordina según disponibilidad.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Qué pasa si comparto la línea eléctrica con máquinas?', 'p' => [
                     'Si el aire está en el mismo circuito que un compresor de aire, una soldadora u otras máquinas, cada arranque provoca caídas de tensión que afectan la placa y el compresor del equipo.',
                     'Lo recomendable es una línea dedicada para el aire.',
+                ]],
+                ['t' => '¿Qué pasa si el equipo del depósito tiene la condensadora encerrada?', 'p' => [
+                    'En algunos depósitos y talleres, la condensadora quedó en un patio interior cerrado o contra otra construcción. Sin aire para respirar, recalienta y corta, sobre todo con el local lleno y la puerta abierta.',
+                    'Además de reparar lo que se haya dañado (capacitor, ventilador), conviene darle más ventilación o reubicarla para que no vuelva a pasar.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Sí. Se revisan con detector y espuma las conexiones de las dos unidades y cualquier empalme intermedio. Si la vibración aflojó una, puede haber otras en camino.',
                     'Después de reparar, vacío y carga por peso.',
                 ]],
+                ['t' => '¿Se puede cargar un equipo de local sin cerrar?', 'p' => [
+                    'Sí. En la mayoría de los casos se trabaja con el local abierto: el equipo queda fuera de servicio mientras se busca la fuga, se repara y se carga, que suele ser un par de horas si la pérdida está en una conexión visible.',
+                    'Conviene hacerlo en el horario de menos movimiento.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan equipos grandes de locales?', 'a' => 'Sí, split de alta capacidad y piso-techo.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Cómo se desmonta un piso-techo?', 'p' => [
                     'Se recupera el gas, se desconectan cañería, desagote y eléctrica, y se baja la unidad entre dos personas. Es pesada y va fijada con varillas al techo.',
                     'Se guarda con las conexiones tapadas.',
+                ]],
+                ['t' => '¿Qué se hace con los equipos cuando cambia el rubro del local?', 'p' => [
+                    'Si un local de La Comercial pasa de depósito a comercio con atención al público, la carga térmica cambia mucho. Los equipos existentes se desinstalan, se evalúa si alcanzan para el nuevo uso y se reubican donde sirvan.',
+                    'Si no alcanzan, se complementan con equipos nuevos calculados para el nuevo rubro.',
                 ]],
             ],
             'faq' => [

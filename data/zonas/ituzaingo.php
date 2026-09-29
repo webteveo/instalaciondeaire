@@ -61,6 +61,10 @@ return [
                     'En modo calor el equipo para para descongelar la condensadora; es normal cada cierto tiempo. Si lo hace muy seguido, puede haber falta de gas, suciedad o un sensor de descongelamiento que mide mal.',
                     'Se revisa cada causa hasta encontrarla.',
                 ]],
+                ['t' => '¿Qué hacer si el aire deja de calentar en pleno invierno?', 'p' => [
+                    'Si en Ituzaingó el split es la calefacción principal de la casa, quedarse sin él en julio es un problema. Mientras llega el técnico, revisá que el equipo esté en modo calor (el ícono del sol), que los filtros estén limpios y que la condensadora no esté tapada de escarcha o de hojas.',
+                    'Si con eso no vuelve a calentar, anotá cualquier código del display y mandanos una foto: las fallas de calefacción más comunes se diagnostican rápido con esa información.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cambian válvulas inversoras?', 'a' => 'Sí, si hay repuesto para el modelo.'],
@@ -82,6 +86,10 @@ return [
                     'Sí. Con temperaturas bajas la carga no se hace por presión sino por peso, que es el método correcto en cualquier época: se hace vacío y se carga la cantidad exacta de la etiqueta.',
                     'Después se prueba en modo calor.',
                 ]],
+                ['t' => '¿Por qué en invierno se nota más la falta de gas?', 'p' => [
+                    'En modo calor, un equipo con poco gas se escarcha mucho más rápido y pasa buena parte del tiempo descongelando, sin largar calor. En verano la misma falta de gas se notaría como un equipo que enfría algo menos, y muchos no lo perciben.',
+                    'Por eso en barrios donde el aire es la calefacción, como Ituzaingó, las fugas suelen descubrirse en invierno. Se repara y se carga por peso, sin esperar al verano.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cargan en invierno?', 'a' => 'Sí, por peso.'],
@@ -102,6 +110,10 @@ return [
                 ['t' => '¿Qué hago con el equipo viejo?', 'p' => [
                     'Si funciona, te lo dejamos desmontado para que lo uses en otro ambiente o lo vendas. Si no, se puede retirar para desecho.',
                     'El gas siempre se recupera.',
+                ]],
+                ['t' => '¿Qué pasa con la estufa cuando se instala el split?', 'p' => [
+                    'Muchos vecinos de Ituzaingó, al pasar al split frío-calor, dejan de usar la estufa a leña o a supergás. Si la estufa se retira, a veces queda libre justo la pared ideal para la unidad interior, en el ambiente principal de la casa.',
+                    'Si ya tenías un equipo viejo solo frío en otro lugar, al desinstalarlo se puede aprovechar para reubicar todo pensando en la calefacción.',
                 ]],
             ],
             'faq' => [

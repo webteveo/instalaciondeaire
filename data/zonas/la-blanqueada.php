@@ -82,6 +82,10 @@ return [
                     'La carga de fábrica alcanza para un tramo corto. Si la cañería mide el doble, el fabricante indica cuántos gramos agregar por metro. Sin ese ajuste, el equipo queda corto de gas aunque no tenga fugas.',
                     'El técnico mide el recorrido antes de cargar.',
                 ]],
+                ['t' => '¿Qué pasa con los tramos de cañería sobre la azotea?', 'p' => [
+                    'En las casas de La Blanqueada con la condensadora en la azotea, parte de la cañería queda a la intemperie sobre la losa. Si la aislación se rompió, el cobre queda expuesto al sol y a la lluvia, pierde frío y, con los años, se corroe en los puntos de apoyo.',
+                    'Al hacer una carga, revisamos ese tramo y, si hace falta, cambiamos la aislación o el tramo de caño antes de cargar.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Cómo sé si le falta gas?', 'a' => 'Enfría poco, tarda mucho o se escarcha. Se confirma con manómetros.'],

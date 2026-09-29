@@ -40,6 +40,10 @@ return [
                     'Limpieza de filtros, evaporador, turbina, bandeja y desagote; lavado de la condensadora; medición de presiones y consumo; prueba final.',
                     'Si algo necesita reparación, te lo decimos antes.',
                 ]],
+                ['t' => '¿Qué podés revisar vos antes de pedir el service?', 'p' => [
+                    'En una zona alejada como La Paloma y Tomkinson, ayuda que antes de la visita revises tres cosas: que los filtros se puedan sacar (a veces están trabados por años sin limpiar), que haya acceso cómodo a la condensadora y que el tablero tenga identificada la térmica del aire.',
+                    'Con eso el técnico trabaja más rápido y, si encuentra algo para reparar, puede resolverlo en la misma visita en lugar de volver otro día.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Hacen service a varias casas el mismo día?', 'a' => 'Sí, y conviene por el traslado.'],
@@ -60,6 +64,10 @@ return [
                 ['t' => '¿Qué fallas son más comunes?', 'p' => [
                     'Capacitores, desagotes tapados, sensores, placas por cortes de luz y falta de gas por fugas. Con el prediagnóstico, muchas se resuelven en la primera visita.',
                     'Te pasamos el presupuesto antes de reparar.',
+                ]],
+                ['t' => '¿Qué pasa si el técnico no puede resolverlo en la primera visita?', 'p' => [
+                    'A veces el diagnóstico muestra que hace falta un repuesto que no se lleva encima, como una placa de un modelo poco común. En ese caso te explicamos qué es, cuánto cuesta y en cuánto tiempo se consigue, y coordinamos la segunda visita con el repuesto en mano.',
+                    'El prediagnóstico por fotos y video reduce mucho esos casos, porque permite anticipar qué pieza puede hacer falta.',
                 ]],
             ],
             'faq' => [
@@ -82,6 +90,10 @@ return [
                     'Si hay que cambiar una pieza que no llevamos (un serpentín, una válvula), te explicamos qué es, cuánto cuesta y cuándo se consigue. No cargamos gas en un equipo que va a perderlo.',
                     'Coordinamos la segunda visita con el repuesto.',
                 ]],
+                ['t' => '¿Qué información ayuda a resolver todo en una visita?', 'p' => [
+                    'La foto de la etiqueta de la unidad exterior (tipo de gas y carga), una foto de las conexiones de la condensadora y un dato aproximado de cuántos metros hay entre las dos unidades. Con eso llevamos el gas correcto, la cantidad necesaria y los materiales para rehacer una conexión.',
+                    'Si la pérdida está en una conexión o una soldadura, el trabajo completo se termina en la misma jornada.',
+                ]],
             ],
             'faq' => [
                 ['q' => '¿Hacen todo en una visita?', 'a' => 'En la mayoría de los casos sí, si la fuga está en una conexión o soldadura.'],
@@ -102,6 +114,10 @@ return [
                 ['t' => '¿Qué queda en la casa que dejás?', 'p' => [
                     'El paso de la cañería en la pared y los agujeros del soporte. El sellado del paso se acuerda en el presupuesto.',
                     'Si el contrato de alquiler pide dejar la pared como estaba, lo tenemos en cuenta.',
+                ]],
+                ['t' => '¿Qué conviene hacer con el soporte de la condensadora?', 'p' => [
+                    'Si el próximo ocupante de la casa probablemente instale un aire en el mismo lugar, dejar las ménsulas y el paso de pared (bien sellado) le ahorra trabajo. Si la pared se va a pintar o la casa se vende sin aire, se retiran y se tapan los agujeros.',
+                    'Lo definimos con vos en la visita.',
                 ]],
             ],
             'faq' => [
