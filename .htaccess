@@ -52,6 +52,9 @@ RewriteRule ^(config|src|data|vendor|scripts|tests|\.claude|\.devcontainer)(/|$)
 RewriteRule \.(md|lock|cjs)$ - [F,L]
 RewriteRule ^composer\.json$ - [F,L]
 
+# Archivos solo para desarrollo local / Render: no se sirven en el hosting
+RewriteRule ^(router\.php|dev\.sh|dev\.bat|Dockerfile|render\.yaml|\.dockerignore|\.gitignore|\.git)(/|$) - [F,L]
+
 # Regla general
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
