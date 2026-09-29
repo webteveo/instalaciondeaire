@@ -46,7 +46,7 @@ RewriteRule ^sitemap\.xml$ sitemap.php [L]
 RewriteRule ^llms\.txt$ llms.php [L]
 
 # Bloquear acceso directo a carpetas internas
-RewriteRule ^(config|src|data|vendor|scripts|tests)(/|$) - [F,L]
+RewriteRule ^(config|src|data|vendor|scripts|tests|\.claude|\.devcontainer)(/|$) - [F,L]
 
 # Documentacion interna y archivos de composer (README, planes, lock) no son publicos
 RewriteRule \.(md|lock|cjs)$ - [F,L]

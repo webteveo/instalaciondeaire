@@ -47,7 +47,7 @@ if (isset($reescrituras[$path])) {
 }
 
 // Carpetas internas y archivos no públicos
-if (preg_match('#^/(config|src|data|vendor|scripts|tests|\.devcontainer|\.git|\.github)(/|$)#', $path)
+if (preg_match('#^/(config|src|data|vendor|scripts|tests|\.devcontainer|\.git|\.github|\.claude)(/|$)#', $path)
     || preg_match('#\.(md|lock|cjs)$#', $path)
     || preg_match('#^/(composer\.json|router\.php|dev\.sh|dev\.bat|\.htaccess|\.gitignore)$#', $path)) {
     http_response_code(403);
