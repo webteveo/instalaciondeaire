@@ -1,0 +1,99 @@
+[
+  {
+    "slug": "cuantas-frigorias-necesito-segun-los-m2",
+    "titulo_corto": "Frigorías según los m²",
+    "tipo": "tabla",
+    "datos": [
+      "Hasta 15 m² → 2.250 frig (9.000 BTU)",
+      "16 a 20 m² → 3.000 frig (12.000 BTU)",
+      "21 a 30 m² → 4.500 frig (18.000 BTU)",
+      "31 a 36 m² → 5.500 frig (22.000 BTU)",
+      "37 a 40 m² → 6.000 frig (24.000 BTU)",
+      "Base: 150 frigorías por m²",
+      "+15 %: mucho sol, techo alto o último piso"
+    ]
+  },
+  {
+    "slug": "inverter-vs-on-off-cual-conviene",
+    "titulo_corto": "Inverter vs on/off",
+    "tipo": "tabla",
+    "datos": [
+      "Característica | Inverter | On/off",
+      "Compresor | Velocidad variable | Prende y apaga",
+      "Temperatura | Estable | Oscila",
+      "Consumo en uso continuo | Menor | Mayor",
+      "Ruido | Menor | Picos al arrancar",
+      "Calefacción | Casi siempre frío-calor | Depende del modelo",
+      "Precio de compra | Más alto | Más bajo"
+    ]
+  },
+  {
+    "slug": "por-que-el-aire-acondicionado-pierde-agua",
+    "titulo_corto": "Por qué gotea el split",
+    "tipo": "diagrama",
+    "datos": [
+      "Evaporador condensa humedad del aire",
+      "El agua cae a la bandeja de condensado",
+      "Sale por el caño de desagote hacia afuera",
+      "Causa 1: desagote tapado",
+      "Causa 2: filtros sucios, serpentín congelado",
+      "Causa 3: falta de gas (hielo en caño fino)",
+      "Causa 4: unidad desnivelada o sin pendiente",
+      "Causa 5: bandeja rota o bomba que falla"
+    ]
+  },
+  {
+    "slug": "aire-acondicionado-no-enfria",
+    "titulo_corto": "Tu aire no enfría: revisá esto",
+    "tipo": "pasos",
+    "datos": [
+      "1. Modo frío y temperatura 23–24 °C",
+      "2. Lavá los filtros con agua tibia",
+      "3. Condensadora girando y despejada",
+      "4. Caño grueso frío; si hay hielo, apagá",
+      "5. Térmica del tablero y pilas del control",
+      "6. Anotá el código de error si aparece",
+      "¿Sigue igual? Llamá a un técnico"
+    ]
+  },
+  {
+    "slug": "cuanto-cuesta-instalar-aire-acondicionado-uruguay",
+    "titulo_corto": "Instalación estándar de un split",
+    "tipo": "tabla",
+    "datos": [
+      "Incluye: hasta 3 m de cañería",
+      "Incluye: soporte y una perforación",
+      "Incluye: vacío, prueba de fugas y puesta en marcha",
+      "Aparte: metros extra de cañería",
+      "Aparte: trabajo en altura o fachada",
+      "Aparte: línea eléctrica desde el tablero",
+      "Aparte: desinstalación del equipo viejo"
+    ]
+  },
+  {
+    "slug": "cada-cuanto-hacer-service-aire-acondicionado",
+    "titulo_corto": "Cada cuánto el service",
+    "tipo": "tabla",
+    "datos": [
+      "Filtros: cada 2 a 4 semanas de uso (vos)",
+      "Condensadora despejada: cada temporada",
+      "Service completo: 1 vez al año",
+      "Mejor momento: octubre o noviembre",
+      "Costa, frío y calor o comercio: 2 al año",
+      "Carga de gas: no es parte del service"
+    ]
+  },
+  {
+    "slug": "permisos-para-instalar-aire-acondicionado-montevideo",
+    "titulo_corto": "Antes de instalar en Montevideo",
+    "tipo": "pasos",
+    "datos": [
+      "1. Leé el reglamento de copropiedad",
+      "2. Consultá a la administración por escrito",
+      "3. Definí condensadora y desagote",
+      "4. Consultá a la Intendencia (SIME)",
+      "5. Revisá la potencia contratada en UTE",
+      "UTE: cambio sin costo de 1,4 a 9 kW"
+    ]
+  }
+]

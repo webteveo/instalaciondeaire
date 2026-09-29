@@ -1,0 +1,20 @@
+{
+  "name": "Instalación de Aire (PHP)",
+  "image": "mcr.microsoft.com/devcontainers/php:1-8.3-bookworm",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "Sitio",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "postAttachCommand": "./dev.sh",
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["README.md"]
+    },
+    "vscode": {
+      "extensions": ["bmewburn.vscode-intelephense-client"]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+# Datos que genera el sitio en ejecución (visitas y consultas): no van al repo
+data/metrics/*.ndjson
+data/leads/*.ndjson
+# Configuración local de Claude Code (puede tener claves)
+.claude/settings.local.json
