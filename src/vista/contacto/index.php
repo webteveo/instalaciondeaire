@@ -4,7 +4,7 @@ require_once 'src/controlador/Local_Controller.php';
 
 cta_contexto('contacto');
 $page_title       = 'Presupuesto de aire acondicionado - Contacto';
-$page_description = 'Escribinos por WhatsApp o dejá tus datos: barrio, casa o apartamento, piso, frigorías y servicio. Te responde un técnico de tu zona en Montevideo, Canelones o Maldonado.';
+$page_description = 'Pedí presupuesto de aire acondicionado por WhatsApp o con el formulario: barrio, tipo de vivienda y servicio. Te responde un técnico de tu zona.';
 $page_keywords    = 'contacto ' . mb_strtolower(EMPRESA_NOMBRE) . ', presupuesto aire acondicionado montevideo, técnico aire acondicionado whatsapp';
 $page_canonical   = SEO_CANONICAL_URL . '/contacto';
 $page_cta_message = CONTACTO_WHATSAPP_MENSAJE;

@@ -1,8 +1,8 @@
 <?php
 /** /reparacion — Reparación: no enfría, pierde agua, hace ruido, no prende, códigos de error. */
 return [
-    'title'       => 'Reparación de aire acondicionado en Montevideo - No enfría',
-    'description' => 'Reparación de aire acondicionado: no enfría, pierde agua, hace ruido, no prende o tira código de error. Diagnóstico y presupuesto con un técnico de tu zona por WhatsApp.',
+    'title'       => 'Reparación de aire acondicionado en Montevideo',
+    'description' => 'Reparación de aire por WhatsApp: no enfría, gotea, hace ruido o tira código de error. Diagnóstico con técnico de tu zona y repuestos.',
     'keywords'    => 'reparación aire acondicionado montevideo, aire acondicionado no enfría, aire acondicionado pierde agua, aire acondicionado no prende, técnico aire acondicionado urgente, código de error aire acondicionado',
     'eyebrow'     => 'Diagnóstico y reparación',
     'h1'          => 'Reparación de aire acondicionado en Montevideo',
@@ -15,7 +15,7 @@ return [
     'zonas_tema'  => 'reparar tu aire',
 
     'intro' => [
-        ['t' => 'Los síntomas más comunes y qué suelen significar', 'p' => [
+        ['t' => '¿Qué significan los síntomas más comunes?', 'p' => [
             'Antes de escribir, fijate cuál de estos es tu caso. Ayuda al técnico a ir preparado y, en algunos, podés resolverlo vos.',
         ], 'lista' => [
             '<strong>No enfría o enfría poco:</strong> filtros o serpentín sucios, condensadora tapada o sin ventilación, falta de gas por una fuga, o falla del compresor o de la placa. Primero limpiá los filtros y revisá que nada obstruya la unidad exterior.',
@@ -48,16 +48,25 @@ return [
         ['t' => '¿Reparar o cambiar el equipo?', 'p' => [
             'Depende de la edad del equipo, de qué se rompió y de cuánto cuesta el repuesto frente a un equipo nuevo. Un capacitor, un sensor o un desagote se arreglan siempre. Un compresor en un equipo on/off de muchos años, o una placa que ya no se consigue, suelen inclinar la balanza hacia cambiar por un <a href="' . $url . 'split-inverter">split inverter</a> nuevo, que además va a consumir menos. El técnico te da las dos opciones con números y decidís vos.',
         ]],
-        ['t' => 'Qué mandar por WhatsApp para un diagnóstico más rápido', 'p' => [], 'lista' => [
+        ['t' => '¿Qué mandar por WhatsApp para un diagnóstico rápido?', 'p' => [], 'lista' => [
             'Marca y modelo (está en la etiqueta lateral de la unidad interior)',
             'Qué hace exactamente: no enfría, gotea, ruido, no prende, código de error',
             'Desde cuándo pasa y si empezó de golpe o de a poco',
             'Una foto de la unidad interior y otra de la condensadora, si la ves',
             'Cuándo fue el último service',
         ]],
-        ['t' => 'Equipos en garantía', 'p' => [
+        ['t' => '¿Qué pasa si el equipo está en garantía?', 'p' => [
             'Si el equipo tiene menos tiempo del que cubre la garantía del fabricante y la falla es del equipo (no de la instalación), consultá primero con el comercio o el importador donde lo compraste: una intervención ajena puede anular la garantía. No somos servicio oficial de ninguna marca. Si el problema es de instalación (desagote, vacío mal hecho, fuga en una unión), eso lo cubre quien instaló.',
         ]],
+    ],
+
+    'pasos_titulo' => 'Cómo es una reparación',
+    'pasos_lead'   => 'Diagnóstico primero, presupuesto después, y recién ahí se repara.',
+    'pasos' => [
+        ['icono' => 'ri-camera-line', 'titulo' => 'Síntoma, etiqueta y display', 'desc' => 'Contanos qué hace el equipo y mandanos foto de la etiqueta y del código de error si lo muestra.'],
+        ['icono' => 'ri-search-eye-line', 'titulo' => 'Diagnóstico', 'desc' => 'El técnico mide presiones, tensión y temperaturas para encontrar la causa real.'],
+        ['icono' => 'ri-money-dollar-circle-line', 'titulo' => 'Presupuesto antes de reparar', 'desc' => 'Te decimos qué falla, cuánto cuesta y si conviene reparar o cambiar el equipo.'],
+        ['icono' => 'ri-tools-line', 'titulo' => 'Reparación y prueba', 'desc' => 'Se cambia la pieza, se prueba el equipo andando y la mano de obra queda con garantía.'],
     ],
 
     'faq' => [

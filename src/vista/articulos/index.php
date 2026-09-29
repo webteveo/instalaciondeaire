@@ -3,7 +3,7 @@ require_once 'config/variables.php';
 
 cta_contexto('blog');
 $page_title       = 'Guías sobre aire acondicionado | ' . EMPRESA_NOMBRE;
-$page_description = 'Guías claras sobre aire acondicionado en Uruguay: frigorías por m², inverter u on/off, por qué pierde agua, consumo y mantenimiento. Escritas por los técnicos de ' . EMPRESA_NOMBRE . '.';
+$page_description = 'Guías de aire acondicionado en Uruguay escritas por técnicos: frigorías, inverter u on/off, costos, service, fallas y permisos en Montevideo.';
 $page_keywords    = 'guías aire acondicionado, cuántas frigorías necesito, inverter vs on off, aire acondicionado pierde agua, ' . SEO_PALABRAS_CLAVE_POR_DEFECTO;
 $page_canonical   = SEO_CANONICAL_URL . '/articulos';
 $page_schema_blocks = [[
@@ -21,6 +21,15 @@ $page_schema_blocks = [[
         ], array_values($articulos), array_keys(array_values($articulos)))),
     ],
 ]];
+
+// Guia de lectura segun el problema (texto propio del indice; no repite las bajadas de las tarjetas)
+$secciones = [
+  ['t' => '¿Qué guía leer según tu caso?', 'p' => [
+    'Si todavía no compraste el equipo, empezá por <a href="' . $url . 'articulos/cuantas-frigorias-necesito-segun-los-m2">cuántas frigorías necesitás</a> y seguí con <a href="' . $url . 'articulos/inverter-vs-on-off-cual-conviene">inverter u on/off</a>: son las dos decisiones que más pesan en el confort y en la factura de UTE. Si ya sabés qué equipo querés, la guía de <a href="' . $url . 'articulos/cuanto-cuesta-instalar-aire-acondicionado-uruguay">cuánto cuesta instalar</a> explica qué incluye la instalación estándar y qué se cobra aparte.',
+    'Si vivís en un edificio de Montevideo, leé antes de comprar la de <a href="' . $url . 'articulos/permisos-para-instalar-aire-acondicionado-montevideo">permisos para instalar</a>. Si el equipo ya está instalado y falla, andá directo a <a href="' . $url . 'articulos/aire-acondicionado-no-enfria">no enfría</a> o <a href="' . $url . 'articulos/por-que-el-aire-acondicionado-pierde-agua">pierde agua</a>; y para que no falle, a <a href="' . $url . 'articulos/cada-cuanto-hacer-service-aire-acondicionado">cada cuánto hacer el service</a>.',
+  ]],
+];
+$secciones_intro = '';
 
 require 'src/vista/partials/head.php';
 ?>
@@ -59,6 +68,7 @@ require 'src/vista/partials/head.php';
         <p class="ar-list__feed"><a href="<?= $url ?>articulos/feed"><i class="ri-rss-line" aria-hidden="true"></i> Suscribirse por RSS</a></p>
       </div>
     </section>
+    <?php require 'src/vista/compact/secciones.php'; ?>
 
     <?php require 'src/vista/compact/cta.php'; ?>
   </main>

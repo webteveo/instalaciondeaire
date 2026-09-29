@@ -3,7 +3,7 @@ require_once 'config/variables.php';
 
 cta_contexto('como-funciona');
 $page_title = 'Cómo trabajamos | ' . EMPRESA_NOMBRE;
-$page_description = 'Del primer mensaje a la garantía: cómo cotizamos, qué incluye la instalación estándar, cómo coordinamos con el técnico de tu zona y qué pasa después de instalar. Sin letra chica.';
+$page_description = 'Cómo trabajamos, paso a paso: presupuesto por WhatsApp, qué incluye la instalación, coordinación con el técnico de tu zona y garantía.';
 $page_keywords = 'cómo trabajamos instalación de aire uruguay, instalación aire acondicionado con garantía, técnico aire acondicionado de mi zona, presupuesto instalación aire acondicionado';
 $page_canonical = SEO_CANONICAL_URL . '/como-funciona';
 $page_cta_message = CONTACTO_WHATSAPP_MENSAJE;
@@ -15,6 +15,18 @@ $page_schema_blocks = [[
     ['@type' => 'ListItem', 'position' => 2, 'name' => 'Cómo trabajamos', 'item' => SEO_CANONICAL_URL . '/como-funciona'],
   ],
 ]];
+
+// Pasos detallados propios de esta pagina (la home muestra una version corta)
+$pasos_titulo = '¿Qué pasa desde que escribís hasta que el aire funciona?';
+$pasos_lead   = 'Seis momentos, con lo que hacemos nosotros y lo que conviene que tengas a mano en cada uno.';
+$pasos_items  = [
+  ['icono' => 'ri-chat-3-line',           'titulo' => '1. Primer mensaje',         'desc' => 'Barrio, tipo de vivienda y qué necesitás. Si tenés fotos del ambiente y de la pared de afuera, mandalas: ahorran una visita.'],
+  ['icono' => 'ri-question-answer-line',  'titulo' => '2. Preguntas del técnico',  'desc' => 'El técnico de tu zona completa lo que falta: piso, balcón, metros, marca del equipo o reglamento del edificio.'],
+  ['icono' => 'ri-file-text-line',        'titulo' => '3. Presupuesto por escrito','desc' => 'Qué incluye, qué se cobra aparte y el plazo de garantía de la mano de obra, antes de fijar fecha.'],
+  ['icono' => 'ri-calendar-event-line',   'titulo' => '4. Día y horario',          'desc' => 'Se acuerda con vos y, si es un edificio, con la administración por el ascensor o el acceso a la azotea.'],
+  ['icono' => 'ri-tools-line',            'titulo' => '5. Trabajo y prueba',       'desc' => 'Instalación, service o reparación, y prueba del equipo funcionando antes de irnos, en frío y en calor.'],
+  ['icono' => 'ri-customer-service-2-line','titulo' => '6. Después',               'desc' => 'Comprobante, factura y el mismo WhatsApp para cualquier consulta o reclamo sobre el trabajo.'],
+];
 
 $secciones = [
   ['t' => 'Quiénes somos', 'p' => [
@@ -56,7 +68,6 @@ require 'src/vista/partials/head.php';
 
     <?php require 'src/vista/compact/pasos.php'; ?>
     <?php require 'src/vista/compact/secciones.php'; ?>
-    <?php require 'src/vista/compact/diferenciadores.php'; ?>
     <?php require 'src/vista/compact/cta.php'; ?>
   </main>
 

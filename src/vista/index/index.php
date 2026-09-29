@@ -45,6 +45,11 @@ $page_schema_blocks[] = [
   'publisher' => ['@id' => SEO_CANONICAL_URL . '/#hvacbusiness'],
 ];
 
+// Subtitulos de la home en forma de pregunta (los componentes usan otros textos por defecto en el resto del sitio)
+$pasos_titulo = '¿Cómo es instalar un aire con nosotros?';
+$dif_titulo   = '¿Por qué pedir presupuesto acá?';
+$tc_titulo    = '¿Cuántas frigorías necesito para mi ambiente?';
+
 $page_preload_images = [['href' => $ruta . '/images/hero/hero-mobile-720.webp', 'media' => '(max-width: 600px)'], ['href' => $ruta . '/images/hero/hero-desktop.webp', 'media' => '(min-width: 601px)']];
 require 'src/vista/partials/head.php';
 ?>

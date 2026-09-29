@@ -2,7 +2,7 @@
 /** /carga-de-gas — Carga de gas R410A y R32, detección de fugas. */
 return [
     'title'       => 'Carga de gas de aire acondicionado en Montevideo - R32',
-    'description' => 'Carga de gas R410A y R32 con detección de fugas, vacío y control de presiones. Presupuesto por WhatsApp con un técnico en Montevideo, Canelones o Maldonado.',
+    'description' => 'Carga de gas R32 y R410A por WhatsApp: búsqueda de la fuga, reparación, vacío y carga pesada con balanza en Montevideo y alrededores.',
     'keywords'    => 'carga de gas aire acondicionado montevideo, carga de gas r410a, carga de gas r32, aire acondicionado sin gas, fuga de gas aire acondicionado, recarga de gas split',
     'eyebrow'     => 'R410A y R32',
     'h1'          => 'Carga de gas de aire acondicionado en Montevideo',
@@ -15,7 +15,7 @@ return [
     'zonas_tema'  => 'carga de gas',
 
     'intro' => [
-        ['t' => 'El gas no se gasta: si falta, hay una fuga', 'p' => [
+        ['t' => '¿Por qué le falta gas a un aire acondicionado?', 'p' => [
             'El refrigerante circula en un circuito cerrado entre la unidad interior y la condensadora. En condiciones normales no se consume ni se evapora: un equipo bien instalado puede pasar toda su vida útil sin necesitar carga. Si las presiones están bajas, el gas salió por algún lado: una unión mal apretada o mal abocardada, una válvula que pierde, una cañería picada por corrosión (frecuente cerca de la costa) o una fisura en el serpentín.',
             'Por eso una "recarga" sin buscar la fuga es tirar el dinero: el gas nuevo se va por el mismo lugar en semanas o meses. El procedimiento correcto es detectar la fuga, repararla, hacer vacío y cargar la cantidad exacta que indica la etiqueta del equipo.',
         ]],
@@ -40,19 +40,28 @@ return [
     'tabla_capacidad' => false,
 
     'secciones' => [
-        ['t' => 'R410A y R32: qué gas usa tu equipo', 'p' => [
+        ['t' => '¿Qué gas usa tu equipo: R410A o R32?', 'p' => [
             'La etiqueta lateral de la unidad interior o de la condensadora dice el tipo de gas y la carga en gramos. <strong>R410A</strong> es el gas más común en equipos de los últimos años; <strong>R32</strong> es el que traen la mayoría de los equipos nuevos: más eficiente, menor impacto ambiental y menos cantidad de gas por equipo. No se mezclan ni se sustituyen entre sí, y cada uno requiere sus herramientas y su procedimiento. Los equipos muy viejos pueden usar R22, que ya no se comercializa en Uruguay para equipos nuevos; en esos casos suele convenir cambiar el equipo.',
         ]],
-        ['t' => 'Señales de que al aire le falta gas', 'p' => [], 'lista' => [
+        ['t' => '¿Qué señales indican que falta gas?', 'p' => [], 'lista' => [
             'Enfría poco o nada aunque el ventilador funcione',
             'Se forma hielo en la cañería fina o en el evaporador',
             'La unidad interior pierde agua después de un rato de funcionar',
             'El compresor arranca y se corta por protección',
             'Códigos de error de baja presión en el display',
         ]],
-        ['t' => 'Fugas en zona costera', 'p' => [
+        ['t' => '¿Por qué hay más fugas en zona costera?', 'p' => [
             'En Pocitos, Buceo, Malvín, Carrasco, Ciudad de la Costa y Punta del Este, el salitre corroe las aletas y las cañerías de la condensadora. Es la causa más frecuente de fugas en equipos de más de algunos años en la costa. Un <a href="' . $url . 'mantenimiento">service anual</a> con limpieza del serpentín exterior y revisión de conexiones es la forma más económica de evitarlas.',
         ]],
+    ],
+
+    'pasos_titulo' => 'Cómo es una carga de gas bien hecha',
+    'pasos_lead'   => 'Sin encontrar la fuga no se carga: el gas se volvería a perder.',
+    'pasos' => [
+        ['icono' => 'ri-dashboard-3-line', 'titulo' => 'Medición', 'desc' => 'Con manómetros se confirma que falta gas y que no es suciedad ni otra falla.'],
+        ['icono' => 'ri-search-eye-line', 'titulo' => 'Búsqueda de la fuga', 'desc' => 'Detector electrónico, espuma o prueba con nitrógeno, según dónde esté la pérdida.'],
+        ['icono' => 'ri-tools-line', 'titulo' => 'Reparación y vacío', 'desc' => 'Se repara la unión o el tramo y se hace vacío con bomba para sacar aire y humedad.'],
+        ['icono' => 'ri-scales-3-line', 'titulo' => 'Carga por peso', 'desc' => 'Gas de la etiqueta pesado con balanza, ajustado a los metros de cañería, y prueba final.'],
     ],
 
     'faq' => [

@@ -2,7 +2,7 @@
 /** /mantenimiento — Service y mantenimiento: limpieza de filtros y serpentinas, revisión pre-temporada. */
 return [
     'title'       => 'Service de aire acondicionado en Montevideo - Limpieza',
-    'description' => 'Service y limpieza de aire acondicionado antes del verano: filtros, serpentines, desagote y presiones. Presupuesto por WhatsApp en Montevideo, Canelones y Maldonado.',
+    'description' => 'Service de aire acondicionado por WhatsApp: limpieza de filtros, serpentines y desagote, control de presiones antes del verano.',
     'keywords'    => 'service aire acondicionado montevideo, mantenimiento aire acondicionado, limpieza de aire acondicionado, limpieza split, service split inverter, mantenimiento pre temporada aire',
     'eyebrow'     => 'Antes del verano, no en enero',
     'h1'          => 'Service y limpieza de aire acondicionado en Montevideo',
@@ -15,7 +15,7 @@ return [
     'zonas_tema'  => 'hacer service',
 
     'intro' => [
-        ['t' => 'Para qué sirve el service (y qué pasa si no lo hacés)', 'p' => [
+        ['t' => '¿Para qué sirve el service y qué pasa si no lo hacés?', 'p' => [
             'El aire acondicionado mueve aire con polvo, humedad y, cerca de la costa, salitre. Con el tiempo el filtro y el serpentín interior se tapan, el desagote junta barro y la condensadora se llena de pelusa y hojas. El equipo enfría menos, trabaja más horas para lo mismo, consume más y termina perdiendo agua o congelándose.',
             'Un service anual, idealmente en octubre o noviembre, deja el equipo limpio y controlado antes de que lo necesites. Es la diferencia entre un verano tranquilo y una reparación en la semana de más calor, cuando todos los técnicos están ocupados.',
         ]],
@@ -40,22 +40,31 @@ return [
     'tabla_capacidad' => false,
 
     'secciones' => [
-        ['t' => 'Cada cuánto hacer el service', 'p' => [
+        ['t' => '¿Cada cuánto hay que hacer el service?', 'p' => [
             'Los <strong>filtros</strong> los podés limpiar vos cada dos a cuatro semanas de uso: se sacan sin herramientas, se lavan con agua y se dejan secar. El <strong>service completo</strong> con técnico se recomienda una vez al año para uso residencial normal, y dos veces al año si el equipo trabaja todo el año (frío y calor), si está en zona costera con salitre o si es un local con mucho movimiento de gente.',
         ]],
-        ['t' => 'Service en zona costera: el salitre', 'p' => [
+        ['t' => '¿Qué cambia en zona costera?', 'p' => [
             'En Pocitos, Punta Carretas, Buceo, Malvín, Carrasco, Ciudad de la Costa o Punta del Este, la condensadora respira aire con sal. El salitre corroe las aletas de aluminio y las conexiones, y baja el rendimiento del intercambio de calor. Además de la limpieza, en estas zonas conviene un enjuague más seguido del serpentín exterior y, si el equipo es nuevo, un tratamiento protector.',
         ]],
-        ['t' => 'Puesta a punto pre-temporada y cierre de temporada', 'p' => [
+        ['t' => '¿Cómo es la puesta a punto de temporada?', 'p' => [
             'Para casas y apartamentos de temporada en Maldonado, o para quien administra propiedades de alquiler, ofrecemos coordinar dos visitas: la puesta a punto antes de diciembre (service completo y prueba) y una revisión corta al cierre, para dejar el equipo limpio y seco antes de los meses sin uso. Varios equipos en una misma visita suelen cotizarse mejor.',
         ]],
-        ['t' => 'Señales de que el equipo necesita service ya', 'p' => [], 'lista' => [
+        ['t' => '¿Qué señales indican que necesita service ya?', 'p' => [], 'lista' => [
             'Enfría menos que antes o tarda mucho en llegar a la temperatura',
             'Larga olor a humedad o a encerrado al prender',
             'Gotea agua por la unidad interior',
             'La unidad exterior hace más ruido o vibra',
             'La factura de UTE subió sin que hayas cambiado el uso',
         ]],
+    ],
+
+    'pasos_titulo' => 'Cómo es el service',
+    'pasos_lead'   => 'Una visita, todos los equipos, y un resumen del estado de cada uno.',
+    'pasos' => [
+        ['icono' => 'ri-whatsapp-line', 'titulo' => 'Cuántos equipos', 'desc' => 'Decinos cuántos equipos son, dónde está cada condensadora y si alguno ya falla.'],
+        ['icono' => 'ri-calendar-check-line', 'titulo' => 'Fecha antes del calor', 'desc' => 'Coordinamos idealmente entre octubre y noviembre, o en otoño si calefaccionan.'],
+        ['icono' => 'ri-brush-line', 'titulo' => 'Limpieza completa', 'desc' => 'Filtros, evaporador, turbina, desagote y condensadora, protegiendo pared y piso.'],
+        ['icono' => 'ri-dashboard-3-line', 'titulo' => 'Control y resumen', 'desc' => 'Presiones, temperatura de salida y consumo, y te decimos qué equipo necesita atención.'],
     ],
 
     'faq' => [

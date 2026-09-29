@@ -131,7 +131,7 @@ define('REDES_WHATSAPP', CONTACTO_WHATSAPP ? 'https://wa.me/' . CONTACTO_WHATSAP
 
 // ── SEO ──────────────────────────────────────────────────────────────────────
 define('SEO_TITULO_POR_DEFECTO', 'Instalación de aire acondicionado en Montevideo y Canelones');
-define('SEO_DESCRIPCION_POR_DEFECTO', 'Instalamos split inverter con soporte, cañería, vacío y prueba. Presupuesto por WhatsApp. Service, reparación y carga de gas en Montevideo, Canelones y Maldonado.');
+define('SEO_DESCRIPCION_POR_DEFECTO', 'Instalación de aire acondicionado por WhatsApp en Montevideo, Canelones y Maldonado: split inverter con vacío y prueba, service y reparación.');
 define('SEO_PALABRAS_CLAVE_POR_DEFECTO', 'instalación de aire acondicionado montevideo, instalación split inverter, service aire acondicionado, reparación aire acondicionado montevideo, carga de gas aire acondicionado, técnico en refrigeración');
 define('SEO_AUTOR', 'Instalación de Aire Uruguay');
 define('SEO_CANONICAL_URL', 'https://instalaciondeaire.uy');

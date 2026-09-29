@@ -3,7 +3,7 @@
 return [
     'vista'       => 'local/calculadora',
     'title'       => 'Calculadora de frigorías y BTU - Qué aire necesito',
-    'description' => 'Calculá cuántas frigorías y BTU necesita tu ambiente según m², techo, sol, piso, personas y uso. Resultado en equipo comercial y presupuesto de instalación por WhatsApp.',
+    'description' => 'Calculá cuántas frigorías y BTU necesita tu ambiente según m², techo, sol y personas, y pedí el presupuesto de instalación por WhatsApp.',
     'keywords'    => 'calculadora de frigorías, cuántas frigorías necesito, calcular btu aire acondicionado, frigorías por m2, qué aire acondicionado necesito, 9000 12000 18000 btu',
     'eyebrow'     => 'Herramienta gratuita',
     'h1'          => 'Calculadora de frigorías',
@@ -15,19 +15,28 @@ return [
     'service_type' => 'Cálculo de capacidad de aire acondicionado',
 
     'secciones' => [
-        ['t' => 'Cómo calcula la herramienta', 'p' => [
+        ['t' => '¿Cómo calcula la herramienta?', 'p' => [
             'Parte de una base de <strong>150 frigorías por m²</strong>, que es la referencia habitual para un ambiente residencial con techo de hasta 2,7 m, sol moderado y una o dos personas. Sobre esa base aplica ajustes: <strong>+15 %</strong> si el techo es alto, <strong>−5 %</strong> con poco sol y <strong>+15 %</strong> con mucho sol (orientación norte, ventanales), <strong>+15 %</strong> si es último piso o está bajo azotea, <strong>−5 %</strong> para dormitorios, <strong>+10 %</strong> para oficinas (equipos) y <strong>+20 %</strong> para cocinas, y suma <strong>100 frigorías por persona</strong> a partir de la tercera.',
             'El resultado se redondea al <strong>equipo comercial más cercano</strong>: 2.250, 3.000, 4.500, 5.500 o 6.000 frigorías, que equivalen a 9.000, 12.000, 18.000, 22.000 y 24.000 BTU (1 frigoría ≈ 4 BTU). Si el cálculo supera lo que da el split más grande, te sugerimos dividir en dos equipos o consultar por un piso-techo o cassette.',
         ]],
-        ['t' => 'Frigorías, BTU y kW: cómo se convierten', 'p' => [
+        ['t' => '¿Cómo se convierten frigorías, BTU y kW?', 'p' => [
             'En Uruguay los equipos se venden en frigorías/hora, pero muchas etiquetas y comercios usan BTU/h. La conversión práctica es <strong>1 frigoría ≈ 4 BTU</strong> (exactamente 3,97). Así, 3.000 frigorías son 12.000 BTU y 4.500 frigorías, 18.000 BTU. En kilovatios de potencia frigorífica, 1 kW ≈ 860 frigorías: un equipo de 3.000 frigorías entrega unos 3,5 kW de frío. No confundir esa potencia con el consumo eléctrico, que en un inverter es bastante menor.',
         ]],
-        ['t' => 'Cuándo el cálculo no alcanza y conviene una visita', 'p' => [
+        ['t' => '¿Cuándo no alcanza el cálculo y conviene una visita?', 'p' => [
             'La calculadora es orientativa. Hay casos donde el técnico tiene que ver el lugar: ambientes integrados (living-comedor-cocina en un solo espacio), techos de chapa sin aislación, grandes superficies vidriadas, locales comerciales con mucha gente o equipos que generan calor, y casas de temporada que se abren de golpe después de meses cerradas. En esos casos, mandale el resultado y una foto: te ajusta la capacidad antes de que compres el equipo.',
         ]],
-        ['t' => 'Elegir de más o de menos: qué pasa', 'p' => [
+        ['t' => '¿Qué pasa si elegís de más o de menos?', 'p' => [
             'Un equipo <strong>chico</strong> trabaja al máximo todo el tiempo, tarda en enfriar, no llega a la temperatura en los días de más calor y consume más de lo que debería. Un equipo <strong>demasiado grande</strong> enfría a golpes, no deshumidifica bien (queda el ambiente frío pero pegajoso) y cuesta más de comprar e instalar. Con un inverter hay algo más de margen, porque regula la potencia, pero la capacidad correcta sigue siendo la mejor inversión.',
         ]],
+    ],
+
+    'pasos_titulo' => 'Del cálculo al equipo instalado',
+    'pasos_lead'   => 'La calculadora te da la cifra; el técnico la confirma.',
+    'pasos' => [
+        ['icono' => 'ri-calculator-line', 'titulo' => 'Calculá', 'desc' => 'Cargá metros, altura, sol, piso y personas para una primera estimación.'],
+        ['icono' => 'ri-whatsapp-line', 'titulo' => 'Mandanos el resultado', 'desc' => 'Con la cifra y fotos del ambiente, el técnico revisa si hay algo que la cambie.'],
+        ['icono' => 'ri-checkbox-circle-line', 'titulo' => 'Equipo comercial', 'desc' => 'Te decimos qué capacidad de equipo comprar entre las que se venden.'],
+        ['icono' => 'ri-tools-line', 'titulo' => 'Instalación', 'desc' => 'Presupuesto de la instalación estándar y de lo que se cobre aparte.'],
     ],
 
     'faq' => [

@@ -1,8 +1,8 @@
 <?php
 /** /comercial — Aire acondicionado para oficinas y comercios: multi-split, cassette, piso-techo, facturación. */
 return [
-    'title'       => 'Aire acondicionado para oficinas y comercios en Montevideo',
-    'description' => 'Aire acondicionado para oficinas, locales y consultorios: split, multi-split, cassette y piso-techo. Presupuesto por WhatsApp, con factura y service programado.',
+    'title'       => 'Aire acondicionado para oficinas y comercios',
+    'description' => 'Aire para oficinas, locales y consultorios por WhatsApp: split, multi-split, cassette y piso-techo, con factura y service programado.',
     'keywords'    => 'aire acondicionado para oficinas montevideo, aire acondicionado comercial, instalación cassette, aire acondicionado piso techo, multi split oficina, climatización de locales comerciales',
     'eyebrow'     => 'Locales, oficinas, consultorios y gastronomía',
     'h1'          => 'Aire acondicionado para oficinas y comercios',
@@ -15,7 +15,7 @@ return [
     'zonas_tema'  => 'climatizar locales y oficinas',
 
     'intro' => [
-        ['t' => 'Qué tipo de equipo conviene según el local', 'p' => [
+        ['t' => '¿Qué equipo conviene según el local?', 'p' => [
             'En un comercio la elección del equipo depende del tamaño del ambiente, de la altura del techo, de cuánta gente entra y de si hay cielorraso para esconder la instalación.',
         ], 'lista' => [
             '<strong>Split de pared</strong>: oficinas chicas, consultorios y locales de hasta unos 40 m² por ambiente. Lo más económico de instalar y mantener.',
@@ -23,7 +23,7 @@ return [
             '<strong>Cassette</strong>: se empotra en el cielorraso y reparte el aire en cuatro direcciones. Ideal para locales, salones y oficinas abiertas con techo desmontable.',
             '<strong>Piso-techo</strong>: se cuelga del techo o se apoya en el piso, para salones con techos altos, gimnasios, depósitos y locales sin cielorraso.',
         ]],
-        ['t' => 'Cálculo de capacidad en comercios', 'p' => [
+        ['t' => '¿Cómo se calcula la capacidad en un comercio?', 'p' => [
             'La regla residencial de 150 frigorías por m² se queda corta en un local: hay que sumar el calor de la gente (unas 100 frigorías por persona), de las vidrieras al sol, de la iluminación y de los equipos (computadoras, heladeras, hornos). Una oficina de 40 m² con ocho personas y ventanales al norte puede necesitar el doble que un living del mismo tamaño. Usá la <a href="' . $url . 'calculadora-frigorias">calculadora de frigorías</a> como primera aproximación eligiendo "oficina", y después lo ajusta el técnico en la visita.',
         ]],
     ],
@@ -57,15 +57,24 @@ return [
     ],
 
     'secciones' => [
-        ['t' => 'Mantenimiento programado para comercios', 'p' => [
+        ['t' => '¿Cómo es el mantenimiento programado?', 'p' => [
             'En un local el aire trabaja muchas más horas que en una casa y con más gente adentro. Un plan de service con dos visitas al año (antes del verano y antes del invierno), limpieza de filtros más seguida y revisión de desagotes evita paradas en plena temporada y mantiene el consumo bajo. Se cotiza por cantidad de equipos y se coordina fuera del horario de atención si hace falta. Ver <a href="' . $url . 'mantenimiento">service y mantenimiento</a>.',
         ]],
-        ['t' => 'Oficinas en edificios y locales a la calle', 'p' => [
+        ['t' => '¿Qué cambia entre oficina en edificio y local a la calle?', 'p' => [
             'En oficinas dentro de edificios rigen las mismas reglas que en los <a href="' . $url . 'apartamentos">apartamentos</a>: consultá al reglamento y a la administración dónde pueden ir las condensadoras. En locales a la calle la condensadora suele ir a una azotea, un patio trasero o la fachada con autorización; en galerías y centros comerciales, el administrador define el lugar y a veces la marquesina técnica.',
         ]],
-        ['t' => 'Obra nueva o reforma de local', 'p' => [
+        ['t' => '¿Qué conviene en obra nueva o reforma?', 'p' => [
             'Si el local está en obra, conviene dejar hecha la <a href="' . $url . 'preinstalacion">preinstalación</a>: cañerías empotradas, desagotes y líneas eléctricas antes de cerrar paredes y cielorrasos. Es más prolijo y bastante más barato que hacerlo después.',
         ]],
+    ],
+
+    'pasos_titulo' => 'Cómo trabajamos con comercios',
+    'pasos_lead'   => 'Planificado para no frenar tu actividad.',
+    'pasos' => [
+        ['icono' => 'ri-store-2-line', 'titulo' => 'Relevamiento', 'desc' => 'Metros, altura, gente, vidrieras y equipos que suman calor en cada ambiente.'],
+        ['icono' => 'ri-file-list-3-line', 'titulo' => 'Propuesta y factura', 'desc' => 'Tipo y cantidad de equipos, ubicación de condensadoras y presupuesto con factura.'],
+        ['icono' => 'ri-time-line', 'titulo' => 'Instalación fuera de horario', 'desc' => 'Se coordina en el horario de menos actividad o con el local cerrado.'],
+        ['icono' => 'ri-calendar-check-line', 'titulo' => 'Service programado', 'desc' => 'Plan de mantenimiento para que los equipos no fallen en temporada alta.'],
     ],
 
     'faq' => [

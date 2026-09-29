@@ -1,8 +1,8 @@
 <?php
 /** /desinstalacion — Desinstalación y reinstalación: mudanzas, cambio de ubicación. */
 return [
-    'title'       => 'Desinstalación y retiro de aire acondicionado en Montevideo',
-    'description' => 'Desinstalación y retiro de aire acondicionado con recupero de gas, y reinstalación en tu nueva casa. Presupuesto por WhatsApp en Montevideo, Canelones y Maldonado.',
+    'title'       => 'Desinstalación y retiro de aire acondicionado',
+    'description' => 'Desinstalación de aire por WhatsApp: recupero del gas, retiro de unidades y reinstalación en tu nueva casa en Montevideo y alrededores.',
     'keywords'    => 'desinstalación aire acondicionado montevideo, desinstalar y reinstalar aire acondicionado, mudanza aire acondicionado, traslado de split, cambiar de lugar el aire acondicionado, retiro de aire acondicionado',
     'eyebrow'     => 'Mudanzas, reformas y cambios de lugar',
     'h1'          => 'Desinstalación y retiro de aire acondicionado',
@@ -15,11 +15,11 @@ return [
     'zonas_tema'  => 'desinstalar o reinstalar',
 
     'intro' => [
-        ['t' => 'Desinstalar bien es lo que hace posible reinstalar', 'p' => [
+        ['t' => '¿Por qué importa desinstalar bien?', 'p' => [
             'Un aire acondicionado no se "desenchufa". Antes de soltar las cañerías, el técnico hace el <strong>recupero del gas</strong> hacia la condensadora (pump down) para que no se pierda ni se libere al ambiente, cierra las válvulas, tapa las conexiones para que no entre humedad ni suciedad, y desmonta las dos unidades y los soportes sin dañar el equipo ni la pared.',
             'Si el retiro lo hace alguien sin herramientas, lo habitual es que se pierda todo el gas, entren impurezas al circuito y el equipo llegue a la nueva casa necesitando carga y limpieza. Ahí lo barato sale caro.',
         ]],
-        ['t' => 'Cuándo conviene trasladar el equipo y cuándo no', 'p' => [
+        ['t' => '¿Cuándo conviene trasladar el equipo?', 'p' => [
             'Conviene cuando el equipo es <a href="' . $url . 'split-inverter">inverter</a>, tiene pocos años y la capacidad sirve para el nuevo ambiente. Conviene menos cuando es un on/off viejo, cuando la cañería original quedó empotrada y hay que hacer una nueva de todos modos, o cuando el ambiente nuevo necesita otra capacidad (podés verificarlo con la <a href="' . $url . 'calculadora-frigorias">calculadora de frigorías</a>). El técnico te dice con números si la reinstalación vale la pena frente a instalar un equipo nuevo.',
         ]],
     ],
@@ -45,15 +45,24 @@ return [
     'tabla_lead'   => 'Antes de trasladar, verificá que las frigorías del equipo alcancen para el nuevo ambiente. Referencia para techo normal y sol medio:',
 
     'secciones' => [
-        ['t' => 'Mudanzas: cómo coordinar la desinstalación y la reinstalación', 'p' => [
+        ['t' => '¿Cómo se coordina en una mudanza?', 'p' => [
             'Lo ideal es desinstalar uno o dos días antes de la mudanza, para que el equipo viaje con las conexiones tapadas y protegidas, y reinstalar cuando ya sepas dónde va la condensadora en la nueva casa. Si te mudás de un apartamento a otro, revisá el reglamento del edificio nuevo antes de la fecha: la ubicación permitida de la condensadora define los metros de cañería que va a hacer falta.',
         ]],
-        ['t' => 'Cambio de ubicación dentro de la misma casa', 'p' => [
+        ['t' => '¿Se puede cambiar de lugar dentro de la casa?', 'p' => [
             'Mover el equipo a otro ambiente, o cambiar la condensadora de lugar porque molesta el ruido o quedó a pleno sol, es el mismo trabajo en versión corta: recupero de gas, desmontaje, nueva cañería y soportes, vacío y prueba. Suele resolverse en una visita.',
         ]],
-        ['t' => 'Solo retiro', 'p' => [
+        ['t' => '¿Hacen solo el retiro del equipo?', 'p' => [
             'Si el equipo ya no sirve y solo querés sacarlo, el técnico lo desinstala, recupera el gas de forma segura y, si lo pedís, se lo lleva para desecho o reciclaje (se coordina y cotiza en el presupuesto). Los agujeros en la pared se sellan o se dejan preparados para el equipo nuevo.',
         ]],
+    ],
+
+    'pasos_titulo' => 'Cómo es una desinstalación',
+    'pasos_lead'   => 'Con el gas guardado en la condensadora, para que el equipo vuelva a funcionar.',
+    'pasos' => [
+        ['icono' => 'ri-whatsapp-line', 'titulo' => 'Dónde está y adónde va', 'desc' => 'Contanos el piso, dónde está la condensadora y si el equipo se reinstala.'],
+        ['icono' => 'ri-arrow-down-circle-line', 'titulo' => 'Recupero del gas', 'desc' => 'Con el equipo andando se junta todo el gas en la unidad exterior antes de soltar nada.'],
+        ['icono' => 'ri-box-3-line', 'titulo' => 'Desmontaje y tapado', 'desc' => 'Se desmontan las unidades y se tapan las conexiones para que no entre humedad ni polvo.'],
+        ['icono' => 'ri-home-4-line', 'titulo' => 'Reinstalación', 'desc' => 'En la casa nueva, cañería a medida, vacío y prueba; si hace falta, gas por los metros extra.'],
     ],
 
     'faq' => [

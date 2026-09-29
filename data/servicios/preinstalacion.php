@@ -1,8 +1,8 @@
 <?php
 /** /preinstalacion — Preinstalación en obra: cañerías empotradas, para arquitectos y constructoras. */
 return [
-    'title'       => 'Preinstalación de aire acondicionado en obra - Montevideo',
-    'description' => 'Preinstalación de aire acondicionado en obra: cañería de cobre empotrada, desagotes y eléctrica antes de cerrar paredes. Presupuesto por WhatsApp para obras y reformas.',
+    'title'       => 'Preinstalación de aire acondicionado en obra',
+    'description' => 'Preinstalación de aire en obra por WhatsApp: cañería de cobre empotrada, desagotes y eléctrica antes de cerrar paredes, para obras y reformas.',
     'keywords'    => 'preinstalación aire acondicionado, preinstalación split obra, cañería empotrada aire acondicionado, preinstalación aire acondicionado arquitectos, instalación aire acondicionado obra nueva montevideo',
     'eyebrow'     => 'Para arquitectos, constructoras y propietarios en obra',
     'h1'          => 'Preinstalación de aire acondicionado en obra',
@@ -15,11 +15,11 @@ return [
     'zonas_tema'  => 'preinstalación en obra',
 
     'intro' => [
-        ['t' => 'Qué es una preinstalación y por qué conviene hacerla en obra', 'p' => [
+        ['t' => '¿Qué es una preinstalación y por qué conviene en obra?', 'p' => [
             'La preinstalación deja todo lo que va adentro de la pared listo antes de revocar: la <strong>cañería de cobre aislada</strong> entre el punto de la unidad interior y el de la condensadora, el <strong>caño de desagote</strong> con pendiente hasta un desagüe, el <strong>cable de interconexión</strong> entre unidades y la <strong>línea eléctrica dedicada</strong> desde el tablero. Los extremos quedan tapados y señalizados, y el equipo se instala cuando la obra termina, o cuando el propietario lo compra.',
             'Hacerlo en obra es más barato y más prolijo que después: no hay que picar paredes terminadas, no quedan canaletas a la vista, la condensadora va donde el proyecto lo previó y la instalación eléctrica queda dimensionada desde el principio.',
         ]],
-        ['t' => 'Qué definir con el arquitecto antes de empezar', 'p' => [], 'lista' => [
+        ['t' => '¿Qué definir con el arquitecto antes de empezar?', 'p' => [], 'lista' => [
             '<strong>Capacidad por ambiente</strong>, para dimensionar el diámetro de la cañería (no es el mismo para 2.250 que para 6.000 frigorías). Referencia rápida en la <a href="' . $url . 'calculadora-frigorias">calculadora de frigorías</a>.',
             '<strong>Posición de cada unidad interior</strong>: altura, distancia al techo, lado de salida de la cañería.',
             '<strong>Ubicación de las condensadoras</strong>: balcón técnico, azotea, patio o fachada, con acceso para el service y ventilación libre.',
@@ -50,15 +50,24 @@ return [
     'tabla_lead'   => 'Para dimensionar las cañerías hay que definir la capacidad de cada punto. Referencia para techo normal y sol medio; en obra conviene prever un escalón más si el ambiente da al norte o tiene grandes vidriados.',
 
     'secciones' => [
-        ['t' => 'Preinstalación en edificios y en casas', 'p' => [
+        ['t' => '¿Cambia en edificios y en casas?', 'p' => [
             'En edificios nuevos la preinstalación suele hacerse para todas las unidades a la vez, con las condensadoras en balcones técnicos o azotea y montantes de desagote previstos en el proyecto sanitario. En casas es más flexible: el recorrido más corto, la condensadora a la sombra y lejos de los dormitorios, y una previsión para agregar equipos más adelante.',
         ]],
-        ['t' => 'Reformas: cuándo vale la pena empotrar', 'p' => [
+        ['t' => '¿Cuándo vale la pena empotrar en una reforma?', 'p' => [
             'Si vas a revocar o cambiar cielorrasos de todos modos, empotrá la cañería aunque el equipo lo compres el año que viene: es la única oportunidad de que no quede nada a la vista. Si la reforma no toca las paredes, la instalación va vista con canaleta, y no hace falta preinstalar.',
         ]],
-        ['t' => 'Instalación final cuando llega el equipo', 'p' => [
+        ['t' => '¿Cómo es la instalación final cuando llega el equipo?', 'p' => [
             'Cuando el propietario compra el equipo, lo instalamos sobre la preinstalación: cuelga las unidades, conecta la cañería, hace el <strong>vacío</strong>, libera el gas y prueba. Como los recorridos ya están hechos, el trabajo es corto y no hay sorpresas de metros extra. Trabajamos con equipos de todas las marcas (Midea, Samsung, LG, Hisense, etc.).',
         ]],
+    ],
+
+    'pasos_titulo' => 'Cómo es una preinstalación',
+    'pasos_lead'   => 'Coordinada con la obra, antes de revocar.',
+    'pasos' => [
+        ['icono' => 'ri-draft-line', 'titulo' => 'Plano y ubicaciones', 'desc' => 'Con el arquitecto o el constructor se marcan unidades interiores, exteriores y recorridos.'],
+        ['icono' => 'ri-git-branch-line', 'titulo' => 'Cañería y desagote', 'desc' => 'Cobre aislado, desagote con pendiente y caño para la eléctrica, empotrados.'],
+        ['icono' => 'ri-shield-check-line', 'titulo' => 'Prueba con nitrógeno', 'desc' => 'Antes de cerrar paredes, cada tramo se presuriza para confirmar que no pierde.'],
+        ['icono' => 'ri-plug-line', 'titulo' => 'Conexión final', 'desc' => 'Cuando llegan los equipos, se conectan, se hace vacío y se prueban.'],
     ],
 
     'faq' => [
